@@ -436,6 +436,7 @@ def monitor_insider_activity():
     print(f"{'='*60}")
     print(f"📋 Watchlist: {len(WATCHLIST)} stocks")
     print(f"💰 Minimum alert threshold: ${MIN_AMOUNT:,}")
+    print(f"📊 Alert limit: 5 most recent Form 4 trades per run")
     print(f"{'='*60}\n")
     
     seen_trades = load_seen_trades()
@@ -443,6 +444,9 @@ def monitor_insider_activity():
     
     form4_alerts = 0
     form8k_alerts = 0
+    
+    # Collect all new trades first
+    all_new_trades = []
     
     for idx, symbol in enumerate(WATCHLIST, 1):
         print(f"📊 [{idx}/{len(WATCHLIST)}] Checking {symbol}...")
@@ -477,23 +481,80 @@ def monitor_insider_activity():
                     
                     action = "BUY" if change > 0 else "SELL"
                     
-                    # Get SEC Form 4 URL
-                    sec_link = fetch_sec_form4_url(symbol, filing_date)
-                    time.sleep(0.15)  # SEC rate limit
+                    # Add to collection for sorting
+                    all_new_trades.append({
+                        'trade': trade,
+                        'symbol': symbol,
+                        'filing_date': filing_date,
+                        'trade_id': trade_id,
+                        'action': action,
+                        'name': name,
+                        'shares': shares,
+                        'value': value
+                    })
                     
-                    print(f"      🚨 NEW {action}: {name} - {shares:,} shares")
-                    
-                    # Send Discord alert
-                    embed = format_form4_discord_embed(trade, symbol, sec_link)
-                    if send_discord_webhook(DISCORD_WEBHOOK_FORM4, embed):
-                        form4_alerts += 1
-                        seen_trades.add(trade_id)
-                        time.sleep(1)
+                    print(f"      ✅ Found {action}: {name} - {shares:,} shares")
         
         except Exception as e:
             print(f"   ❌ Error checking Form 4: {e}")
         
         time.sleep(0.5)
+    
+    # ============================================================
+    # Sort and send only the 5 most recent Form 4 trades
+    # ============================================================
+    if all_new_trades:
+        print(f"\n{'='*60}")
+        print(f"📊 Found {len(all_new_trades)} new Form 4 trades total")
+        print(f"📤 Sending alerts for the 5 most recent trades...")
+        print(f"{'='*60}\n")
+        
+        # Sort by filing date (most recent first)
+        all_new_trades.sort(key=lambda x: x['filing_date'], reverse=True)
+        
+        # Take only the top 5
+        top_5_trades = all_new_trades[:5]
+        
+        for trade_data in top_5_trades:
+            symbol = trade_data['symbol']
+            filing_date = trade_data['filing_date']
+            trade = trade_data['trade']
+            trade_id = trade_data['trade_id']
+            action = trade_data['action']
+            name = trade_data['name']
+            shares = trade_data['shares']
+            
+            # Get SEC Form 4 URL
+            sec_link = fetch_sec_form4_url(symbol, filing_date)
+            time.sleep(0.15)  # SEC rate limit
+            
+            print(f"🚨 SENDING {action}: {symbol} - {name} - {shares:,} shares")
+            
+            # Send Discord alert
+            embed = format_form4_discord_embed(trade, symbol, sec_link)
+            if send_discord_webhook(DISCORD_WEBHOOK_FORM4, embed):
+                form4_alerts += 1
+                seen_trades.add(trade_id)
+                time.sleep(1)
+        
+        # Mark ALL trades as seen (even ones we didn't alert for)
+        for trade_data in all_new_trades:
+            seen_trades.add(trade_data['trade_id'])
+        
+        print(f"\n✅ Sent {form4_alerts} Form 4 alerts (top 5 most recent)")
+        print(f"💾 Marked {len(all_new_trades)} total trades as seen\n")
+    else:
+        print(f"\n📭 No new Form 4 trades found\n")
+    
+    # ============================================================
+    # Form 8-K Filings
+    # ============================================================
+    print(f"{'='*60}")
+    print(f"📋 Checking Form 8-K filings...")
+    print(f"{'='*60}\n")
+    
+    for idx, symbol in enumerate(WATCHLIST, 1):
+        print(f"📋 [{idx}/{len(WATCHLIST)}] Checking {symbol} 8-K filings...")
         
         # ============================================================
         # Form 8-K Filings
