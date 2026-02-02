@@ -14,10 +14,10 @@ FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
 DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_EPS_SURPRISES')
 HISTORY_FILE = 'data/eps_surprises_history.json'
 
-# Symbols to monitor (customize this list)
+# Symbols to monitor
 SYMBOLS_TO_MONITOR = [
-    'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA', 
-    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG' 
+    'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA',
+    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG'
 ]
 
 # Threshold for significant surprises (%)
@@ -27,8 +27,16 @@ SURPRISE_THRESHOLD = 5.0  # Alert if surprise is more than 5%
 def load_history():
     """Load earnings history"""
     if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, 'r') as f:
-            return json.load(f)
+        try:
+            with open(HISTORY_FILE, 'r') as f:
+                content = f.read().strip()
+                if content:
+                    return json.loads(content)
+                else:
+                    return {}
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Warning: Could not parse history file, starting fresh: {e}")
+            return {}
     return {}
 
 
