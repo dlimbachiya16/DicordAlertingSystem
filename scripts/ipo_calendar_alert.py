@@ -18,8 +18,16 @@ HISTORY_FILE = 'data/ipo_calendar_history.json'
 def load_history():
     """Load IPO history"""
     if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, 'r') as f:
-            return json.load(f)
+        try:
+            with open(HISTORY_FILE, 'r') as f:
+                content = f.read().strip()
+                if content:
+                    return json.loads(content)
+                else:
+                    return {}
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Warning: Could not parse history file, starting fresh: {e}")
+            return {}
     return {}
 
 
