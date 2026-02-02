@@ -1,0 +1,144 @@
+name: Market Alerts to Discord
+
+on:
+  schedule:
+    # Run every 10 minutes
+    - cron: '*/10 * * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  insider-transactions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Run Insider Transactions Alert
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          DISCORD_WEBHOOK_INSIDER_TRANSACTIONS: ${{ secrets.DISCORD_WEBHOOK_INSIDER_TRANSACTIONS }}
+        run: |
+          python scripts/insider_transactions_alert.py
+          
+      - name: Commit updated history
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/insider_transactions_history.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update insider transactions history"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+  insider-sentiment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Run Insider Sentiment Alert
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          DISCORD_WEBHOOK_INSIDER_SENTIMENT: ${{ secrets.DISCORD_WEBHOOK_INSIDER_SENTIMENT }}
+        run: |
+          python scripts/insider_sentiment_alert.py
+          
+      - name: Commit updated history
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/insider_sentiment_history.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update insider sentiment history"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+  ipo-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Run IPO Calendar Alert
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          DISCORD_WEBHOOK_IPO_CALENDAR: ${{ secrets.DISCORD_WEBHOOK_IPO_CALENDAR }}
+        run: |
+          python scripts/ipo_calendar_alert.py
+          
+      - name: Commit updated history
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ipo_calendar_history.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update IPO calendar history"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+  eps-surprises:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Run EPS Surprises Alert
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          DISCORD_WEBHOOK_EPS_SURPRISES: ${{ secrets.DISCORD_WEBHOOK_EPS_SURPRISES }}
+        run: |
+          python scripts/eps_surprises_alert.py
+          
+      - name: Commit updated history
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/eps_surprises_history.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update EPS surprises history"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
