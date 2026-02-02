@@ -14,18 +14,26 @@ FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
 DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_INSIDER_TRANSACTIONS')
 HISTORY_FILE = 'data/insider_transactions_history.json'
 
-# Top symbols to monitor (customize this list)
+# Symbols to monitor
 SYMBOLS_TO_MONITOR = [
-    'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA', 
-    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG' 
+    'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA',
+    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG'
 ]
 
 
 def load_history():
     """Load transaction history to avoid duplicates"""
     if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, 'r') as f:
-            return json.load(f)
+        try:
+            with open(HISTORY_FILE, 'r') as f:
+                content = f.read().strip()
+                if content:
+                    return json.loads(content)
+                else:
+                    return {}
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Warning: Could not parse history file, starting fresh: {e}")
+            return {}
     return {}
 
 
