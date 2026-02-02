@@ -16,10 +16,8 @@ HISTORY_FILE = 'data/insider_transactions_history.json'
 
 # Top symbols to monitor (customize this list)
 SYMBOLS_TO_MONITOR = [
-    'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'BRK.B',
-    'JPM', 'V', 'JNJ', 'WMT', 'PG', 'MA', 'XOM', 'HD', 'CVX', 'MRK',
-    'KO', 'ABBV', 'PEP', 'COST', 'AVGO', 'TMO', 'LLY', 'MCD', 'CSCO',
-    'ACN', 'DHR', 'NKE', 'VZ', 'ADBE', 'TXN', 'NEE', 'CRM', 'ABT'
+    'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA', 
+    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG' 
 ]
 
 
