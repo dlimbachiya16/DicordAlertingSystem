@@ -43,6 +43,7 @@ jobs:
           
   insider-sentiment:
     runs-on: ubuntu-latest
+    needs: insider-transactions  # Wait for previous job to complete
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -74,6 +75,7 @@ jobs:
           
   ipo-calendar:
     runs-on: ubuntu-latest
+    needs: insider-sentiment  # Wait for previous job to complete
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -105,6 +107,7 @@ jobs:
           
   eps-surprises:
     runs-on: ubuntu-latest
+    needs: ipo-calendar  # Wait for previous job to complete
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
