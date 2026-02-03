@@ -508,5 +508,1212 @@
       "transactionDate": "2026-01-28",
       "transactionPrice": 103.611
     }
+  },
+  "META_Olivan Javier_2026-01-26_10132_S": {
+    "first_seen": "2026-02-03T00:51:56.917905",
+    "transaction": {
+      "change": -517,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0000950103-26-001116",
+      "isDerivative": false,
+      "name": "Olivan Javier",
+      "share": 10132,
+      "source": "sec",
+      "symbol": "META",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 665
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_924985_C": {
+    "first_seen": "2026-02-03T00:51:57.579578",
+    "transaction": {
+      "change": -8335,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 924985,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_5775000_C": {
+    "first_seen": "2026-02-03T00:51:57.579592",
+    "transaction": {
+      "change": -25000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 5775000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_0_S": {
+    "first_seen": "2026-02-03T00:51:57.579595",
+    "transaction": {
+      "change": -85,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.9912
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_85_S": {
+    "first_seen": "2026-02-03T00:51:57.579597",
+    "transaction": {
+      "change": -243,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 85,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.0993
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_328_S": {
+    "first_seen": "2026-02-03T00:51:57.579599",
+    "transaction": {
+      "change": -413,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 328,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 106.2332
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_741_S": {
+    "first_seen": "2026-02-03T00:51:57.579601",
+    "transaction": {
+      "change": -589,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 741,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.0301
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_1330_S": {
+    "first_seen": "2026-02-03T00:51:57.579603",
+    "transaction": {
+      "change": -534,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1330,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 104.2841
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_1864_S": {
+    "first_seen": "2026-02-03T00:51:57.579605",
+    "transaction": {
+      "change": -402,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1864,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 102.5479
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_2266_S": {
+    "first_seen": "2026-02-03T00:51:57.579607",
+    "transaction": {
+      "change": -2070,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2266,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 101.6692
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_4336_S": {
+    "first_seen": "2026-02-03T00:51:57.579609",
+    "transaction": {
+      "change": -975,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 4336,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 100.7955
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_5311_S": {
+    "first_seen": "2026-02-03T00:51:57.579611",
+    "transaction": {
+      "change": -688,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 5311,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 99.9121
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_5999_S": {
+    "first_seen": "2026-02-03T00:51:57.579612",
+    "transaction": {
+      "change": -2336,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 5999,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.5765
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_8335_C": {
+    "first_seen": "2026-02-03T00:51:57.579797",
+    "transaction": {
+      "change": 8335,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8335,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_254_S": {
+    "first_seen": "2026-02-03T00:51:57.579800",
+    "transaction": {
+      "change": -731,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 254,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.1005
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_985_S": {
+    "first_seen": "2026-02-03T00:51:57.579807",
+    "transaction": {
+      "change": -1238,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 985,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 106.2332
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_2223_S": {
+    "first_seen": "2026-02-03T00:51:57.579809",
+    "transaction": {
+      "change": -1767,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2223,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.0301
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_3990_S": {
+    "first_seen": "2026-02-03T00:51:57.579811",
+    "transaction": {
+      "change": -1602,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 3990,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 104.2838
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_5592_S": {
+    "first_seen": "2026-02-03T00:51:57.579813",
+    "transaction": {
+      "change": -1207,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 5592,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 102.5471
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_6799_S": {
+    "first_seen": "2026-02-03T00:51:57.579815",
+    "transaction": {
+      "change": -6209,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 6799,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 101.6689
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_13008_S": {
+    "first_seen": "2026-02-03T00:51:57.579816",
+    "transaction": {
+      "change": -2922,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 13008,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 100.7953
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_15930_S": {
+    "first_seen": "2026-02-03T00:51:57.579819",
+    "transaction": {
+      "change": -2063,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 15930,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 99.9125
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_17993_S": {
+    "first_seen": "2026-02-03T00:51:57.579820",
+    "transaction": {
+      "change": -7007,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 17993,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.5766
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_25000_C": {
+    "first_seen": "2026-02-03T00:51:57.579822",
+    "transaction": {
+      "change": 25000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000049",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 25000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_125000_C": {
+    "first_seen": "2026-02-03T00:51:57.579824",
+    "transaction": {
+      "change": -1000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 125000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_111600_C": {
+    "first_seen": "2026-02-03T00:51:57.579826",
+    "transaction": {
+      "change": -1000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 111600,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_73_S": {
+    "first_seen": "2026-02-03T00:51:57.579828",
+    "transaction": {
+      "change": -54,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 73,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.6033
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_127_S": {
+    "first_seen": "2026-02-03T00:51:57.579830",
+    "transaction": {
+      "change": -73,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 127,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 104.6522
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_200_S": {
+    "first_seen": "2026-02-03T00:51:57.579832",
+    "transaction": {
+      "change": -36,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 200,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 103.45
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_236_S": {
+    "first_seen": "2026-02-03T00:51:57.579834",
+    "transaction": {
+      "change": -109,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 236,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 102.2269
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_345_S": {
+    "first_seen": "2026-02-03T00:51:57.579836",
+    "transaction": {
+      "change": -237,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 345,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 101.4854
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_582_S": {
+    "first_seen": "2026-02-03T00:51:57.579838",
+    "transaction": {
+      "change": -164,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 582,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 100.0898
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_746_S": {
+    "first_seen": "2026-02-03T00:51:57.579839",
+    "transaction": {
+      "change": -254,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 746,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.584
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_1000_C": {
+    "first_seen": "2026-02-03T00:51:57.579841",
+    "transaction": {
+      "change": 1000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_745_S": {
+    "first_seen": "2026-02-03T00:51:57.579846",
+    "transaction": {
+      "change": -255,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000048",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 745,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.5849
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_4041020_C": {
+    "first_seen": "2026-02-03T00:51:57.579848",
+    "transaction": {
+      "change": -25000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 4041020,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55500_S": {
+    "first_seen": "2026-02-03T00:51:57.579852",
+    "transaction": {
+      "change": -36,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55500,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 106.52
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55536_S": {
+    "first_seen": "2026-02-03T00:51:57.579854",
+    "transaction": {
+      "change": -27,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55536,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.6033
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55563_S": {
+    "first_seen": "2026-02-03T00:51:57.579856",
+    "transaction": {
+      "change": -37,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55563,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 104.6554
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55600_S": {
+    "first_seen": "2026-02-03T00:51:57.579858",
+    "transaction": {
+      "change": -18,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55600,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 103.45
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55618_S": {
+    "first_seen": "2026-02-03T00:51:57.579859",
+    "transaction": {
+      "change": -55,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55618,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 102.2193
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55673_S": {
+    "first_seen": "2026-02-03T00:51:57.579861",
+    "transaction": {
+      "change": -118,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55673,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 101.4823
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55791_S": {
+    "first_seen": "2026-02-03T00:51:57.579863",
+    "transaction": {
+      "change": -82,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55791,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 100.089
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_55873_S": {
+    "first_seen": "2026-02-03T00:51:57.579865",
+    "transaction": {
+      "change": -127,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 55873,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.5837
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_255_S": {
+    "first_seen": "2026-02-03T00:51:57.579867",
+    "transaction": {
+      "change": -730,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 255,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.1002
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_2224_S": {
+    "first_seen": "2026-02-03T00:51:57.579869",
+    "transaction": {
+      "change": -1766,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000047",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2224,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.03
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_333000_C": {
+    "first_seen": "2026-02-03T00:51:57.579874",
+    "transaction": {
+      "change": -3000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 333000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_8500150_C": {
+    "first_seen": "2026-02-03T00:51:57.579876",
+    "transaction": {
+      "change": -102830,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 8500150,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_218_S": {
+    "first_seen": "2026-02-03T00:51:57.579878",
+    "transaction": {
+      "change": -165,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 218,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.6033
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_383_S": {
+    "first_seen": "2026-02-03T00:51:57.579880",
+    "transaction": {
+      "change": -217,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 383,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 104.6477
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_600_S": {
+    "first_seen": "2026-02-03T00:51:57.579882",
+    "transaction": {
+      "change": -110,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 600,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 103.45
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_710_S": {
+    "first_seen": "2026-02-03T00:51:57.579884",
+    "transaction": {
+      "change": -327,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 710,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 102.2223
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_1037_S": {
+    "first_seen": "2026-02-03T00:51:57.579886",
+    "transaction": {
+      "change": -709,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1037,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 101.4838
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_1746_S": {
+    "first_seen": "2026-02-03T00:51:57.579888",
+    "transaction": {
+      "change": -491,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1746,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 100.0917
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_2237_S": {
+    "first_seen": "2026-02-03T00:51:57.579890",
+    "transaction": {
+      "change": -763,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2237,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.5847
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_3000_C": {
+    "first_seen": "2026-02-03T00:51:57.579891",
+    "transaction": {
+      "change": 3000,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 3000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_248664_S": {
+    "first_seen": "2026-02-03T00:51:57.579896",
+    "transaction": {
+      "change": -1048,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 248664,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.995
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_249712_S": {
+    "first_seen": "2026-02-03T00:51:57.579899",
+    "transaction": {
+      "change": -3005,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 249712,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.1005
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_252717_S": {
+    "first_seen": "2026-02-03T00:51:57.579901",
+    "transaction": {
+      "change": -5094,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 252717,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 106.2331
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_257811_S": {
+    "first_seen": "2026-02-03T00:51:57.579903",
+    "transaction": {
+      "change": -7267,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 257811,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.0301
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_265078_S": {
+    "first_seen": "2026-02-03T00:51:57.579905",
+    "transaction": {
+      "change": -6591,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 265078,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 104.2838
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_271669_S": {
+    "first_seen": "2026-02-03T00:51:57.579907",
+    "transaction": {
+      "change": -4962,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 271669,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 102.5471
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_276631_S": {
+    "first_seen": "2026-02-03T00:51:57.579908",
+    "transaction": {
+      "change": -25538,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 276631,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 101.6689
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_302169_S": {
+    "first_seen": "2026-02-03T00:51:57.579910",
+    "transaction": {
+      "change": -12022,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 302169,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 100.7953
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_314191_S": {
+    "first_seen": "2026-02-03T00:51:57.579912",
+    "transaction": {
+      "change": -8484,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 314191,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 99.9125
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_322675_S": {
+    "first_seen": "2026-02-03T00:51:57.579914",
+    "transaction": {
+      "change": -28819,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 322675,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 98.5767
+    }
+  },
+  "CRWV_McBee Brannin_2026-01-26_351494_C": {
+    "first_seen": "2026-02-03T00:51:57.579916",
+    "transaction": {
+      "change": 102830,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001769628-26-000046",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 351494,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "SMR_Cooper William J._2026-01-26_27173_A": {
+    "first_seen": "2026-02-03T00:51:57.679765",
+    "transaction": {
+      "change": 27173,
+      "currency": "",
+      "filingDate": "2026-01-27",
+      "id": "0001822966-26-000012",
+      "isDerivative": true,
+      "name": "Cooper William J.",
+      "share": 27173,
+      "source": "sec",
+      "symbol": "SMR",
+      "transactionCode": "A",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 0
+    }
+  },
+  "HOOD_Pinner Jeffrey Tsvi_2026-01-26_9133_S": {
+    "first_seen": "2026-02-03T00:51:57.777924",
+    "transaction": {
+      "change": -1600,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001783879-26-000005",
+      "isDerivative": false,
+      "name": "Pinner Jeffrey Tsvi",
+      "share": 9133,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 108.0661
+    }
+  },
+  "HOOD_Pinner Jeffrey Tsvi_2026-01-26_10733_S": {
+    "first_seen": "2026-02-03T00:51:57.777938",
+    "transaction": {
+      "change": -4064,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001783879-26-000005",
+      "isDerivative": false,
+      "name": "Pinner Jeffrey Tsvi",
+      "share": 10733,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 107.3624
+    }
+  },
+  "HOOD_Pinner Jeffrey Tsvi_2026-01-26_14797_S": {
+    "first_seen": "2026-02-03T00:51:57.777940",
+    "transaction": {
+      "change": -200,
+      "currency": "",
+      "filingDate": "2026-01-28",
+      "id": "0001783879-26-000005",
+      "isDerivative": false,
+      "name": "Pinner Jeffrey Tsvi",
+      "share": 14797,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-26",
+      "transactionPrice": 105.285
+    }
   }
 }
