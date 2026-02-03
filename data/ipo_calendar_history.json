@@ -908,5 +908,75 @@
       "totalSharesValue": 245640000
     },
     "type": "upcoming"
+  },
+  "ACAAU_2026-01-30": {
+    "first_seen": "2026-02-03T00:02:40.542296",
+    "ipo": {
+      "date": "2026-01-30",
+      "exchange": null,
+      "name": "Averin Capital Acquisition Corp.",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "ACAAU",
+      "totalSharesValue": 287500000
+    },
+    "type": "recent"
+  },
+  "PALOU_2026-01-30": {
+    "first_seen": "2026-02-03T00:02:40.542320",
+    "ipo": {
+      "date": "2026-01-30",
+      "exchange": null,
+      "name": "PALOMA ACQUISITION CORP I",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "PALOU",
+      "totalSharesValue": 172500000
+    },
+    "type": "recent"
+  },
+  "IDACU_2026-01-30": {
+    "first_seen": "2026-02-03T00:02:40.542324",
+    "ipo": {
+      "date": "2026-01-30",
+      "exchange": null,
+      "name": "Iron Dome Acquisition I Corp.",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "IDACU",
+      "totalSharesValue": 230000000
+    },
+    "type": "recent"
+  },
+  "AGBK_2026-02-11": {
+    "first_seen": "2026-02-03T00:02:40.702758",
+    "ipo": {
+      "date": "2026-02-11",
+      "exchange": "NYSE",
+      "name": "AGI Inc",
+      "numberOfShares": 43636364,
+      "price": "15.00-18.00",
+      "status": "expected",
+      "symbol": "AGBK",
+      "totalSharesValue": 903272742
+    },
+    "type": "upcoming"
+  },
+  "SGP_2026-02-06": {
+    "first_seen": "2026-02-03T00:02:40.702775",
+    "ipo": {
+      "date": "2026-02-06",
+      "exchange": "NASDAQ Global Select",
+      "name": "SpyGlass Pharma, Inc.",
+      "numberOfShares": 9375000,
+      "price": "15.00-17.00",
+      "status": "expected",
+      "symbol": "SGP",
+      "totalSharesValue": 183281250
+    },
+    "type": "upcoming"
   }
 }
