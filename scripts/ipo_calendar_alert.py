@@ -7,6 +7,7 @@ Monitors upcoming and recent IPOs and sends alerts to Discord
 import os
 import json
 import requests
+import time
 from datetime import datetime, timedelta
 
 # Configuration
@@ -139,10 +140,12 @@ def format_discord_embed(ipo, is_upcoming=False):
 
 
 def send_discord_alert(embeds):
-    """Send alert to Discord webhook"""
+    """Send alert to Discord webhook with proper batching and rate limiting"""
     if not DISCORD_WEBHOOK:
         print("Discord webhook not configured")
         return False
+    
+    total_sent = 0
     
     # Discord allows max 10 embeds per message
     for i in range(0, len(embeds), 10):
@@ -154,12 +157,24 @@ def send_discord_alert(embeds):
         try:
             response = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
             response.raise_for_status()
-            print(f"Sent {len(batch)} alerts to Discord")
+            total_sent += len(batch)
+            print(f"Sent batch of {len(batch)} alerts to Discord (total: {total_sent}/{len(embeds)})")
+            
+            # Add delay between batches to avoid rate limiting
+            # Discord allows 5 requests per 2 seconds per webhook
+            if i + 10 < len(embeds):
+                time.sleep(0.5)  # 500ms delay between batches
+                
+        except requests.exceptions.HTTPError as e:
+            print(f"Error sending Discord alert batch: {e}")
+            print(f"Response: {e.response.text if e.response else 'No response'}")
+            # Continue to next batch even if one fails
+            continue
         except Exception as e:
             print(f"Error sending Discord alert: {e}")
-            return False
+            continue
     
-    return True
+    return total_sent > 0
 
 
 def main():
@@ -220,6 +235,18 @@ def main():
     if new_ipos:
         print(f"\nFound {len(new_ipos)} new IPOs")
         embeds = [format_discord_embed(ipo, is_upcoming) for ipo, is_upcoming in new_ipos]
+        
+        # If too many IPOs, send summary first
+        if len(new_ipos) > 20:
+            summary_embed = {
+                "title": "📊 IPO Alert Summary",
+                "description": f"Found **{len(new_ipos)}** new IPOs. Sending details in batches...",
+                "color": 3447003,
+                "timestamp": datetime.utcnow().isoformat()
+            }
+            requests.post(DISCORD_WEBHOOK, json={"embeds": [summary_embed]})
+            time.sleep(0.5)
+        
         send_discord_alert(embeds)
     else:
         print("No new IPOs found")
