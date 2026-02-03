@@ -167,5 +167,31 @@
       "symbol": "CPNG",
       "year": 2025
     }
+  },
+  "AAPL_2025-12-31": {
+    "first_seen": "2026-02-03T00:05:55.882400",
+    "earnings": {
+      "actual": 2.84,
+      "estimate": 2.7257,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": 0.1143,
+      "surprisePercent": 4.1934,
+      "symbol": "AAPL",
+      "year": 2026
+    }
+  },
+  "META_2025-12-31": {
+    "first_seen": "2026-02-03T00:05:56.438565",
+    "earnings": {
+      "actual": 8.88,
+      "estimate": 8.3946,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.4854,
+      "surprisePercent": 5.7823,
+      "symbol": "META",
+      "year": 2025
+    }
   }
 }
