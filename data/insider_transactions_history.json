@@ -1715,5 +1715,39 @@
       "transactionDate": "2026-01-26",
       "transactionPrice": 105.285
     }
+  },
+  "SMCI_LIU TALLY C_2026-01-29_0_M": {
+    "first_seen": "2026-02-03T04:05:44.759774",
+    "transaction": {
+      "change": -747,
+      "currency": "",
+      "filingDate": "2026-02-02",
+      "id": "0001208730-26-000002",
+      "isDerivative": true,
+      "name": "LIU TALLY C",
+      "share": 0,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "M",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_LIU TALLY C_2026-01-29_286047_M": {
+    "first_seen": "2026-02-03T04:05:44.759786",
+    "transaction": {
+      "change": 747,
+      "currency": "",
+      "filingDate": "2026-02-02",
+      "id": "0001208730-26-000002",
+      "isDerivative": false,
+      "name": "LIU TALLY C",
+      "share": 286047,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "M",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 0
+    }
   }
 }
