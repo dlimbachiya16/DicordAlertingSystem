@@ -193,5 +193,96 @@
       "symbol": "CPNG",
       "year": 2025
     }
+  },
+  "MSFT_2025-12-31": {
+    "first_seen": "2026-02-03T00:39:52.133462",
+    "earnings": {
+      "actual": 4.14,
+      "estimate": 4.0478,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.0922,
+      "surprisePercent": 2.2778,
+      "symbol": "MSFT",
+      "year": 2026
+    }
+  },
+  "PLTR_2025-12-31": {
+    "first_seen": "2026-02-03T00:39:52.247874",
+    "earnings": {
+      "actual": 0.25,
+      "estimate": 0.2344,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0156,
+      "surprisePercent": 6.6553,
+      "symbol": "PLTR",
+      "year": 2025
+    }
+  },
+  "LLY_2025-09-30": {
+    "first_seen": "2026-02-03T00:39:52.379030",
+    "earnings": {
+      "actual": 7.02,
+      "estimate": 5.7519,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 1.2681,
+      "surprisePercent": 22.0466,
+      "symbol": "LLY",
+      "year": 2025
+    }
+  },
+  "ORCL_2025-12-31": {
+    "first_seen": "2026-02-03T00:39:52.487121",
+    "earnings": {
+      "actual": 2.26,
+      "estimate": 1.6711,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.5889,
+      "surprisePercent": 35.2403,
+      "symbol": "ORCL",
+      "year": 2026
+    }
+  },
+  "SMCI_2025-09-30": {
+    "first_seen": "2026-02-03T00:39:52.596089",
+    "earnings": {
+      "actual": 0.35,
+      "estimate": 0.4112,
+      "period": "2025-09-30",
+      "quarter": 1,
+      "surprise": -0.0612,
+      "surprisePercent": -14.8833,
+      "symbol": "SMCI",
+      "year": 2026
+    }
+  },
+  "COIN_2025-09-30": {
+    "first_seen": "2026-02-03T00:39:52.743091",
+    "earnings": {
+      "actual": 1.5,
+      "estimate": 1.0786,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.4214,
+      "surprisePercent": 39.0692,
+      "symbol": "COIN",
+      "year": 2025
+    }
+  },
+  "GME_2025-12-31": {
+    "first_seen": "2026-02-03T00:39:52.859626",
+    "earnings": {
+      "actual": 0.24,
+      "estimate": 0.202,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.038,
+      "surprisePercent": 18.8119,
+      "symbol": "GME",
+      "year": 2026
+    }
   }
 }
