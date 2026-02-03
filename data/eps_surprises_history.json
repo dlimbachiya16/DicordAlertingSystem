@@ -1,0 +1,197 @@
+{
+  "AAPL_2025-12-31": {
+    "first_seen": "2026-02-03T00:29:35.553282",
+    "earnings": {
+      "actual": 2.84,
+      "estimate": 2.7257,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": 0.1143,
+      "surprisePercent": 4.1934,
+      "symbol": "AAPL",
+      "year": 2026
+    }
+  },
+  "NVDA_2025-12-31": {
+    "first_seen": "2026-02-03T00:29:35.633601",
+    "earnings": {
+      "actual": 1.3,
+      "estimate": 1.2746,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.0254,
+      "surprisePercent": 1.9928,
+      "symbol": "NVDA",
+      "year": 2026
+    }
+  },
+  "AMD_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:35.708530",
+    "earnings": {
+      "actual": 1.2,
+      "estimate": 1.175,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.025,
+      "surprisePercent": 2.1277,
+      "symbol": "AMD",
+      "year": 2025
+    }
+  },
+  "META_2025-12-31": {
+    "first_seen": "2026-02-03T00:29:35.793233",
+    "earnings": {
+      "actual": 8.88,
+      "estimate": 8.3946,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.4854,
+      "surprisePercent": 5.7823,
+      "symbol": "META",
+      "year": 2025
+    }
+  },
+  "AMZN_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:35.861299",
+    "earnings": {
+      "actual": 1.95,
+      "estimate": 1.605,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.345,
+      "surprisePercent": 21.4953,
+      "symbol": "AMZN",
+      "year": 2025
+    }
+  },
+  "NFLX_2025-12-31": {
+    "first_seen": "2026-02-03T00:29:35.957182",
+    "earnings": {
+      "actual": 0.56,
+      "estimate": 0.5628,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0028,
+      "surprisePercent": -0.4975,
+      "symbol": "NFLX",
+      "year": 2025
+    }
+  },
+  "NVAX_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.022128",
+    "earnings": {
+      "actual": -1.25,
+      "estimate": -1.21,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.04,
+      "surprisePercent": -3.3058,
+      "symbol": "NVAX",
+      "year": 2025
+    }
+  },
+  "TSLA_2025-12-31": {
+    "first_seen": "2026-02-03T00:29:36.097995",
+    "earnings": {
+      "actual": 0.5,
+      "estimate": 0.4557,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0443,
+      "surprisePercent": 9.7213,
+      "symbol": "TSLA",
+      "year": 2025
+    }
+  },
+  "GOOGL_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.212117",
+    "earnings": {
+      "actual": 3.1,
+      "estimate": 2.3954,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.7046,
+      "surprisePercent": 29.4147,
+      "symbol": "GOOGL",
+      "year": 2025
+    }
+  },
+  "HIMS_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.281128",
+    "earnings": {
+      "actual": 0.06,
+      "estimate": 0.1063,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0463,
+      "surprisePercent": -43.556,
+      "symbol": "HIMS",
+      "year": 2025
+    }
+  },
+  "CRWV_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.394006",
+    "earnings": {
+      "actual": -0.08,
+      "estimate": -0.376,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.296,
+      "surprisePercent": 78.7234,
+      "symbol": "CRWV",
+      "year": 2025
+    }
+  },
+  "SMR_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.462875",
+    "earnings": {
+      "actual": -1.85,
+      "estimate": -0.1426,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -1.7074,
+      "surprisePercent": -1197.3352,
+      "symbol": "SMR",
+      "year": 2025
+    }
+  },
+  "HOOD_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.539520",
+    "earnings": {
+      "actual": 0.61,
+      "estimate": 0.5446,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0654,
+      "surprisePercent": 12.0088,
+      "symbol": "HOOD",
+      "year": 2025
+    }
+  },
+  "UNH_2025-12-31": {
+    "first_seen": "2026-02-03T00:29:36.609319",
+    "earnings": {
+      "actual": 2.11,
+      "estimate": 2.1222,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0122,
+      "surprisePercent": -0.5749,
+      "symbol": "UNH",
+      "year": 2025
+    }
+  },
+  "CPNG_2025-09-30": {
+    "first_seen": "2026-02-03T00:29:36.761579",
+    "earnings": {
+      "actual": 0.05,
+      "estimate": 0.0369,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0131,
+      "surprisePercent": 35.5014,
+      "symbol": "CPNG",
+      "year": 2025
+    }
+  }
+}
