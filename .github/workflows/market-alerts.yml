@@ -10,7 +10,7 @@ permissions:
   contents: write  # Allow workflow to commit and push changes
 
 jobs:
-  insider-transactions:
+  run-all-alerts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -26,113 +26,45 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
+      
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           
       - name: Run Insider Transactions Alert
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           DISCORD_WEBHOOK_INSIDER_TRANSACTIONS: ${{ secrets.DISCORD_WEBHOOK_INSIDER_TRANSACTIONS }}
         run: |
+          echo "=== Running Insider Transactions Alert ==="
           python scripts/insider_transactions_alert.py
-          
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/insider_transactions_history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update insider transactions history" && git push)
-          
-  insider-sentiment:
-    runs-on: ubuntu-latest
-    needs: insider-transactions  # Wait for previous job to complete
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-        
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          
-      - name: Install dependencies
-        run: |
-          pip install requests
           
       - name: Run Insider Sentiment Alert
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           DISCORD_WEBHOOK_INSIDER_SENTIMENT: ${{ secrets.DISCORD_WEBHOOK_INSIDER_SENTIMENT }}
         run: |
+          echo "=== Running Insider Sentiment Alert ==="
           python scripts/insider_sentiment_alert.py
-          
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/insider_sentiment_history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update insider sentiment history" && git push)
-          
-  ipo-calendar:
-    runs-on: ubuntu-latest
-    needs: insider-sentiment  # Wait for previous job to complete
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-        
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          
-      - name: Install dependencies
-        run: |
-          pip install requests
           
       - name: Run IPO Calendar Alert
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           DISCORD_WEBHOOK_IPO_CALENDAR: ${{ secrets.DISCORD_WEBHOOK_IPO_CALENDAR }}
         run: |
+          echo "=== Running IPO Calendar Alert ==="
           python scripts/ipo_calendar_alert.py
-          
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/ipo_calendar_history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update IPO calendar history" && git push)
-          
-  eps-surprises:
-    runs-on: ubuntu-latest
-    needs: ipo-calendar  # Wait for previous job to complete
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-        
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          
-      - name: Install dependencies
-        run: |
-          pip install requests
           
       - name: Run EPS Surprises Alert
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           DISCORD_WEBHOOK_EPS_SURPRISES: ${{ secrets.DISCORD_WEBHOOK_EPS_SURPRISES }}
         run: |
+          echo "=== Running EPS Surprises Alert ==="
           python scripts/eps_surprises_alert.py
           
-      - name: Commit and push if changed
+      - name: Commit and push all changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/eps_surprises_history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update EPS surprises history" && git push)
+          git add data/*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update market alert history files [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)
