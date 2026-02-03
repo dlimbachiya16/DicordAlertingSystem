@@ -62,17 +62,34 @@ def create_ipo_id(ipo):
     return f"{ipo.get('symbol')}_{ipo.get('date')}"
 
 
+def sanitize_value(value, max_length=1024):
+    """Sanitize value for Discord embed - remove None, validate length"""
+    if value is None:
+        return "N/A"
+    
+    str_value = str(value)
+    
+    # Discord field value limit is 1024 characters
+    if len(str_value) > max_length:
+        return str_value[:max_length-3] + "..."
+    
+    # Remove any problematic characters
+    str_value = str_value.replace('\x00', '')  # Remove null bytes
+    
+    return str_value if str_value else "N/A"
+
+
 def format_discord_embed(ipo, is_upcoming=False):
-    """Format IPO data as Discord embed"""
-    symbol = ipo.get('symbol', 'N/A')
-    name = ipo.get('name', 'Unknown Company')
-    date = ipo.get('date', 'N/A')
-    exchange = ipo.get('exchange', 'N/A')
+    """Format IPO data as Discord embed with validation"""
+    symbol = sanitize_value(ipo.get('symbol', 'N/A'), 256)
+    name = sanitize_value(ipo.get('name', 'Unknown Company'), 256)
+    date = sanitize_value(ipo.get('date', 'N/A'))
+    exchange = sanitize_value(ipo.get('exchange', 'N/A'))
     price_low = ipo.get('priceLow', 0)
     price_high = ipo.get('priceHigh', 0)
     shares = ipo.get('numberOfShares', 0)
     total_shares = ipo.get('totalSharesValue', 0)
-    status = ipo.get('status', 'N/A')
+    status = sanitize_value(ipo.get('status', 'N/A'))
     
     # Determine color and title based on status
     if is_upcoming:
@@ -82,56 +99,80 @@ def format_discord_embed(ipo, is_upcoming=False):
         color = 3066993  # Green
         title_prefix = "🆕 Recent IPO"
     
-    # Format values
-    price_range = f"${price_low:.2f} - ${price_high:.2f}" if price_low and price_high else "N/A"
-    shares_formatted = f"{shares:,}" if shares else "N/A"
-    total_value = f"${total_shares:,.0f}" if total_shares else "N/A"
+    # Format values safely
+    try:
+        if price_low and price_high:
+            price_range = f"${float(price_low):.2f} - ${float(price_high):.2f}"
+        else:
+            price_range = "N/A"
+    except (ValueError, TypeError):
+        price_range = "N/A"
+    
+    try:
+        shares_formatted = f"{int(shares):,}" if shares else "N/A"
+    except (ValueError, TypeError):
+        shares_formatted = "N/A"
+    
+    try:
+        total_value = f"${int(total_shares):,.0f}" if total_shares else "N/A"
+    except (ValueError, TypeError):
+        total_value = "N/A"
     
     # Parse date for better formatting
     try:
-        date_obj = datetime.strptime(date, '%Y-%m-%d')
+        date_obj = datetime.strptime(str(date), '%Y-%m-%d')
         date_formatted = date_obj.strftime('%B %d, %Y')
     except:
-        date_formatted = date
+        date_formatted = str(date)
+    
+    # Title must be 256 chars or less
+    title = f"{title_prefix}: {symbol}"
+    if len(title) > 256:
+        title = title[:253] + "..."
+    
+    # Description must be 4096 chars or less
+    description = f"**{name}**"
+    if len(description) > 4096:
+        description = description[:4093] + "..."
     
     embed = {
-        "title": f"{title_prefix}: {symbol}",
-        "description": f"**{name}**",
+        "title": title,
+        "description": description,
         "color": color,
         "fields": [
             {
                 "name": "Date",
-                "value": date_formatted,
+                "value": date_formatted[:1024],  # Max 1024 chars
                 "inline": True
             },
             {
                 "name": "Exchange",
-                "value": exchange,
+                "value": exchange[:1024],
                 "inline": True
             },
             {
                 "name": "Status",
-                "value": status,
+                "value": status[:1024],
                 "inline": True
             },
             {
                 "name": "Price Range",
-                "value": price_range,
+                "value": price_range[:1024],
                 "inline": True
             },
             {
-                "name": "Shares Offered",
-                "value": shares_formatted,
+                "name": "Shares",
+                "value": shares_formatted[:1024],
                 "inline": True
             },
             {
-                "name": "Total Value",
-                "value": total_value,
+                "name": "Value",
+                "value": total_value[:1024],
                 "inline": True
             }
         ],
         "footer": {
-            "text": "Finnhub IPO Calendar"
+            "text": "Finnhub IPO Calendar"[:2048]  # Footer text max 2048
         },
         "timestamp": datetime.utcnow().isoformat()
     }
@@ -146,6 +187,7 @@ def send_discord_alert(embeds):
         return False
     
     total_sent = 0
+    total_failed = 0
     
     # Discord allows max 10 embeds per message
     for i in range(0, len(embeds), 10):
@@ -158,22 +200,38 @@ def send_discord_alert(embeds):
             response = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
             response.raise_for_status()
             total_sent += len(batch)
-            print(f"Sent batch of {len(batch)} alerts to Discord (total: {total_sent}/{len(embeds)})")
+            print(f"✓ Sent batch of {len(batch)} alerts (total: {total_sent}/{len(embeds)})")
             
-            # Add delay between batches to avoid rate limiting
-            # Discord allows 5 requests per 2 seconds per webhook
+            # Discord rate limit: 5 requests per 2 seconds
+            # Wait 1 second between batches to be safe
             if i + 10 < len(embeds):
-                time.sleep(0.5)  # 500ms delay between batches
+                time.sleep(1)
                 
         except requests.exceptions.HTTPError as e:
-            print(f"Error sending Discord alert batch: {e}")
-            print(f"Response: {e.response.text if e.response else 'No response'}")
-            # Continue to next batch even if one fails
-            continue
+            total_failed += len(batch)
+            if e.response.status_code == 429:
+                print(f"⚠ Rate limited. Waiting 2 seconds...")
+                time.sleep(2)
+                # Retry this batch
+                try:
+                    response = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
+                    response.raise_for_status()
+                    total_sent += len(batch)
+                    total_failed -= len(batch)
+                    print(f"✓ Retry successful")
+                except Exception as retry_error:
+                    print(f"✗ Retry failed: {retry_error}")
+            else:
+                print(f"✗ HTTP {e.response.status_code} error for batch {i//10 + 1}")
+                try:
+                    print(f"  Response: {e.response.text[:200]}")
+                except:
+                    pass
         except Exception as e:
-            print(f"Error sending Discord alert: {e}")
-            continue
+            total_failed += len(batch)
+            print(f"✗ Error sending batch {i//10 + 1}: {e}")
     
+    print(f"\nSummary: {total_sent} sent, {total_failed} failed")
     return total_sent > 0
 
 
@@ -234,20 +292,32 @@ def main():
     # Send alerts for new IPOs
     if new_ipos:
         print(f"\nFound {len(new_ipos)} new IPOs")
-        embeds = [format_discord_embed(ipo, is_upcoming) for ipo, is_upcoming in new_ipos]
         
-        # If too many IPOs, send summary first
-        if len(new_ipos) > 20:
+        # Send summary first if many IPOs
+        if len(new_ipos) > 10:
             summary_embed = {
                 "title": "📊 IPO Alert Summary",
                 "description": f"Found **{len(new_ipos)}** new IPOs. Sending details in batches...",
                 "color": 3447003,
                 "timestamp": datetime.utcnow().isoformat()
             }
-            requests.post(DISCORD_WEBHOOK, json={"embeds": [summary_embed]})
-            time.sleep(0.5)
+            try:
+                requests.post(DISCORD_WEBHOOK, json={"embeds": [summary_embed]}, timeout=10)
+                time.sleep(1)
+            except Exception as e:
+                print(f"Warning: Could not send summary: {e}")
         
-        send_discord_alert(embeds)
+        # Create embeds with validation
+        embeds = []
+        for ipo, is_upcoming in new_ipos:
+            try:
+                embed = format_discord_embed(ipo, is_upcoming)
+                embeds.append(embed)
+            except Exception as e:
+                print(f"Warning: Could not create embed for {ipo.get('symbol')}: {e}")
+        
+        if embeds:
+            send_discord_alert(embeds)
     else:
         print("No new IPOs found")
     
