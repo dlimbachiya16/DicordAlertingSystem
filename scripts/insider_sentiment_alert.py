@@ -18,7 +18,7 @@ HISTORY_FILE = 'data/insider_sentiment_history.json'
 SYMBOLS_TO_MONITOR = [
     'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA',
     'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG', 'MSFT', 'PLTR', 'LLY', 
-    'ORCL', 'SMCI', 'COIN'
+    'ORCL', 'SMCI', 'COIN', 'GME'
 ]
 
 # Threshold for significant MSPR changes
