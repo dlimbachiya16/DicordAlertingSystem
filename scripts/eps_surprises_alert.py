@@ -18,8 +18,7 @@ HISTORY_FILE = 'data/eps_surprises_history.json'
 # Symbols to monitor
 SYMBOLS_TO_MONITOR = [
     'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA',
-    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG', 'MSFT', 'PLTR', 'LLY', 
-    'ORCL', 'SMCI', 'COIN', 'GME'
+    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG', 'PLTR'
 ]
 
 # Threshold for significant surprises (%)
@@ -78,6 +77,28 @@ def calculate_surprise_pct(actual, estimate):
     return ((actual - estimate) / abs(estimate)) * 100
 
 
+def format_quarter(period_str):
+    """Format period string to readable quarter"""
+    try:
+        date_obj = datetime.strptime(period_str, '%Y-%m-%d')
+        year = date_obj.year
+        month = date_obj.month
+        
+        # Determine quarter
+        if month in [1, 2, 3]:
+            quarter = "Q1"
+        elif month in [4, 5, 6]:
+            quarter = "Q2"
+        elif month in [7, 8, 9]:
+            quarter = "Q3"
+        else:
+            quarter = "Q4"
+        
+        return f"{quarter} {year}"
+    except:
+        return period_str
+
+
 def format_discord_embed(symbol, earnings):
     """Format earnings data as Discord embed"""
     actual = earnings.get('actual', 0)
@@ -107,9 +128,15 @@ def format_discord_embed(symbol, earnings):
     # Format the surprise percentage
     surprise_pct_str = f"{surprise_pct:+.2f}%"
     
+    # Format quarter for description
+    quarter_formatted = format_quarter(period)
+    
+    # Get today's date as the report date (when alert was triggered)
+    report_date = datetime.now().strftime('%B %d, %Y')
+    
     embed = {
         "title": f"{emoji} Earnings {result}: {symbol}",
-        "description": f"**{period}**",
+        "description": f"**{quarter_formatted} Earnings**\nReported: {report_date}",
         "color": color,
         "fields": [
             {
@@ -130,6 +157,16 @@ def format_discord_embed(symbol, earnings):
             {
                 "name": "Surprise %",
                 "value": surprise_pct_str,
+                "inline": True
+            },
+            {
+                "name": "Period Ended",
+                "value": period,
+                "inline": True
+            },
+            {
+                "name": "Reported",
+                "value": report_date,
                 "inline": True
             }
         ],
