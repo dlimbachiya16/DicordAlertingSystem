@@ -206,5 +206,18 @@
       "symbol": "PLTR",
       "year": 2025
     }
+  },
+  "AMD_2025-12-31": {
+    "first_seen": "2026-02-03T23:01:38.434378",
+    "earnings": {
+      "actual": 1.53,
+      "estimate": 1.3324,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1976,
+      "surprisePercent": 14.8304,
+      "symbol": "AMD",
+      "year": 2025
+    }
   }
 }
