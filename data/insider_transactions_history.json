@@ -1,0 +1,512 @@
+{
+  "NFLX_Peters Gregory K_2026-01-29_122140_S": {
+    "first_seen": "2026-02-03T00:07:53.273023",
+    "transaction": {
+      "change": -7560,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001065280-26-000046",
+      "isDerivative": false,
+      "name": "Peters Gregory K",
+      "share": 122140,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 83.7538
+    }
+  },
+  "NFLX_Peters Gregory K_2026-01-29_129700_S": {
+    "first_seen": "2026-02-03T00:07:53.273033",
+    "transaction": {
+      "change": -98221,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001065280-26-000046",
+      "isDerivative": false,
+      "name": "Peters Gregory K",
+      "share": 129700,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 82.8728
+    }
+  },
+  "GOOGL_ARNOLD FRANCES_2026-01-29_18307_S": {
+    "first_seen": "2026-02-03T00:07:53.693471",
+    "transaction": {
+      "change": -102,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001193125-26-032283",
+      "isDerivative": false,
+      "name": "ARNOLD FRANCES",
+      "share": 18307,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 340
+    }
+  },
+  "CRWV_Baker Jeff_2026-01-29_125000_M": {
+    "first_seen": "2026-02-03T00:07:53.961598",
+    "transaction": {
+      "change": -12500,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000051",
+      "isDerivative": true,
+      "name": "Baker Jeff",
+      "share": 125000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "M",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Baker Jeff_2026-01-29_39304_S": {
+    "first_seen": "2026-02-03T00:07:53.961605",
+    "transaction": {
+      "change": -5143,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000051",
+      "isDerivative": false,
+      "name": "Baker Jeff",
+      "share": 39304,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 103.7837
+    }
+  },
+  "CRWV_Baker Jeff_2026-01-29_44447_M": {
+    "first_seen": "2026-02-03T00:07:53.961609",
+    "transaction": {
+      "change": 12500,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000051",
+      "isDerivative": false,
+      "name": "Baker Jeff",
+      "share": 44447,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "M",
+      "transactionDate": "2026-01-29",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_25049280_C": {
+    "first_seen": "2026-02-03T00:07:53.961611",
+    "transaction": {
+      "change": -50000,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": true,
+      "name": "Intrator Michael N",
+      "share": 25049280,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_0_S": {
+    "first_seen": "2026-02-03T00:07:53.961614",
+    "transaction": {
+      "change": -728,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 113.8723
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_728_S": {
+    "first_seen": "2026-02-03T00:07:53.961616",
+    "transaction": {
+      "change": -303,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 728,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 112.5197
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_1031_S": {
+    "first_seen": "2026-02-03T00:07:53.961618",
+    "transaction": {
+      "change": -949,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 1031,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 111.3557
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_1980_S": {
+    "first_seen": "2026-02-03T00:07:53.961620",
+    "transaction": {
+      "change": -1031,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 1980,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 110.531
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_3011_S": {
+    "first_seen": "2026-02-03T00:07:53.961622",
+    "transaction": {
+      "change": -2304,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 3011,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 109.3481
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5315_S": {
+    "first_seen": "2026-02-03T00:07:53.961624",
+    "transaction": {
+      "change": -2974,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5315,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 108.4327
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_8289_S": {
+    "first_seen": "2026-02-03T00:07:53.961627",
+    "transaction": {
+      "change": -1395,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 8289,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 107.322
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_9684_S": {
+    "first_seen": "2026-02-03T00:07:53.961629",
+    "transaction": {
+      "change": -5511,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 9684,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 106.2528
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_15195_S": {
+    "first_seen": "2026-02-03T00:07:53.961634",
+    "transaction": {
+      "change": -21927,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 15195,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 105.4863
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_37122_S": {
+    "first_seen": "2026-02-03T00:07:53.961636",
+    "transaction": {
+      "change": -10690,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 37122,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 104.6001
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_47812_S": {
+    "first_seen": "2026-02-03T00:07:53.961638",
+    "transaction": {
+      "change": -2188,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 47812,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 103.6111
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_50000_C": {
+    "first_seen": "2026-02-03T00:07:53.961640",
+    "transaction": {
+      "change": 50000,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 50000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5796323_S": {
+    "first_seen": "2026-02-03T00:07:53.961642",
+    "transaction": {
+      "change": -472,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5796323,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 113.8728
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5796795_S": {
+    "first_seen": "2026-02-03T00:07:53.961644",
+    "transaction": {
+      "change": -197,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5796795,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 112.5205
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5796992_S": {
+    "first_seen": "2026-02-03T00:07:53.961646",
+    "transaction": {
+      "change": -616,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5796992,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 111.3561
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5797608_S": {
+    "first_seen": "2026-02-03T00:07:53.961648",
+    "transaction": {
+      "change": -669,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5797608,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 110.5314
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5798277_S": {
+    "first_seen": "2026-02-03T00:07:53.961650",
+    "transaction": {
+      "change": -1496,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5798277,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 109.3482
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5799773_S": {
+    "first_seen": "2026-02-03T00:07:53.961652",
+    "transaction": {
+      "change": -1931,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5799773,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 108.4326
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5801704_S": {
+    "first_seen": "2026-02-03T00:07:53.961653",
+    "transaction": {
+      "change": -905,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5801704,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 107.3214
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5802609_S": {
+    "first_seen": "2026-02-03T00:07:53.961655",
+    "transaction": {
+      "change": -3578,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5802609,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 106.2527
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5806187_S": {
+    "first_seen": "2026-02-03T00:07:53.961657",
+    "transaction": {
+      "change": -14232,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5806187,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 105.4863
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5820419_S": {
+    "first_seen": "2026-02-03T00:07:53.961660",
+    "transaction": {
+      "change": -6939,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5820419,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 104.6002
+    }
+  },
+  "CRWV_Intrator Michael N_2026-01-28_5827358_S": {
+    "first_seen": "2026-02-03T00:07:53.961661",
+    "transaction": {
+      "change": -1421,
+      "currency": "",
+      "filingDate": "2026-01-30",
+      "id": "0001769628-26-000053",
+      "isDerivative": false,
+      "name": "Intrator Michael N",
+      "share": 5827358,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-01-28",
+      "transactionPrice": 103.611
+    }
+  }
+}
