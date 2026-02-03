@@ -2,6 +2,7 @@
 """
 IPO Calendar Alert Script
 Monitors upcoming and recent IPOs and sends alerts to Discord
+Only alerts on IPOs valued at $1 billion or more
 """
 
 import os
@@ -14,6 +15,9 @@ from datetime import datetime, timedelta
 FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
 DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_IPO_CALENDAR')
 HISTORY_FILE = 'data/ipo_calendar_history.json'
+
+# Minimum IPO value to alert on (in dollars)
+MIN_IPO_VALUE = 1_000_000_000  # $1 billion
 
 
 def load_history():
@@ -60,6 +64,17 @@ def get_ipo_calendar(from_date, to_date):
 def create_ipo_id(ipo):
     """Create unique ID for IPO"""
     return f"{ipo.get('symbol')}_{ipo.get('date')}"
+
+
+def is_billion_dollar_ipo(ipo):
+    """Check if IPO is valued at $1 billion or more"""
+    total_value = ipo.get('totalSharesValue', 0)
+    
+    # If no value data, we'll include it (benefit of the doubt)
+    if total_value is None or total_value == 0:
+        return True
+    
+    return total_value >= MIN_IPO_VALUE
 
 
 def sanitize_value(value, max_length=1024):
@@ -114,7 +129,14 @@ def format_discord_embed(ipo, is_upcoming=False):
         shares_formatted = "N/A"
     
     try:
-        total_value = f"${int(total_shares):,.0f}" if total_shares else "N/A"
+        if total_shares:
+            # Format in billions if >= $1B
+            if total_shares >= 1_000_000_000:
+                total_value = f"${total_shares / 1_000_000_000:.2f}B"
+            else:
+                total_value = f"${int(total_shares):,.0f}"
+        else:
+            total_value = "N/A"
     except (ValueError, TypeError):
         total_value = "N/A"
     
@@ -126,7 +148,7 @@ def format_discord_embed(ipo, is_upcoming=False):
         date_formatted = str(date)
     
     # Title must be 256 chars or less
-    title = f"{title_prefix}: {symbol}"
+    title = f"{title_prefix}: {symbol} 💰"
     if len(title) > 256:
         title = title[:253] + "..."
     
@@ -142,7 +164,7 @@ def format_discord_embed(ipo, is_upcoming=False):
         "fields": [
             {
                 "name": "Date",
-                "value": date_formatted[:1024],  # Max 1024 chars
+                "value": date_formatted[:1024],
                 "inline": True
             },
             {
@@ -166,13 +188,13 @@ def format_discord_embed(ipo, is_upcoming=False):
                 "inline": True
             },
             {
-                "name": "Value",
+                "name": "Total Value",
                 "value": total_value[:1024],
                 "inline": True
             }
         ],
         "footer": {
-            "text": "Finnhub IPO Calendar"[:2048]  # Footer text max 2048
+            "text": "Finnhub IPO Calendar • $1B+ IPOs only"[:2048]
         },
         "timestamp": datetime.utcnow().isoformat()
     }
@@ -256,6 +278,7 @@ def main():
     upcoming_to = (today + timedelta(days=60)).strftime('%Y-%m-%d')
     
     new_ipos = []
+    filtered_count = 0
     
     print(f"Checking recent IPOs from {recent_from} to {recent_to}")
     recent_data = get_ipo_calendar(recent_from, recent_to)
@@ -265,13 +288,22 @@ def main():
             ipo_id = create_ipo_id(ipo)
             
             if ipo_id not in history:
-                new_ipos.append((ipo, False))  # False = not upcoming
-                history[ipo_id] = {
-                    'first_seen': datetime.utcnow().isoformat(),
-                    'ipo': ipo,
-                    'type': 'recent'
-                }
-                print(f"  New recent IPO: {ipo.get('symbol')} - {ipo.get('name')}")
+                # Check if IPO meets minimum value threshold
+                if is_billion_dollar_ipo(ipo):
+                    new_ipos.append((ipo, False))  # False = not upcoming
+                    history[ipo_id] = {
+                        'first_seen': datetime.utcnow().isoformat(),
+                        'ipo': ipo,
+                        'type': 'recent',
+                        'value': ipo.get('totalSharesValue', 0)
+                    }
+                    value = ipo.get('totalSharesValue', 0)
+                    value_str = f"${value/1_000_000_000:.2f}B" if value >= 1_000_000_000 else f"${value:,.0f}"
+                    print(f"  ✓ New IPO: {ipo.get('symbol')} - {ipo.get('name')} ({value_str})")
+                else:
+                    filtered_count += 1
+                    value = ipo.get('totalSharesValue', 0)
+                    print(f"  ✗ Filtered: {ipo.get('symbol')} - ${value:,.0f} (below $1B)")
     
     print(f"\nChecking upcoming IPOs from {upcoming_from} to {upcoming_to}")
     upcoming_data = get_ipo_calendar(upcoming_from, upcoming_to)
@@ -281,23 +313,32 @@ def main():
             ipo_id = create_ipo_id(ipo)
             
             if ipo_id not in history:
-                new_ipos.append((ipo, True))  # True = upcoming
-                history[ipo_id] = {
-                    'first_seen': datetime.utcnow().isoformat(),
-                    'ipo': ipo,
-                    'type': 'upcoming'
-                }
-                print(f"  New upcoming IPO: {ipo.get('symbol')} - {ipo.get('name')}")
+                # Check if IPO meets minimum value threshold
+                if is_billion_dollar_ipo(ipo):
+                    new_ipos.append((ipo, True))  # True = upcoming
+                    history[ipo_id] = {
+                        'first_seen': datetime.utcnow().isoformat(),
+                        'ipo': ipo,
+                        'type': 'upcoming',
+                        'value': ipo.get('totalSharesValue', 0)
+                    }
+                    value = ipo.get('totalSharesValue', 0)
+                    value_str = f"${value/1_000_000_000:.2f}B" if value >= 1_000_000_000 else f"${value:,.0f}"
+                    print(f"  ✓ New IPO: {ipo.get('symbol')} - {ipo.get('name')} ({value_str})")
+                else:
+                    filtered_count += 1
+                    value = ipo.get('totalSharesValue', 0)
+                    print(f"  ✗ Filtered: {ipo.get('symbol')} - ${value:,.0f} (below $1B)")
     
-    # Send alerts for new IPOs
+    # Send alerts for new billion-dollar IPOs
     if new_ipos:
-        print(f"\nFound {len(new_ipos)} new IPOs")
+        print(f"\nFound {len(new_ipos)} new billion-dollar IPOs ({filtered_count} filtered out)")
         
         # Send summary first if many IPOs
         if len(new_ipos) > 10:
             summary_embed = {
-                "title": "📊 IPO Alert Summary",
-                "description": f"Found **{len(new_ipos)}** new IPOs. Sending details in batches...",
+                "title": "💰 Billion-Dollar IPO Alert",
+                "description": f"Found **{len(new_ipos)}** new IPOs valued at $1B+\n({filtered_count} smaller IPOs filtered out)",
                 "color": 3447003,
                 "timestamp": datetime.utcnow().isoformat()
             }
@@ -319,7 +360,7 @@ def main():
         if embeds:
             send_discord_alert(embeds)
     else:
-        print("No new IPOs found")
+        print(f"No new billion-dollar IPOs found ({filtered_count} filtered out)")
     
     # Clean up old history (keep last 90 days)
     cutoff_date = datetime.utcnow() - timedelta(days=90)
