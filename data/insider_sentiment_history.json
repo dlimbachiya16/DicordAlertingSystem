@@ -1,0 +1,572 @@
+{
+  "ABBV_2025_2": {
+    "first_seen": "2026-02-04T05:37:25.216091",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 2,
+      "change": 721747,
+      "mspr": 79.490616
+    }
+  },
+  "ABBV_2025_3": {
+    "first_seen": "2026-02-04T05:37:25.216113",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 3,
+      "change": -124091,
+      "mspr": -58.525486
+    }
+  },
+  "ABBV_2025_5": {
+    "first_seen": "2026-02-04T05:37:25.216120",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 5,
+      "change": 15639,
+      "mspr": 100
+    }
+  },
+  "ABBV_2025_6": {
+    "first_seen": "2026-02-04T05:37:25.216124",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 6,
+      "change": 298,
+      "mspr": 100
+    }
+  },
+  "ABBV_2025_8": {
+    "first_seen": "2026-02-04T05:37:25.216130",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 8,
+      "change": -55665,
+      "mspr": -39.646023
+    }
+  },
+  "ABBV_2025_9": {
+    "first_seen": "2026-02-04T05:37:25.216135",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 9,
+      "change": 245,
+      "mspr": 100
+    }
+  },
+  "ABBV_2025_12": {
+    "first_seen": "2026-02-04T05:37:25.216140",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2025,
+      "month": 12,
+      "change": 249,
+      "mspr": 100
+    }
+  },
+  "ABT_2025_1": {
+    "first_seen": "2026-02-04T05:37:25.744540",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 1,
+      "change": -216203,
+      "mspr": -33.607327
+    }
+  },
+  "ABT_2025_2": {
+    "first_seen": "2026-02-04T05:37:25.744558",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 2,
+      "change": 543516,
+      "mspr": 32.25484
+    }
+  },
+  "ABT_2025_3": {
+    "first_seen": "2026-02-04T05:37:25.744564",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 3,
+      "change": -94493,
+      "mspr": -33.877567
+    }
+  },
+  "ABT_2025_4": {
+    "first_seen": "2026-02-04T05:37:25.744568",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 4,
+      "change": 25135,
+      "mspr": 82.858086
+    }
+  },
+  "ABT_2025_6": {
+    "first_seen": "2026-02-04T05:37:25.744574",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 6,
+      "change": 19053,
+      "mspr": 97.25384
+    }
+  },
+  "ABT_2025_8": {
+    "first_seen": "2026-02-04T05:37:25.744579",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 8,
+      "change": -5550,
+      "mspr": -100
+    }
+  },
+  "ABT_2025_9": {
+    "first_seen": "2026-02-04T05:37:25.744583",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 9,
+      "change": 412,
+      "mspr": 30.654762
+    }
+  },
+  "ABT_2025_11": {
+    "first_seen": "2026-02-04T05:37:25.744587",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 11,
+      "change": -1586,
+      "mspr": -100
+    }
+  },
+  "ABT_2025_12": {
+    "first_seen": "2026-02-04T05:37:25.744591",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2025,
+      "month": 12,
+      "change": -597,
+      "mspr": -24.121212
+    }
+  },
+  "ABT_2026_1": {
+    "first_seen": "2026-02-04T05:37:25.744595",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2026,
+      "month": 1,
+      "change": 18800,
+      "mspr": 100
+    }
+  },
+  "ADBE_2025_1": {
+    "first_seen": "2026-02-04T05:37:26.261472",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 1,
+      "change": 99369,
+      "mspr": 26.091444
+    }
+  },
+  "ADBE_2025_3": {
+    "first_seen": "2026-02-04T05:37:26.261491",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 3,
+      "change": 72,
+      "mspr": 0.9040683
+    }
+  },
+  "ADBE_2025_4": {
+    "first_seen": "2026-02-04T05:37:26.261496",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 4,
+      "change": 197,
+      "mspr": 0.29406935
+    }
+  },
+  "ADBE_2025_5": {
+    "first_seen": "2026-02-04T05:37:26.261501",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 5,
+      "change": -462,
+      "mspr": -100
+    }
+  },
+  "ADBE_2025_6": {
+    "first_seen": "2026-02-04T05:37:26.261505",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 6,
+      "change": 30076,
+      "mspr": 81.05865
+    }
+  },
+  "ADBE_2025_7": {
+    "first_seen": "2026-02-04T05:37:26.261510",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 7,
+      "change": -8832,
+      "mspr": -20.017225
+    }
+  },
+  "ADBE_2025_9": {
+    "first_seen": "2026-02-04T05:37:26.261514",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 9,
+      "change": 11203,
+      "mspr": 89.075294
+    }
+  },
+  "ADBE_2025_10": {
+    "first_seen": "2026-02-04T05:37:26.261517",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 10,
+      "change": -8973,
+      "mspr": -20.281174
+    }
+  },
+  "ADBE_2025_12": {
+    "first_seen": "2026-02-04T05:37:26.261521",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2025,
+      "month": 12,
+      "change": -778,
+      "mspr": -45.764706
+    }
+  },
+  "ADBE_2026_1": {
+    "first_seen": "2026-02-04T05:37:26.261524",
+    "sentiment": {
+      "symbol": "ADBE",
+      "year": 2026,
+      "month": 1,
+      "change": 207382,
+      "mspr": 29.659473
+    }
+  },
+  "AEO_2025_1": {
+    "first_seen": "2026-02-04T05:37:26.783283",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 1,
+      "change": 24073,
+      "mspr": 80.05387
+    }
+  },
+  "AEO_2025_2": {
+    "first_seen": "2026-02-04T05:37:26.783297",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 2,
+      "change": 209691,
+      "mspr": 46.868484
+    }
+  },
+  "AEO_2025_3": {
+    "first_seen": "2026-02-04T05:37:26.783301",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 3,
+      "change": -62786,
+      "mspr": -17.913368
+    }
+  },
+  "AEO_2025_4": {
+    "first_seen": "2026-02-04T05:37:26.783305",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 4,
+      "change": 1524673,
+      "mspr": 91.31588
+    }
+  },
+  "AEO_2025_7": {
+    "first_seen": "2026-02-04T05:37:26.783310",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 7,
+      "change": 73271,
+      "mspr": 100
+    }
+  },
+  "AEO_2025_9": {
+    "first_seen": "2026-02-04T05:37:26.783405",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 9,
+      "change": -188629,
+      "mspr": -69.97377
+    }
+  },
+  "AEO_2025_10": {
+    "first_seen": "2026-02-04T05:37:26.783409",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 10,
+      "change": 22195,
+      "mspr": 79.027954
+    }
+  },
+  "AEO_2025_12": {
+    "first_seen": "2026-02-04T05:37:26.783413",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2025,
+      "month": 12,
+      "change": -496688,
+      "mspr": -37.63164
+    }
+  },
+  "AEO_2026_1": {
+    "first_seen": "2026-02-04T05:37:26.783417",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2026,
+      "month": 1,
+      "change": -1035691,
+      "mspr": -96.87948
+    }
+  },
+  "ALAB_2025_2": {
+    "first_seen": "2026-02-04T05:37:27.303231",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 2,
+      "change": -1052470,
+      "mspr": -80.70656
+    }
+  },
+  "ALAB_2025_3": {
+    "first_seen": "2026-02-04T05:37:27.303249",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 3,
+      "change": -71363,
+      "mspr": -90.7499
+    }
+  },
+  "ALAB_2025_4": {
+    "first_seen": "2026-02-04T05:37:27.303255",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 4,
+      "change": -100000,
+      "mspr": -100
+    }
+  },
+  "ALAB_2025_5": {
+    "first_seen": "2026-02-04T05:37:27.303365",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 5,
+      "change": -1345944,
+      "mspr": -99.97089
+    }
+  },
+  "ALAB_2025_6": {
+    "first_seen": "2026-02-04T05:37:27.303371",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 6,
+      "change": -330983,
+      "mspr": -91.71731
+    }
+  },
+  "ALAB_2025_7": {
+    "first_seen": "2026-02-04T05:37:27.303376",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 7,
+      "change": -433578,
+      "mspr": -78.47821
+    }
+  },
+  "ALAB_2025_8": {
+    "first_seen": "2026-02-04T05:37:27.303380",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 8,
+      "change": -1214497,
+      "mspr": -90.562
+    }
+  },
+  "ALAB_2025_9": {
+    "first_seen": "2026-02-04T05:37:27.303837",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 9,
+      "change": -190000,
+      "mspr": -16.502567
+    }
+  },
+  "ALAB_2025_10": {
+    "first_seen": "2026-02-04T05:37:27.303842",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 10,
+      "change": -10000,
+      "mspr": -100
+    }
+  },
+  "ALAB_2025_11": {
+    "first_seen": "2026-02-04T05:37:27.303846",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 11,
+      "change": -199381,
+      "mspr": -99.9128
+    }
+  },
+  "ALAB_2025_12": {
+    "first_seen": "2026-02-04T05:37:27.303849",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2025,
+      "month": 12,
+      "change": -325000,
+      "mspr": -22.515345
+    }
+  },
+  "ALAB_2026_1": {
+    "first_seen": "2026-02-04T05:37:27.303863",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2026,
+      "month": 1,
+      "change": -10000,
+      "mspr": -100
+    }
+  },
+  "ALGN_2025_2": {
+    "first_seen": "2026-02-04T05:37:27.816509",
+    "sentiment": {
+      "symbol": "ALGN",
+      "year": 2025,
+      "month": 2,
+      "change": 73851,
+      "mspr": 45.83346
+    }
+  },
+  "ALGN_2025_5": {
+    "first_seen": "2026-02-04T05:37:27.816525",
+    "sentiment": {
+      "symbol": "ALGN",
+      "year": 2025,
+      "month": 5,
+      "change": 16286,
+      "mspr": 43.180614
+    }
+  },
+  "ALGN_2025_7": {
+    "first_seen": "2026-02-04T05:37:27.816530",
+    "sentiment": {
+      "symbol": "ALGN",
+      "year": 2025,
+      "month": 7,
+      "change": 1443,
+      "mspr": 100
+    }
+  },
+  "ALGN_2025_8": {
+    "first_seen": "2026-02-04T05:37:27.816533",
+    "sentiment": {
+      "symbol": "ALGN",
+      "year": 2025,
+      "month": 8,
+      "change": 7576,
+      "mspr": 100
+    }
+  },
+  "ALGT_2025_2": {
+    "first_seen": "2026-02-04T05:37:28.336043",
+    "sentiment": {
+      "symbol": "ALGT",
+      "year": 2025,
+      "month": 2,
+      "change": -315,
+      "mspr": -100
+    }
+  },
+  "ALGT_2025_4": {
+    "first_seen": "2026-02-04T05:37:28.336060",
+    "sentiment": {
+      "symbol": "ALGT",
+      "year": 2025,
+      "month": 4,
+      "change": -6063,
+      "mspr": -100
+    }
+  },
+  "ALGT_2025_8": {
+    "first_seen": "2026-02-04T05:37:28.336066",
+    "sentiment": {
+      "symbol": "ALGT",
+      "year": 2025,
+      "month": 8,
+      "change": -5091,
+      "mspr": -100
+    }
+  },
+  "ALGT_2025_9": {
+    "first_seen": "2026-02-04T05:37:28.336493",
+    "sentiment": {
+      "symbol": "ALGT",
+      "year": 2025,
+      "month": 9,
+      "change": -5570,
+      "mspr": -100
+    }
+  },
+  "ALGT_2025_10": {
+    "first_seen": "2026-02-04T05:37:28.336499",
+    "sentiment": {
+      "symbol": "ALGT",
+      "year": 2025,
+      "month": 10,
+      "change": -6751,
+      "mspr": -100
+    }
+  }
+}
