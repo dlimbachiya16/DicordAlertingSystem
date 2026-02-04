@@ -280,7 +280,7 @@ def main():
     cutoff_date = datetime.utcnow() - timedelta(days=30)
     history = {
         k: v for k, v in history.items()
-        if datetime.fromisoformat(v['first_seen']) > cutoff_date
+        if 'first_seen' in v and datetime.fromisoformat(v['first_seen']) > cutoff_date
     }
     
     # Save updated history
