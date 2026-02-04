@@ -16,9 +16,24 @@ HISTORY_FILE = 'data/insider_transactions_history.json'
 
 # Symbols to monitor
 SYMBOLS_TO_MONITOR = [
-    'AAPL', 'NVDA', 'AMD', 'META', 'AMZN', 'NFLX', 'NVAX', 'TSLA',
-    'GOOGL', 'HIMS', 'CRWV', 'SMR', 'HOOD', 'UNH', 'CPNG', 'MSFT', 'PLTR', 'LLY', 
-    'ORCL', 'SMCI', 'COIN', 'GME'
+    'ABBV', 'ABT', 'ADBE', 'AEO', 'ALAB', 'ALGN', 'ALGT', 'AMD',
+    'AMZN', 'APP', 'ASTS', 'BA', 'BABA', 'BE', 'BULL',
+    'CDNS', 'CFLT', 'CMCL', 'CNC', 'COIN', 'COP', 'CPNG',
+    'CRWV', 'CSCO', 'CVNA', 'CVS', 'CVX', 'DUOL',
+    'ENPH', 'FIG', 'FLR', 'GE', 'GME', 'GOOGL',
+    'HIMS', 'HOOD', 'IBM', 'IBRX', 'INTC', 'IONQ',
+    'IREN', 'JNJ', 'JOBY', 'KO', 'LCID',
+    'LLY', 'LMND', 'LNTH', 'LYFT', 'MARA',
+    'META', 'MRVL', 'MSFT', 'MU', 'NEE',
+    'NFLX', 'NKE', 'NRG', 'NVAX', 'NVDA',
+    'OKLO', 'ONC', 'OPEN', 'ORCL', 'PANW',
+    'PATH', 'PEP', 'PDD', 'PFE', 'PLTR',
+    'PYPL', 'QBTS', 'QCOM', 'RGTI', 'RKLB',
+    'RR', 'SHOP', 'SMCI', 'SMR', 'SNOW',
+    'SOFI', 'SOUN', 'SPOT', 'SYNA', 'TEM',
+    'TMC', 'TSLA', 'TSM', 'TTD', 'UBER',
+    'UAMY', 'UNH', 'USAR', 'UUUU', 'XOM',
+    'XPEV', 'Z', 'ZBRA'
 ]
 
 
