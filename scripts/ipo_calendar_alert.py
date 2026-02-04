@@ -251,7 +251,7 @@ def main():
     cutoff = datetime.utcnow() - timedelta(days=90)
     history = {
         k: v for k, v in history.items()
-        if datetime.fromisoformat(v["seen"]) > cutoff
+        if 'seen' in v and datetime.fromisoformat(v["seen"]) > cutoff
     }
 
     save_history(history)
