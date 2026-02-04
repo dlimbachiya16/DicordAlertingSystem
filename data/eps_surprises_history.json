@@ -1259,5 +1259,31 @@
       "symbol": "ZBRA",
       "year": 2025
     }
+  },
+  "LLY_2025-12-31": {
+    "first_seen": "2026-02-04T12:28:00.416271",
+    "earnings": {
+      "actual": 7.54,
+      "estimate": 6.7372,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.8028,
+      "surprisePercent": 11.9159,
+      "symbol": "LLY",
+      "year": 2025
+    }
+  },
+  "UBER_2025-12-31": {
+    "first_seen": "2026-02-04T12:28:23.094816",
+    "earnings": {
+      "actual": 0.71,
+      "estimate": 0.8113,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.1013,
+      "surprisePercent": -12.4861,
+      "symbol": "UBER",
+      "year": 2025
+    }
   }
 }
