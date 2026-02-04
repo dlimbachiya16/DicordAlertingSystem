@@ -77,22 +77,76 @@ def format_value(value):
     return f"${value / 1_000_000_000:.2f}B"
 
 
+def format_price_range(ipo):
+    """Format price range if available"""
+    price_low = ipo.get("priceLow")
+    price_high = ipo.get("priceHigh")
+    
+    if price_low and price_high:
+        return f"${price_low:.2f} - ${price_high:.2f}"
+    return "N/A"
+
+
 def format_embed(ipo, upcoming=False):
-    title = "📅 Upcoming IPO" if upcoming else "🆕 Recent IPO"
-    color = 3447003 if upcoming else 3066993
-
+    symbol = ipo.get('symbol', 'N/A')
+    name = ipo.get('name', 'Unknown Company')
+    date = ipo.get("date", "N/A")
+    exchange = ipo.get("exchange", "N/A")
+    status = ipo.get("status", "N/A")
     value = ipo["totalSharesValue"]
-
+    shares = ipo.get("totalSharesOffered", "N/A")
+    price_range = format_price_range(ipo)
+    
+    # Determine emoji and color based on upcoming/recent
+    if upcoming:
+        emoji = "📅"
+        color = 3447003  # Blue
+    else:
+        emoji = "🆕"
+        color = 3066993  # Green
+    
+    # Format shares
+    shares_formatted = f"{shares:,}" if isinstance(shares, (int, float)) else shares
+    
     embed = {
-        "title": f"{title}: {ipo.get('symbol', 'N/A')}",
-        "description": f"**{ipo.get('name', 'Unknown Company')}**",
+        "title": f"{emoji} {status.upper()} - {symbol}",
+        "description": f"**{name}**",
         "color": color,
         "fields": [
-            {"name": "Date", "value": ipo.get("date", "N/A"), "inline": True},
-            {"name": "Exchange", "value": ipo.get("exchange", "N/A"), "inline": True},
-            {"name": "Valuation", "value": format_value(value), "inline": True},
-            {"name": "Status", "value": ipo.get("status", "N/A"), "inline": True},
+            {
+                "name": "Date",
+                "value": date,
+                "inline": True
+            },
+            {
+                "name": "Exchange",
+                "value": exchange,
+                "inline": True
+            },
+            {
+                "name": "Status",
+                "value": status.capitalize(),
+                "inline": True
+            },
+            {
+                "name": "Price Range",
+                "value": price_range,
+                "inline": True
+            },
+            {
+                "name": "Shares",
+                "value": shares_formatted,
+                "inline": True
+            },
+            {
+                "name": "Value",
+                "value": format_value(value),
+                "inline": True
+            }
         ],
+        "footer": {
+            "text": "Finnhub IPO Calendar"
+        },
         "timestamp": datetime.utcnow().isoformat()
     }
 
