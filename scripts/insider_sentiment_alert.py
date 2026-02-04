@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 """
 Insider Sentiment Alert Script
-Monitors insider sentiment changes and sends alerts to Discord
+Monitors insider sentiment and sends alerts to Discord
 """
 
 import os
 import json
 import requests
+import time
 from datetime import datetime, timedelta
 
 # Configuration
 FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
+FINNHUB_API_KEY_2 = os.getenv('FINNHUB_API_KEY_2')
+FINNHUB_API_KEY_3 = os.getenv('FINNHUB_API_KEY_3')
 DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_INSIDER_SENTIMENT')
 HISTORY_FILE = 'data/insider_sentiment_history.json'
+
+# Create list of API keys (filter out None values)
+API_KEYS = [key for key in [FINNHUB_API_KEY, FINNHUB_API_KEY_2, FINNHUB_API_KEY_3] if key]
+api_key_index = 0
+
+def get_next_api_key():
+    """Round-robin through available API keys"""
+    global api_key_index
+    key = API_KEYS[api_key_index % len(API_KEYS)]
+    api_key_index += 1
+    return key
 
 # Symbols to monitor
 SYMBOLS_TO_MONITOR = [
@@ -36,8 +50,9 @@ SYMBOLS_TO_MONITOR = [
     'XPEV', 'Z', 'ZBRA'
 ]
 
-# Threshold for significant MSPR changes
-MSPR_THRESHOLD = 20  # Alert if MSPR moves significantly
+# Thresholds for significant sentiment changes
+MSPR_THRESHOLD = 5  # Alert if MSPR (monthly share purchase ratio) is >= 5
+CHANGE_THRESHOLD = 2  # Alert if change is >= 2
 
 
 def load_history():
@@ -63,80 +78,94 @@ def save_history(history):
         json.dump(history, f, indent=2)
 
 
-def get_insider_sentiment(symbol, from_date, to_date):
-    """Fetch insider sentiment from Finnhub"""
+def get_insider_sentiment(symbol, from_date, to_date, max_retries=3):
+    """Fetch insider sentiment from Finnhub with retry logic"""
     url = 'https://finnhub.io/api/v1/stock/insider-sentiment'
-    params = {
-        'symbol': symbol,
-        'from': from_date,
-        'to': to_date,
-        'token': FINNHUB_API_KEY
-    }
     
-    try:
-        response = requests.get(url, params=params, timeout=10)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"Error fetching sentiment for {symbol}: {e}")
-        return None
+    for attempt in range(max_retries):
+        params = {
+            'symbol': symbol,
+            'from': from_date,
+            'to': to_date,
+            'token': get_next_api_key()  # Use round-robin API key
+        }
+        
+        try:
+            response = requests.get(url, params=params, timeout=10)
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 429:  # Rate limit hit
+                wait_time = (attempt + 1) * 5  # 5, 10, 15 seconds
+                print(f"  Rate limit hit, waiting {wait_time}s...")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"Error fetching sentiment for {symbol}: {e}")
+                return None
+        except Exception as e:
+            print(f"Error fetching sentiment for {symbol}: {e}")
+            return None
+    
+    print(f"  Failed after {max_retries} retries")
+    return None
 
 
-def interpret_mspr(mspr):
-    """Interpret MSPR value"""
-    if mspr >= 50:
-        return "🟢 Very Bullish", 3066993  # Green
-    elif mspr >= 20:
-        return "🟢 Bullish", 5763719  # Light green
-    elif mspr >= -20:
-        return "🟡 Neutral", 16776960  # Yellow
-    elif mspr >= -50:
-        return "🔴 Bearish", 15105570  # Light red
-    else:
-        return "🔴 Very Bearish", 15158332  # Red
+def create_sentiment_id(symbol, sentiment):
+    """Create unique ID for sentiment data"""
+    return f"{symbol}_{sentiment.get('year')}_{sentiment.get('month')}"
 
 
-def format_discord_embed(symbol, sentiment_data, previous_mspr=None):
+def format_discord_embed(symbol, sentiment):
     """Format sentiment data as Discord embed"""
-    mspr = sentiment_data.get('mspr', 0)
-    change = sentiment_data.get('change', 0)
-    year = sentiment_data.get('year', 'N/A')
-    month = sentiment_data.get('month', 'N/A')
+    year = sentiment.get('year', 'N/A')
+    month = sentiment.get('month', 'N/A')
+    mspr = sentiment.get('mspr', 0)
+    change = sentiment.get('change', 0)
     
-    sentiment_label, color = interpret_mspr(mspr)
+    # Determine sentiment and color
+    if mspr > 0 and change > 0:
+        sentiment_type = "🟢 BULLISH"
+        color = 3066993  # Green
+        emoji = "📈"
+    elif mspr < 0 and change < 0:
+        sentiment_type = "🔴 BEARISH"
+        color = 15158332  # Red
+        emoji = "📉"
+    else:
+        sentiment_type = "🟡 NEUTRAL"
+        color = 16776960  # Yellow
+        emoji = "➡️"
     
-    # Calculate change from previous
-    change_text = ""
-    if previous_mspr is not None:
-        mspr_change = mspr - previous_mspr
-        if mspr_change > 0:
-            change_text = f"\n📈 +{mspr_change:.1f} from previous"
-        elif mspr_change < 0:
-            change_text = f"\n📉 {mspr_change:.1f} from previous"
+    # Format month name
+    try:
+        month_name = datetime(year, month, 1).strftime('%B')
+    except:
+        month_name = str(month)
     
     embed = {
-        "title": f"Insider Sentiment: {symbol}",
-        "description": f"**{sentiment_label}**{change_text}",
+        "title": f"{emoji} Insider Sentiment {sentiment_type}: {symbol}",
+        "description": f"**{month_name} {year}**",
         "color": color,
         "fields": [
             {
-                "name": "MSPR Score",
+                "name": "MSPR (Monthly Share Purchase Ratio)",
                 "value": f"{mspr:.2f}",
                 "inline": True
             },
             {
-                "name": "Net Change",
-                "value": f"{change:,}",
+                "name": "Change",
+                "value": f"{change:+.2f}",
                 "inline": True
             },
             {
                 "name": "Period",
-                "value": f"{year}-{month:02d}" if month != 'N/A' else year,
+                "value": f"{month_name} {year}",
                 "inline": True
             }
         ],
         "footer": {
-            "text": "MSPR: -100 (Very Bearish) to +100 (Very Bullish)"
+            "text": "Finnhub Insider Sentiment"
         },
         "timestamp": datetime.utcnow().isoformat()
     }
@@ -161,6 +190,7 @@ def send_discord_alert(embeds):
             response = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
             response.raise_for_status()
             print(f"Sent {len(batch)} alerts to Discord")
+            time.sleep(0.5)  # Small delay between batches
         except Exception as e:
             print(f"Error sending Discord alert: {e}")
             return False
@@ -170,9 +200,11 @@ def send_discord_alert(embeds):
 
 def main():
     """Main execution function"""
-    if not FINNHUB_API_KEY:
-        print("Error: FINNHUB_API_KEY not set")
+    if not API_KEYS:
+        print("Error: No FINNHUB_API_KEY configured")
         return
+    
+    print(f"Using {len(API_KEYS)} API key(s)")
     
     # Load history
     history = load_history()
@@ -183,62 +215,58 @@ def main():
     
     print(f"Checking insider sentiment from {from_date} to {to_date}")
     
-    significant_changes = []
+    significant_sentiments = []
     
     # Check each symbol
     for symbol in SYMBOLS_TO_MONITOR:
         print(f"Checking {symbol}...")
         data = get_insider_sentiment(symbol, from_date, to_date)
         
-        if data and 'data' in data and len(data['data']) > 0:
-            # Get most recent sentiment
-            latest = data['data'][0]
-            mspr = latest.get('mspr', 0)
-            period_key = f"{latest.get('year')}-{latest.get('month'):02d}"
-            
-            # Check if this is a new period or significant change
-            previous_data = history.get(symbol)
-            
-            should_alert = False
-            previous_mspr = None
-            
-            if previous_data is None:
-                # First time seeing this symbol
-                should_alert = True
-            elif previous_data.get('period') != period_key:
-                # New period
-                previous_mspr = previous_data.get('mspr')
-                mspr_change = abs(mspr - previous_mspr)
+        # Rate limit with 3 API keys: 180 API calls per minute = 0.33s per call
+        # Using 0.4s for safety buffer
+        time.sleep(0.4)
+        
+        if data and 'data' in data:
+            for sentiment in data['data']:
+                sentiment_id = create_sentiment_id(symbol, sentiment)
                 
-                # Alert if significant change or extreme values
-                if mspr_change >= MSPR_THRESHOLD or abs(mspr) >= 50:
-                    should_alert = True
-            
-            if should_alert:
-                significant_changes.append((symbol, latest, previous_mspr))
-                print(f"  Significant change: MSPR = {mspr:.2f}")
-            
-            # Update history
-            history[symbol] = {
-                'period': period_key,
-                'mspr': mspr,
-                'last_updated': datetime.utcnow().isoformat()
-            }
+                # Check if we've seen this sentiment data before
+                if sentiment_id not in history:
+                    mspr = sentiment.get('mspr', 0)
+                    change = sentiment.get('change', 0)
+                    
+                    # Check if sentiment is significant
+                    if abs(mspr) >= MSPR_THRESHOLD or abs(change) >= CHANGE_THRESHOLD:
+                        significant_sentiments.append((symbol, sentiment))
+                        print(f"  Significant sentiment: MSPR={mspr:.2f}, Change={change:+.2f}")
+                    
+                    # Store the sentiment data
+                    history[sentiment_id] = {
+                        'first_seen': datetime.utcnow().isoformat(),
+                        'sentiment': sentiment
+                    }
     
-    # Send alerts for significant changes
-    if significant_changes:
-        print(f"\nFound {len(significant_changes)} significant sentiment changes")
+    # Send alerts for significant sentiments
+    if significant_sentiments:
+        print(f"\nFound {len(significant_sentiments)} significant insider sentiments")
         embeds = [
-            format_discord_embed(symbol, sentiment, prev_mspr)
-            for symbol, sentiment, prev_mspr in significant_changes
+            format_discord_embed(symbol, sentiment)
+            for symbol, sentiment in significant_sentiments
         ]
         send_discord_alert(embeds)
     else:
-        print("No significant sentiment changes found")
+        print("No significant insider sentiments found")
+    
+    # Clean up old history (keep last 1 year of data)
+    cutoff_date = datetime.utcnow() - timedelta(days=365)
+    history = {
+        k: v for k, v in history.items()
+        if datetime.fromisoformat(v['first_seen']) > cutoff_date
+    }
     
     # Save updated history
     save_history(history)
-    print(f"History contains {len(history)} symbols")
+    print(f"History contains {len(history)} sentiment records")
 
 
 if __name__ == '__main__':
