@@ -1285,5 +1285,18 @@
       "symbol": "UBER",
       "year": 2025
     }
+  },
+  "ABBV_2025-12-31": {
+    "first_seen": "2026-02-04T13:42:06.325772",
+    "earnings": {
+      "actual": 2.71,
+      "estimate": 2.7053,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0047,
+      "surprisePercent": 0.1737,
+      "symbol": "ABBV",
+      "year": 2025
+    }
   }
 }
