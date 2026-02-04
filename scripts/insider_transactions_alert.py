@@ -84,6 +84,29 @@ def create_transaction_id(transaction):
     return f"{transaction.get('symbol')}_{transaction.get('name')}_{transaction.get('transactionDate')}_{transaction.get('share')}_{transaction.get('transactionCode')}"
 
 
+def get_transaction_code_description(code):
+    """Get human-readable description for transaction code"""
+    code_descriptions = {
+        'P': 'Open Market Purchase',
+        'S': 'Open Market Sale',
+        'A': 'Grant/Award',
+        'D': 'Sale to Issuer',
+        'F': 'Tax Withholding',
+        'I': 'Discretionary Transaction',
+        'M': 'Exercise of Options',
+        'C': 'Conversion',
+        'E': 'Expiration',
+        'H': 'Held',
+        'J': 'Other',
+        'G': 'Gift',
+        'L': 'Small Acquisition',
+        'W': 'Acquisition/Disposition by Will',
+        'Z': 'Deposit/Withdrawal from Voting Trust',
+        'U': 'Tender of Shares'
+    }
+    return code_descriptions.get(code, 'Other Transaction')
+
+
 def format_discord_embed(transaction):
     """Format transaction data as Discord embed"""
     symbol = transaction.get('symbol', 'N/A')
@@ -93,6 +116,9 @@ def format_discord_embed(transaction):
     transaction_code = transaction.get('transactionCode', 'N/A')
     transaction_date = transaction.get('transactionDate', 'N/A')
     filing_date = transaction.get('filingDate', 'N/A')
+    
+    # Get transaction code description
+    code_description = get_transaction_code_description(transaction_code)
     
     # Determine transaction type and color
     if transaction_code in ['P', 'A']:
@@ -126,8 +152,8 @@ def format_discord_embed(transaction):
             },
             {
                 "name": "Transaction Code",
-                "value": transaction_code,
-                "inline": True
+                "value": f"{transaction_code} - {code_description}",
+                "inline": False
             },
             {
                 "name": "Transaction Date",
