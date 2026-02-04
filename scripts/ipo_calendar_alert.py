@@ -13,10 +13,23 @@ from datetime import datetime, timedelta
 # ===================== CONFIG =====================
 
 FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
+FINNHUB_API_KEY_2 = os.getenv("FINNHUB_API_KEY_2")
+FINNHUB_API_KEY_3 = os.getenv("FINNHUB_API_KEY_3")
 DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK_IPO_CALENDAR")
 HISTORY_FILE = "data/ipo_calendar_history.json"
 
 MIN_IPO_VALUE = 1_000_000_000  # $1B
+
+# Create list of API keys (filter out None values)
+API_KEYS = [key for key in [FINNHUB_API_KEY, FINNHUB_API_KEY_2, FINNHUB_API_KEY_3] if key]
+api_key_index = 0
+
+def get_next_api_key():
+    """Round-robin through available API keys"""
+    global api_key_index
+    key = API_KEYS[api_key_index % len(API_KEYS)]
+    api_key_index += 1
+    return key
 
 # ===================== HELPERS =====================
 
@@ -37,21 +50,40 @@ def save_history(history):
         json.dump(history, f, indent=2)
 
 
-def get_ipo_calendar(from_date, to_date):
+def get_ipo_calendar(from_date, to_date, max_retries=3):
     url = "https://finnhub.io/api/v1/calendar/ipo"
-    params = {
-        "from": from_date,
-        "to": to_date,
-        "token": FINNHUB_API_KEY
-    }
+    
+    for attempt in range(max_retries):
+        params = {
+            "from": from_date,
+            "to": to_date,
+            "token": get_next_api_key()  # Use round-robin API key
+        }
 
-    try:
-        r = requests.get(url, params=params, timeout=10)
-        r.raise_for_status()
-        return r.json().get("ipoCalendar", [])
-    except Exception as e:
-        print(f"Error fetching IPO calendar: {e}")
-        return []
+        try:
+            r = requests.get(url, params=params, timeout=10)
+            r.raise_for_status()
+            
+            # Rate limit with 3 API keys: 180 API calls per minute = 0.33s per call
+            # Using 0.4s for safety buffer
+            time.sleep(0.4)
+            
+            return r.json().get("ipoCalendar", [])
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 429:  # Rate limit hit
+                wait_time = (attempt + 1) * 5  # 5, 10, 15 seconds
+                print(f"Rate limit hit, waiting {wait_time}s...")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"Error fetching IPO calendar: {e}")
+                return []
+        except Exception as e:
+            print(f"Error fetching IPO calendar: {e}")
+            return []
+    
+    print(f"Failed after {max_retries} retries")
+    return []
 
 
 def create_ipo_id(ipo):
@@ -171,10 +203,12 @@ def send_discord(embeds):
 # ===================== MAIN =====================
 
 def main():
-    if not FINNHUB_API_KEY:
+    if not API_KEYS:
         print("FINNHUB_API_KEY missing")
         return
 
+    print(f"Using {len(API_KEYS)} API key(s)")
+    
     history = load_history()
     today = datetime.utcnow()
 
