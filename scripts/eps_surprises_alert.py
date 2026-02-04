@@ -251,6 +251,9 @@ def main():
         print(f"Checking {symbol}...")
         data = get_earnings_surprises(symbol)
         
+        # Rate limit: 60 API calls per minute = 1 call per second
+        time.sleep(1)
+        
         if data and len(data) > 0:
             # Check the most recent earnings report
             latest = data[0]
