@@ -2,6 +2,10 @@
 """
 Insider Transactions Alert Script
 Monitors insider transactions and sends alerts to Discord
+
+ALERT THRESHOLDS:
+- Transaction value >= $100,000 OR
+- Number of shares changed >= 10,000
 """
 
 import os
@@ -16,6 +20,10 @@ FINNHUB_API_KEY_2 = os.getenv('FINNHUB_API_KEY_2')
 FINNHUB_API_KEY_3 = os.getenv('FINNHUB_API_KEY_3')
 DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_INSIDER_TRANSACTIONS')
 HISTORY_FILE = 'data/insider_transactions_history.json'
+
+# Alert thresholds
+MIN_TRANSACTION_VALUE = 100_000  # $100k
+MIN_SHARES_CHANGED = 10_000      # 10k shares
 
 # Create list of API keys (filter out None values)
 API_KEYS = [key for key in [FINNHUB_API_KEY, FINNHUB_API_KEY_2, FINNHUB_API_KEY_3] if key]
@@ -135,24 +143,40 @@ def get_transaction_code_description(code):
     return code_descriptions.get(code, 'Other Transaction')
 
 
+def is_significant_transaction(transaction):
+    """Check if transaction meets significance thresholds"""
+    change = transaction.get('change', 0)
+    transaction_price = transaction.get('transactionPrice', 0)
+    
+    # Calculate transaction value
+    transaction_value = abs(change * transaction_price) if transaction_price else 0
+    
+    # Check thresholds: $100k+ in value OR 10k+ shares
+    return transaction_value >= MIN_TRANSACTION_VALUE or abs(change) >= MIN_SHARES_CHANGED
+
+
 def format_discord_embed(transaction):
     """Format transaction data as Discord embed"""
     symbol = transaction.get('symbol', 'N/A')
     name = transaction.get('name', 'Unknown')
+    change = transaction.get('change', 0)
     shares = transaction.get('share', 0)
-    value = transaction.get('value', 0)
     transaction_code = transaction.get('transactionCode', 'N/A')
     transaction_date = transaction.get('transactionDate', 'N/A')
     filing_date = transaction.get('filingDate', 'N/A')
+    transaction_price = transaction.get('transactionPrice', 0)
     
     # Get transaction code description
     code_description = get_transaction_code_description(transaction_code)
     
-    # Determine transaction type and color
-    if transaction_code in ['P', 'A']:
+    # Calculate transaction value
+    transaction_value = change * transaction_price if transaction_price else 0
+    
+    # Determine transaction type and color based on change (positive = buy, negative = sell)
+    if change > 0:
         transaction_type = '🟢 BUY'
         color = 3066993  # Green
-    elif transaction_code in ['S', 'D']:
+    elif change < 0:
         transaction_type = '🔴 SELL'
         color = 15158332  # Red
     else:
@@ -160,8 +184,10 @@ def format_discord_embed(transaction):
         color = 3447003  # Blue
     
     # Format values
+    change_formatted = f"{change:+,}"  # +/- with commas
     shares_formatted = f"{shares:,}" if shares else "N/A"
-    value_formatted = f"${value:,.2f}" if value else "N/A"
+    value_formatted = f"${transaction_value:,.2f}" if transaction_value else "N/A"
+    price_formatted = f"${transaction_price:.2f}" if transaction_price else "N/A"
     
     embed = {
         "title": f"{transaction_type} - {symbol}",
@@ -169,13 +195,23 @@ def format_discord_embed(transaction):
         "color": color,
         "fields": [
             {
-                "name": "Shares",
-                "value": shares_formatted,
+                "name": "Change",
+                "value": change_formatted,
                 "inline": True
             },
             {
-                "name": "Value",
+                "name": "Transaction Value",
                 "value": value_formatted,
+                "inline": True
+            },
+            {
+                "name": "Transaction Price",
+                "value": price_formatted,
+                "inline": True
+            },
+            {
+                "name": "Shares Held After",
+                "value": shares_formatted,
                 "inline": True
             },
             {
@@ -261,12 +297,18 @@ def main():
                 
                 # Check if we've seen this transaction before
                 if transaction_id not in history:
-                    new_transactions.append(transaction)
+                    # Check if transaction is significant ($100k+ or 10k+ shares)
+                    if is_significant_transaction(transaction):
+                        new_transactions.append(transaction)
+                        change = transaction.get('change', 0)
+                        price = transaction.get('transactionPrice', 0)
+                        value = abs(change * price) if price else 0
+                        print(f"  New transaction: {transaction.get('name')} - {transaction.get('transactionCode')} - {change:+,} shares (${value:,.2f})")
+                    
                     history[transaction_id] = {
                         'first_seen': datetime.utcnow().isoformat(),
                         'transaction': transaction
                     }
-                    print(f"  New transaction: {transaction.get('name')} - {transaction.get('transactionCode')}")
     
     # Send alerts for new transactions
     if new_transactions:
