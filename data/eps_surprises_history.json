@@ -1498,5 +1498,65 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-05T13:45:14.891264"
+  },
+  "AMZN_2025-12-31": {
+    "first_seen": "2026-02-05T23:01:20.689360",
+    "earnings": {
+      "actual": 1.95,
+      "estimate": 2.0087,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0587,
+      "surprisePercent": -2.9223,
+      "symbol": "AMZN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T23:01:20.689365"
+  },
+  "BE_2025-12-31": {
+    "first_seen": "2026-02-05T23:01:23.837132",
+    "earnings": {
+      "actual": 0.45,
+      "estimate": 0.3198,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1302,
+      "surprisePercent": 40.7129,
+      "symbol": "BE",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T23:01:23.837137"
+  },
+  "IREN_2025-12-31": {
+    "first_seen": "2026-02-05T23:01:38.513485",
+    "earnings": {
+      "actual": -0.44,
+      "estimate": -0.098,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": -0.342,
+      "surprisePercent": -348.9796,
+      "symbol": "IREN",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T23:01:38.513491"
+  },
+  "SYNA_2025-12-31": {
+    "first_seen": "2026-02-05T23:02:01.929813",
+    "earnings": {
+      "actual": 1.21,
+      "estimate": 1.174,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.036,
+      "surprisePercent": 3.0664,
+      "symbol": "SYNA",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T23:02:01.929819"
   }
 }
