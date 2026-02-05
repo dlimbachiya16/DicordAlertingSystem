@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-EPS Surprises Alert Script
+EPS Surprises Alert Script - TIME-BASED VERSION
 Monitors earnings surprises and sends alerts to Discord
+
+KEY IMPROVEMENT:
+Instead of marking earnings as "seen forever", this version uses a time window.
+It will re-check earnings that were added to Finnhub's API within the last 48 hours,
+which catches earnings that get updated or fully populated after initial detection.
 """
 
 import os
@@ -17,6 +22,9 @@ FINNHUB_API_KEY_3 = os.getenv('FINNHUB_API_KEY_3')
 DISCORD_WEBHOOK = os.getenv('DISCORD_WEBHOOK_EPS_SURPRISES')
 HISTORY_FILE = 'data/eps_surprises_history.json'
 
+# NEW: Alert window - only alert once within this time period for each earnings
+ALERT_WINDOW_HOURS = 48  # Re-check earnings for 48 hours after first detection
+
 # Create list of API keys (filter out None values)
 API_KEYS = [key for key in [FINNHUB_API_KEY, FINNHUB_API_KEY_2, FINNHUB_API_KEY_3] if key]
 api_key_index = 0
@@ -28,11 +36,11 @@ def get_next_api_key():
     api_key_index += 1
     return key
 
-# Symbols to monitor
+# Symbols to monitor - UPDATED with ARM, COHR, QCOM
 SYMBOLS_TO_MONITOR = [
     'ABBV', 'ABT', 'ADBE', 'AEO', 'ALAB', 'ALGN', 'ALGT', 'AMD',
-    'AMZN', 'APP', 'ASTS', 'BA', 'BABA', 'BE', 'BULL',
-    'CDNS', 'CFLT', 'CMCL', 'CNC', 'COIN', 'COP', 'CPNG',
+    'AMZN', 'APP', 'ARM', 'ASTS', 'BA', 'BABA', 'BE', 'BULL',
+    'CDNS', 'CFLT', 'CMCL', 'CNC', 'COHR', 'COIN', 'COP', 'CPNG',
     'CRWV', 'CSCO', 'CVNA', 'CVS', 'CVX', 'DUOL',
     'ENPH', 'FIG', 'FLR', 'GE', 'GME', 'GOOGL',
     'HIMS', 'HOOD', 'IBM', 'IBRX', 'INTC', 'IONQ',
@@ -51,7 +59,7 @@ SYMBOLS_TO_MONITOR = [
 ]
 
 # Threshold for significant surprises (%)
-SURPRISE_THRESHOLD = 5.0  # Alert if surprise is more than 5%
+SURPRISE_THRESHOLD = 5.0
 
 
 def load_history():
@@ -84,7 +92,7 @@ def get_earnings_surprises(symbol, max_retries=3):
     for attempt in range(max_retries):
         params = {
             'symbol': symbol,
-            'token': get_next_api_key()  # Use round-robin API key
+            'token': get_next_api_key()
         }
         
         try:
@@ -92,8 +100,8 @@ def get_earnings_surprises(symbol, max_retries=3):
             response.raise_for_status()
             return response.json()
         except requests.exceptions.HTTPError as e:
-            if e.response.status_code == 429:  # Rate limit hit
-                wait_time = (attempt + 1) * 5  # 5, 10, 15 seconds
+            if e.response.status_code == 429:
+                wait_time = (attempt + 1) * 5
                 print(f"  Rate limit hit, waiting {wait_time}s...")
                 time.sleep(wait_time)
                 continue
@@ -120,6 +128,36 @@ def calculate_surprise_pct(actual, estimate):
     return ((actual - estimate) / abs(estimate)) * 100
 
 
+def should_alert(earnings_id, history, surprise_pct):
+    """
+    Determine if we should send an alert for this earnings report.
+    
+    NEW LOGIC:
+    - If never seen before AND significant: ALERT
+    - If seen before but within alert window AND not yet alerted: ALERT
+    - If seen before and already alerted: DON'T ALERT
+    - If seen before and outside alert window: DON'T ALERT
+    """
+    if earnings_id not in history:
+        # Never seen before, and we know it's significant (caller checks)
+        return True
+    
+    record = history[earnings_id]
+    first_seen = datetime.fromisoformat(record.get('first_seen'))
+    already_alerted = record.get('alerted', False)
+    
+    # Check if within alert window
+    hours_since_first_seen = (datetime.utcnow() - first_seen).total_seconds() / 3600
+    
+    if hours_since_first_seen <= ALERT_WINDOW_HOURS:
+        # Within alert window
+        if not already_alerted and abs(surprise_pct) >= SURPRISE_THRESHOLD:
+            # Haven't alerted yet and it's significant
+            return True
+    
+    return False
+
+
 def format_quarter(period_str):
     """Format period string to readable quarter"""
     try:
@@ -127,7 +165,6 @@ def format_quarter(period_str):
         year = date_obj.year
         month = date_obj.month
         
-        # Determine quarter
         if month in [1, 2, 3]:
             quarter = "Q1"
         elif month in [4, 5, 6]:
@@ -150,7 +187,6 @@ def format_discord_embed(symbol, earnings):
     surprise = earnings.get('surprise', 0)
     surprise_pct = earnings.get('surprisePercent', 0)
     
-    # If surprise percent not provided, calculate it
     if surprise_pct == 0 and estimate != 0:
         surprise_pct = calculate_surprise_pct(actual, estimate)
     
@@ -168,18 +204,13 @@ def format_discord_embed(symbol, earnings):
         color = 16776960  # Yellow
         emoji = "➡️"
     
-    # Format the surprise percentage
     surprise_pct_str = f"{surprise_pct:+.2f}%"
-    
-    # Format quarter for description
     quarter_formatted = format_quarter(period)
-    
-    # Get today's date as the report date (when alert was triggered)
     report_date = datetime.now().strftime('%B %d, %Y')
     
     embed = {
         "title": f"{emoji} Earnings {result}: {symbol}",
-        "description": f"**{quarter_formatted} Earnings**\nReported: {report_date}",
+        "description": f"**{quarter_formatted} Earnings**\nDetected: {report_date}",
         "color": color,
         "fields": [
             {
@@ -208,8 +239,8 @@ def format_discord_embed(symbol, earnings):
                 "inline": True
             },
             {
-                "name": "Reported",
-                "value": report_date,
+                "name": "Quarter",
+                "value": quarter_formatted,
                 "inline": True
             }
         ],
@@ -230,12 +261,9 @@ def send_discord_alert(embeds):
     
     total_sent = 0
     
-    # Discord allows max 10 embeds per message
     for i in range(0, len(embeds), 10):
         batch = embeds[i:i+10]
-        payload = {
-            "embeds": batch
-        }
+        payload = {"embeds": batch}
         
         try:
             response = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
@@ -243,15 +271,12 @@ def send_discord_alert(embeds):
             total_sent += len(batch)
             print(f"Sent batch of {len(batch)} alerts to Discord (total: {total_sent}/{len(embeds)})")
             
-            # Add delay between batches to avoid rate limiting
-            # Discord allows 5 requests per 2 seconds per webhook
             if i + 10 < len(embeds):
-                time.sleep(0.5)  # 500ms delay between batches
+                time.sleep(0.5)
                 
         except requests.exceptions.HTTPError as e:
             print(f"Error sending Discord alert batch: {e}")
             print(f"Response: {e.response.text if e.response else 'No response'}")
-            # Continue to next batch even if one fails
             continue
         except Exception as e:
             print(f"Error sending Discord alert: {e}")
@@ -267,11 +292,13 @@ def main():
         return
     
     print(f"Using {len(API_KEYS)} API key(s)")
+    print(f"Current time (UTC): {datetime.utcnow().isoformat()}")
+    print(f"Alert window: {ALERT_WINDOW_HOURS} hours")
     
-    # Load history
     history = load_history()
+    print(f"Loaded history with {len(history)} records")
     
-    print("Checking earnings surprises...")
+    print("\nChecking earnings surprises...")
     
     significant_surprises = []
     
@@ -280,37 +307,48 @@ def main():
         print(f"Checking {symbol}...")
         data = get_earnings_surprises(symbol)
         
-        # Rate limit with 3 API keys: 180 API calls per minute = 0.33s per call
-        # Using 0.4s for safety buffer
-        time.sleep(0.4)
+        time.sleep(0.4)  # Rate limiting
         
         if data and len(data) > 0:
-            # Check the most recent earnings report
             latest = data[0]
             earnings_id = create_earnings_id(symbol, latest)
             
-            # Check if we've seen this earnings report before
-            if earnings_id not in history:
-                actual = latest.get('actual', 0)
-                estimate = latest.get('estimate', 0)
-                surprise_pct = latest.get('surprisePercent', 0)
+            actual = latest.get('actual', 0)
+            estimate = latest.get('estimate', 0)
+            surprise_pct = latest.get('surprisePercent', 0)
+            
+            if surprise_pct == 0 and estimate != 0:
+                surprise_pct = calculate_surprise_pct(actual, estimate)
+            
+            # NEW: Use should_alert logic
+            if should_alert(earnings_id, history, surprise_pct):
+                significant_surprises.append((symbol, latest))
+                print(f"  ✅ ALERT: {surprise_pct:+.2f}%")
                 
-                # Calculate surprise percent if not provided
-                if surprise_pct == 0 and estimate != 0:
-                    surprise_pct = calculate_surprise_pct(actual, estimate)
-                
-                # Check if surprise is significant
-                if abs(surprise_pct) >= SURPRISE_THRESHOLD:
-                    significant_surprises.append((symbol, latest))
-                    print(f"  Significant surprise: {surprise_pct:+.2f}%")
-                
-                # Store the earnings report
-                history[earnings_id] = {
-                    'first_seen': datetime.utcnow().isoformat(),
-                    'earnings': latest
-                }
+                # Mark as alerted
+                if earnings_id not in history:
+                    history[earnings_id] = {
+                        'first_seen': datetime.utcnow().isoformat(),
+                        'earnings': latest,
+                        'alerted': True,
+                        'alerted_at': datetime.utcnow().isoformat()
+                    }
+                else:
+                    history[earnings_id]['alerted'] = True
+                    history[earnings_id]['alerted_at'] = datetime.utcnow().isoformat()
+            else:
+                # Update history even if not alerting
+                if earnings_id not in history:
+                    history[earnings_id] = {
+                        'first_seen': datetime.utcnow().isoformat(),
+                        'earnings': latest,
+                        'alerted': False
+                    }
+                else:
+                    # Just update the earnings data
+                    history[earnings_id]['earnings'] = latest
     
-    # Send alerts for significant surprises
+    # Send alerts
     if significant_surprises:
         print(f"\nFound {len(significant_surprises)} significant earnings surprises")
         embeds = [
@@ -321,14 +359,13 @@ def main():
     else:
         print("No significant earnings surprises found")
     
-    # Clean up old history (keep last 2 years of data)
+    # Clean up old history (keep last 2 years)
     cutoff_date = datetime.utcnow() - timedelta(days=730)
     history = {
         k: v for k, v in history.items()
         if 'first_seen' in v and datetime.fromisoformat(v['first_seen']) > cutoff_date
     }
     
-    # Save updated history
     save_history(history)
     print(f"History contains {len(history)} earnings reports")
 
