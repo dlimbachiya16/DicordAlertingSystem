@@ -1483,5 +1483,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-05T04:52:05.758821"
+  },
+  "COP_2025-12-31": {
+    "first_seen": "2026-02-05T13:45:14.891253",
+    "earnings": {
+      "actual": 1.02,
+      "estimate": 1.1226,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.1026,
+      "surprisePercent": -9.1395,
+      "symbol": "COP",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T13:45:14.891264"
   }
 }
