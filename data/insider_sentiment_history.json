@@ -568,5 +568,15 @@
       "change": -6751,
       "mspr": -100
     }
+  },
+  "ALAB_2026_2": {
+    "first_seen": "2026-02-05T10:28:11.228930",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2026,
+      "month": 2,
+      "change": 24933,
+      "mspr": 100
+    }
   }
 }
