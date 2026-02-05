@@ -1,0 +1,1487 @@
+{
+  "ABBV_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:17.432599",
+    "earnings": {
+      "actual": 2.71,
+      "estimate": 2.7053,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0047,
+      "surprisePercent": 0.1737,
+      "symbol": "ABBV",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:17.432609"
+  },
+  "ABT_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:17.905979",
+    "earnings": {
+      "actual": 1.5,
+      "estimate": 1.5113,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0113,
+      "surprisePercent": -0.7477,
+      "symbol": "ABT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:17.905989"
+  },
+  "ADBE_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:18.389789",
+    "earnings": {
+      "actual": 5.5,
+      "estimate": 5.5024,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0024,
+      "surprisePercent": -0.0436,
+      "symbol": "ADBE",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:18.389801"
+  },
+  "AEO_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:18.862536",
+    "earnings": {
+      "actual": 0.53,
+      "estimate": 0.4395,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.0905,
+      "surprisePercent": 20.5916,
+      "symbol": "AEO",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:18.862546"
+  },
+  "ALAB_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:19.369180",
+    "earnings": {
+      "actual": 0.49,
+      "estimate": 0.3973,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0927,
+      "surprisePercent": 23.3325,
+      "symbol": "ALAB",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:19.369215"
+  },
+  "ALGN_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:19.837424",
+    "earnings": {
+      "actual": 3.29,
+      "estimate": 3.031,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.259,
+      "surprisePercent": 8.545,
+      "symbol": "ALGN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:19.837435"
+  },
+  "ALGT_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:20.352867",
+    "earnings": {
+      "actual": 2.86,
+      "estimate": 1.9971,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.8629,
+      "surprisePercent": 43.2077,
+      "symbol": "ALGT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:20.352877"
+  },
+  "AMD_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:20.866660",
+    "earnings": {
+      "actual": 1.53,
+      "estimate": 1.3324,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1976,
+      "surprisePercent": 14.8304,
+      "symbol": "AMD",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:20.866668"
+  },
+  "AMZN_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:21.341847",
+    "earnings": {
+      "actual": 1.95,
+      "estimate": 1.605,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.345,
+      "surprisePercent": 21.4953,
+      "symbol": "AMZN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:21.341857"
+  },
+  "APP_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:21.815103",
+    "earnings": {
+      "actual": 2.45,
+      "estimate": 2.4247,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0253,
+      "surprisePercent": 1.0434,
+      "symbol": "APP",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:21.815110"
+  },
+  "ARM_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:22.342167",
+    "earnings": {
+      "actual": 0.39,
+      "estimate": 0.3372,
+      "period": "2025-09-30",
+      "quarter": 2,
+      "surprise": 0.0528,
+      "surprisePercent": 15.6584,
+      "symbol": "ARM",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:22.342176"
+  },
+  "ASTS_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:22.816610",
+    "earnings": {
+      "actual": -0.45,
+      "estimate": -0.2273,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.2227,
+      "surprisePercent": -97.9762,
+      "symbol": "ASTS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:22.816621"
+  },
+  "BA_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:23.289326",
+    "earnings": {
+      "actual": -1.12,
+      "estimate": -0.4013,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.7187,
+      "surprisePercent": -179.0929,
+      "symbol": "BA",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:23.289336"
+  },
+  "BABA_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:23.762150",
+    "earnings": {
+      "actual": 4.36,
+      "estimate": 5.5963,
+      "period": "2025-09-30",
+      "quarter": 2,
+      "surprise": -1.2363,
+      "surprisePercent": -22.0914,
+      "symbol": "BABA",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:23.762161"
+  },
+  "BE_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:24.230367",
+    "earnings": {
+      "actual": 0.15,
+      "estimate": 0.0967,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0533,
+      "surprisePercent": 55.1189,
+      "symbol": "BE",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:24.230379"
+  },
+  "BULL_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:24.697604",
+    "earnings": {
+      "actual": 0.06,
+      "estimate": 0.0306,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0294,
+      "surprisePercent": 96.0784,
+      "symbol": "BULL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:24.697615"
+  },
+  "CDNS_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:25.170149",
+    "earnings": {
+      "actual": 1.93,
+      "estimate": 1.8232,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.1068,
+      "surprisePercent": 5.8578,
+      "symbol": "CDNS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:25.170160"
+  },
+  "CFLT_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:25.663947",
+    "earnings": {
+      "actual": 0.13,
+      "estimate": 0.099,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.031,
+      "surprisePercent": 31.3131,
+      "symbol": "CFLT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:25.663957"
+  },
+  "CMCL_2025-06-30": {
+    "first_seen": "2026-02-05T04:51:26.130146",
+    "earnings": {
+      "actual": 1.077,
+      "estimate": 1.0608,
+      "period": "2025-06-30",
+      "quarter": 2,
+      "surprise": 0.0162,
+      "surprisePercent": 1.5271,
+      "symbol": "CMCL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:26.130157"
+  },
+  "CNC_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:26.601963",
+    "earnings": {
+      "actual": 0.5,
+      "estimate": -0.1409,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.6409,
+      "surprisePercent": 454.8616,
+      "symbol": "CNC",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:26.601974"
+  },
+  "COHR_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:27.126270",
+    "earnings": {
+      "actual": 1.29,
+      "estimate": 1.2318,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.0582,
+      "surprisePercent": 4.7248,
+      "symbol": "COHR",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:27.126280"
+  },
+  "COIN_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:27.625982",
+    "earnings": {
+      "actual": 1.5,
+      "estimate": 1.0786,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.4214,
+      "surprisePercent": 39.0692,
+      "symbol": "COIN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:27.625993"
+  },
+  "COP_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:28.097541",
+    "earnings": {
+      "actual": 1.61,
+      "estimate": 1.4446,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.1654,
+      "surprisePercent": 11.4495,
+      "symbol": "COP",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:28.097550"
+  },
+  "CPNG_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:28.570655",
+    "earnings": {
+      "actual": 0.05,
+      "estimate": 0.0369,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0131,
+      "surprisePercent": 35.5014,
+      "symbol": "CPNG",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:28.570665"
+  },
+  "CRWV_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:29.048322",
+    "earnings": {
+      "actual": -0.08,
+      "estimate": -0.376,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.296,
+      "surprisePercent": 78.7234,
+      "symbol": "CRWV",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:29.048332"
+  },
+  "CSCO_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:29.526072",
+    "earnings": {
+      "actual": 1,
+      "estimate": 1.0013,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": -0.0013,
+      "surprisePercent": -0.1298,
+      "symbol": "CSCO",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:29.526083"
+  },
+  "CVNA_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:29.999556",
+    "earnings": {
+      "actual": 1.03,
+      "estimate": 1.2857,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.2557,
+      "surprisePercent": -19.888,
+      "symbol": "CVNA",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:29.999566"
+  },
+  "CVS_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:30.483822",
+    "earnings": {
+      "actual": 1.6,
+      "estimate": 1.383,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.217,
+      "surprisePercent": 15.6905,
+      "symbol": "CVS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:30.483832"
+  },
+  "CVX_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:30.997443",
+    "earnings": {
+      "actual": 1.52,
+      "estimate": 1.4628,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0572,
+      "surprisePercent": 3.9103,
+      "symbol": "CVX",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:30.997453"
+  },
+  "DUOL_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:31.482105",
+    "earnings": {
+      "actual": 5.95,
+      "estimate": 0.7789,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 5.1711,
+      "surprisePercent": 663.8978,
+      "symbol": "DUOL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:31.482116"
+  },
+  "ENPH_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:31.944950",
+    "earnings": {
+      "actual": 0.71,
+      "estimate": 0.5933,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1167,
+      "surprisePercent": 19.6696,
+      "symbol": "ENPH",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:31.944958"
+  },
+  "FIG_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:32.413156",
+    "earnings": {
+      "actual": 0.1,
+      "estimate": 0.0467,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0533,
+      "surprisePercent": 114.1328,
+      "symbol": "FIG",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:32.413167"
+  },
+  "FLR_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:32.900760",
+    "earnings": {
+      "actual": 0.68,
+      "estimate": 0.4542,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.2258,
+      "surprisePercent": 49.7138,
+      "symbol": "FLR",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:32.900771"
+  },
+  "GE_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:33.374660",
+    "earnings": {
+      "actual": 1.57,
+      "estimate": 1.4695,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1005,
+      "surprisePercent": 6.8391,
+      "symbol": "GE",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:33.374672"
+  },
+  "GME_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:33.854003",
+    "earnings": {
+      "actual": 0.24,
+      "estimate": 0.202,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.038,
+      "surprisePercent": 18.8119,
+      "symbol": "GME",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:33.854012"
+  },
+  "GOOGL_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:34.325986",
+    "earnings": {
+      "actual": 2.82,
+      "estimate": 2.7061,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1139,
+      "surprisePercent": 4.209,
+      "symbol": "GOOGL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:34.325997"
+  },
+  "HIMS_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:34.826147",
+    "earnings": {
+      "actual": 0.06,
+      "estimate": 0.1063,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0463,
+      "surprisePercent": -43.556,
+      "symbol": "HIMS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:34.826159"
+  },
+  "HOOD_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:35.316757",
+    "earnings": {
+      "actual": 0.61,
+      "estimate": 0.5446,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0654,
+      "surprisePercent": 12.0088,
+      "symbol": "HOOD",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:35.316767"
+  },
+  "IBM_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:35.815696",
+    "earnings": {
+      "actual": 4.52,
+      "estimate": 4.3628,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1572,
+      "surprisePercent": 3.6032,
+      "symbol": "IBM",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:35.815707"
+  },
+  "IBRX_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:36.294343",
+    "earnings": {
+      "actual": -0.07,
+      "estimate": -0.1102,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0402,
+      "surprisePercent": 36.4791,
+      "symbol": "IBRX",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:36.294354"
+  },
+  "INTC_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:36.815736",
+    "earnings": {
+      "actual": 0.15,
+      "estimate": 0.0829,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0671,
+      "surprisePercent": 80.9409,
+      "symbol": "INTC",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:36.815747"
+  },
+  "IONQ_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:37.280721",
+    "earnings": {
+      "actual": -0.17,
+      "estimate": -0.3353,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.1653,
+      "surprisePercent": 49.2991,
+      "symbol": "IONQ",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:37.280732"
+  },
+  "IREN_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:37.847567",
+    "earnings": {
+      "actual": 1.08,
+      "estimate": 0.1632,
+      "period": "2025-09-30",
+      "quarter": 1,
+      "surprise": 0.9168,
+      "surprisePercent": 561.7647,
+      "symbol": "IREN",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:37.847578"
+  },
+  "JNJ_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:38.359322",
+    "earnings": {
+      "actual": 2.46,
+      "estimate": 2.4633,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0033,
+      "surprisePercent": -0.134,
+      "symbol": "JNJ",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:38.359333"
+  },
+  "JOBY_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:38.826299",
+    "earnings": {
+      "actual": -0.48,
+      "estimate": -0.1955,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.2845,
+      "surprisePercent": -145.5243,
+      "symbol": "JOBY",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:38.826310"
+  },
+  "KO_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:39.301996",
+    "earnings": {
+      "actual": 0.82,
+      "estimate": 0.8011,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0189,
+      "surprisePercent": 2.3593,
+      "symbol": "KO",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:39.302007"
+  },
+  "LCID_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:39.766812",
+    "earnings": {
+      "actual": -2.65,
+      "estimate": -2.3368,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.3132,
+      "surprisePercent": -13.4029,
+      "symbol": "LCID",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:39.766822"
+  },
+  "LLY_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:40.301628",
+    "earnings": {
+      "actual": 7.54,
+      "estimate": 6.7372,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.8028,
+      "surprisePercent": 11.9159,
+      "symbol": "LLY",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:40.301640"
+  },
+  "LMND_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:40.787731",
+    "earnings": {
+      "actual": -0.51,
+      "estimate": -0.7177,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.2077,
+      "surprisePercent": 28.9397,
+      "symbol": "LMND",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:40.787742"
+  },
+  "LNTH_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:41.264260",
+    "earnings": {
+      "actual": 1.27,
+      "estimate": 1.2897,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0197,
+      "surprisePercent": -1.5275,
+      "symbol": "LNTH",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:41.264269"
+  },
+  "LYFT_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:41.768031",
+    "earnings": {
+      "actual": 0.11,
+      "estimate": 0.0822,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0278,
+      "surprisePercent": 33.82,
+      "symbol": "LYFT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:41.768041"
+  },
+  "MARA_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:42.235685",
+    "earnings": {
+      "actual": 0.31,
+      "estimate": 0.4526,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.1426,
+      "surprisePercent": -31.5068,
+      "symbol": "MARA",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:42.235696"
+  },
+  "META_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:42.745439",
+    "earnings": {
+      "actual": 8.88,
+      "estimate": 8.3992,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.4808,
+      "surprisePercent": 5.7244,
+      "symbol": "META",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:42.745454"
+  },
+  "MRVL_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:43.246552",
+    "earnings": {
+      "actual": 0.76,
+      "estimate": 0.7495,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.0105,
+      "surprisePercent": 1.4009,
+      "symbol": "MRVL",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:43.246562"
+  },
+  "MSFT_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:43.727235",
+    "earnings": {
+      "actual": 4.14,
+      "estimate": 4.0478,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.0922,
+      "surprisePercent": 2.2778,
+      "symbol": "MSFT",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:43.727246"
+  },
+  "MU_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:44.202366",
+    "earnings": {
+      "actual": 4.78,
+      "estimate": 4.072,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": 0.708,
+      "surprisePercent": 17.387,
+      "symbol": "MU",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:44.202376"
+  },
+  "NEE_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:44.669440",
+    "earnings": {
+      "actual": 0.54,
+      "estimate": 0.5311,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0089,
+      "surprisePercent": 1.6758,
+      "symbol": "NEE",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:44.669451"
+  },
+  "NFLX_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:45.140122",
+    "earnings": {
+      "actual": 0.56,
+      "estimate": 0.5628,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0028,
+      "surprisePercent": -0.4975,
+      "symbol": "NFLX",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:45.140133"
+  },
+  "NKE_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:45.610247",
+    "earnings": {
+      "actual": 0.53,
+      "estimate": 0.3807,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.1493,
+      "surprisePercent": 39.2172,
+      "symbol": "NKE",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:45.610258"
+  },
+  "NRG_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:46.081410",
+    "earnings": {
+      "actual": 2.75,
+      "estimate": 2.1197,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.6303,
+      "surprisePercent": 29.7353,
+      "symbol": "NRG",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:46.081421"
+  },
+  "NVAX_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:46.564666",
+    "earnings": {
+      "actual": -1.25,
+      "estimate": -1.21,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.04,
+      "surprisePercent": -3.3058,
+      "symbol": "NVAX",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:46.564677"
+  },
+  "NVDA_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:47.039841",
+    "earnings": {
+      "actual": 1.3,
+      "estimate": 1.2746,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.0254,
+      "surprisePercent": 1.9928,
+      "symbol": "NVDA",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:47.039852"
+  },
+  "OKLO_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:47.550115",
+    "earnings": {
+      "actual": -0.2,
+      "estimate": -0.1339,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0661,
+      "surprisePercent": -49.3652,
+      "symbol": "OKLO",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:47.550126"
+  },
+  "ONC_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:48.034613",
+    "earnings": {
+      "actual": 0.573,
+      "estimate": 0.606,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.033,
+      "surprisePercent": -5.4455,
+      "symbol": "688235.SS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:48.034624"
+  },
+  "OPEN_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:48.501733",
+    "earnings": {
+      "actual": -0.08,
+      "estimate": -0.0706,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0094,
+      "surprisePercent": -13.3144,
+      "symbol": "OPEN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:48.501743"
+  },
+  "ORCL_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:48.964465",
+    "earnings": {
+      "actual": 2.26,
+      "estimate": 1.6711,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.5889,
+      "surprisePercent": 35.2403,
+      "symbol": "ORCL",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:48.964476"
+  },
+  "PANW_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:49.465713",
+    "earnings": {
+      "actual": 0.93,
+      "estimate": 0.9081,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": 0.0219,
+      "surprisePercent": 2.4116,
+      "symbol": "PANW",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:49.465724"
+  },
+  "PATH_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:49.940084",
+    "earnings": {
+      "actual": 0.16,
+      "estimate": 0.149,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.011,
+      "surprisePercent": 7.3826,
+      "symbol": "PATH",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:49.940094"
+  },
+  "PEP_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:50.428800",
+    "earnings": {
+      "actual": 2.26,
+      "estimate": 2.2597,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0003,
+      "surprisePercent": 0.0133,
+      "symbol": "PEP",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:50.428811"
+  },
+  "PDD_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:50.942703",
+    "earnings": {
+      "actual": 21.08,
+      "estimate": 17.0124,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 4.0676,
+      "surprisePercent": 23.9096,
+      "symbol": "PDD",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:50.942712"
+  },
+  "PFE_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:51.425529",
+    "earnings": {
+      "actual": 0.66,
+      "estimate": 0.5775,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0825,
+      "surprisePercent": 14.2857,
+      "symbol": "PFE",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:51.425542"
+  },
+  "PLTR_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:51.925401",
+    "earnings": {
+      "actual": 0.25,
+      "estimate": 0.2348,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0152,
+      "surprisePercent": 6.4736,
+      "symbol": "PLTR",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:51.925411"
+  },
+  "PYPL_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:52.418002",
+    "earnings": {
+      "actual": 1.23,
+      "estimate": 1.3103,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0803,
+      "surprisePercent": -6.1284,
+      "symbol": "PYPL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:52.418012"
+  },
+  "QBTS_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:52.928293",
+    "earnings": {
+      "actual": -0.05,
+      "estimate": -0.0687,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0187,
+      "surprisePercent": 27.2198,
+      "symbol": "QBTS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:52.928302"
+  },
+  "QCOM_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:53.493263",
+    "earnings": {
+      "actual": 3.5,
+      "estimate": 3.4686,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": 0.0314,
+      "surprisePercent": 0.9053,
+      "symbol": "QCOM",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:53.493274"
+  },
+  "RGTI_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:54.015262",
+    "earnings": {
+      "actual": -0.03,
+      "estimate": -0.0437,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0137,
+      "surprisePercent": 31.3501,
+      "symbol": "RGTI",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:54.015272"
+  },
+  "RKLB_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:54.481297",
+    "earnings": {
+      "actual": -0.03,
+      "estimate": -0.1064,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0764,
+      "surprisePercent": 71.8045,
+      "symbol": "RKLB",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:54.481308"
+  },
+  "SHOP_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:55.476357",
+    "earnings": {
+      "actual": 0.34,
+      "estimate": 0.3423,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0023,
+      "surprisePercent": -0.6719,
+      "symbol": "SHOP",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:55.476369"
+  },
+  "SMCI_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:55.971248",
+    "earnings": {
+      "actual": 0.69,
+      "estimate": 0.4964,
+      "period": "2025-12-31",
+      "quarter": 2,
+      "surprise": 0.1936,
+      "surprisePercent": 39.0008,
+      "symbol": "SMCI",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:55.971259"
+  },
+  "SMR_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:56.439825",
+    "earnings": {
+      "actual": -1.85,
+      "estimate": -0.1426,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -1.7074,
+      "surprisePercent": -1197.3352,
+      "symbol": "SMR",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:56.439836"
+  },
+  "SNOW_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:56.911964",
+    "earnings": {
+      "actual": 0.35,
+      "estimate": 0.3164,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.0336,
+      "surprisePercent": 10.6195,
+      "symbol": "SNOW",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:56.911976"
+  },
+  "SOFI_2025-12-31": {
+    "first_seen": "2026-02-05T04:51:57.381423",
+    "earnings": {
+      "actual": 0.13,
+      "estimate": 0.1185,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0115,
+      "surprisePercent": 9.7046,
+      "symbol": "SOFI",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:57.381435"
+  },
+  "SOUN_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:57.857871",
+    "earnings": {
+      "actual": -0.03,
+      "estimate": -0.0349,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0049,
+      "surprisePercent": 14.0401,
+      "symbol": "SOUN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:57.857882"
+  },
+  "SPOT_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:58.332614",
+    "earnings": {
+      "actual": 3.28,
+      "estimate": 2.0145,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 1.2655,
+      "surprisePercent": 62.8196,
+      "symbol": "SPOT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:58.332625"
+  },
+  "SYNA_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:58.833307",
+    "earnings": {
+      "actual": 1.09,
+      "estimate": 1.0783,
+      "period": "2025-09-30",
+      "quarter": 1,
+      "surprise": 0.0117,
+      "surprisePercent": 1.085,
+      "symbol": "SYNA",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:58.833318"
+  },
+  "TEM_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:59.358283",
+    "earnings": {
+      "actual": -0.11,
+      "estimate": -0.1695,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0595,
+      "surprisePercent": 35.1032,
+      "symbol": "TEM",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:59.358294"
+  },
+  "TMC_2025-09-30": {
+    "first_seen": "2026-02-05T04:51:59.826174",
+    "earnings": {
+      "actual": -0.13,
+      "estimate": -0.0556,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0744,
+      "surprisePercent": -133.8129,
+      "symbol": "TMC",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:51:59.826214"
+  },
+  "TSLA_2025-12-31": {
+    "first_seen": "2026-02-05T04:52:00.297266",
+    "earnings": {
+      "actual": 0.5,
+      "estimate": 0.4559,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0441,
+      "surprisePercent": 9.6732,
+      "symbol": "TSLA",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:00.297276"
+  },
+  "TSM_2025-12-31": {
+    "first_seen": "2026-02-05T04:52:00.767473",
+    "earnings": {
+      "actual": 19.5,
+      "estimate": 18.5437,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.9563,
+      "surprisePercent": 5.157,
+      "symbol": "2330.TW",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:00.767485"
+  },
+  "TTD_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:01.251270",
+    "earnings": {
+      "actual": 0.45,
+      "estimate": 0.4453,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0047,
+      "surprisePercent": 1.0555,
+      "symbol": "TTD",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:01.251286"
+  },
+  "UBER_2025-12-31": {
+    "first_seen": "2026-02-05T04:52:01.717882",
+    "earnings": {
+      "actual": 0.71,
+      "estimate": 0.8113,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.1013,
+      "surprisePercent": -12.4861,
+      "symbol": "UBER",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:01.717893"
+  },
+  "UAMY_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:02.283516",
+    "earnings": {
+      "actual": -0.04,
+      "estimate": 0.017,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.057,
+      "surprisePercent": -335.2941,
+      "symbol": "UAMY",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:02.283527"
+  },
+  "UNH_2025-12-31": {
+    "first_seen": "2026-02-05T04:52:02.798108",
+    "earnings": {
+      "actual": 2.11,
+      "estimate": 2.1222,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0122,
+      "surprisePercent": -0.5749,
+      "symbol": "UNH",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:02.798118"
+  },
+  "USAR_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:03.288036",
+    "earnings": {
+      "actual": -0.25,
+      "estimate": -0.0791,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.1709,
+      "surprisePercent": -216.0556,
+      "symbol": "USAR",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:03.288047"
+  },
+  "UUUU_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:03.791847",
+    "earnings": {
+      "actual": -0.07,
+      "estimate": -0.0612,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": -0.0088,
+      "surprisePercent": -14.3791,
+      "symbol": "UUUU",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:03.791858"
+  },
+  "XOM_2025-12-31": {
+    "first_seen": "2026-02-05T04:52:04.267973",
+    "earnings": {
+      "actual": 1.71,
+      "estimate": 1.7016,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0084,
+      "surprisePercent": 0.4937,
+      "symbol": "XOM",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:04.267984"
+  },
+  "XPEV_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:04.790585",
+    "earnings": {
+      "actual": -0.4,
+      "estimate": -0.4114,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0114,
+      "surprisePercent": 2.771,
+      "symbol": "XPEV",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:04.790596"
+  },
+  "Z_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:05.289507",
+    "earnings": {
+      "actual": 0.44,
+      "estimate": 0.4392,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0008,
+      "surprisePercent": 0.1821,
+      "symbol": "Z",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:05.289518"
+  },
+  "ZBRA_2025-09-30": {
+    "first_seen": "2026-02-05T04:52:05.758810",
+    "earnings": {
+      "actual": 3.88,
+      "estimate": 3.8259,
+      "period": "2025-09-30",
+      "quarter": 3,
+      "surprise": 0.0541,
+      "surprisePercent": 1.414,
+      "symbol": "ZBRA",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-05T04:52:05.758821"
+  }
+}
