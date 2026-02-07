@@ -578,5 +578,15 @@
       "change": 24933,
       "mspr": 100
     }
+  },
+  "ABT_2026_2": {
+    "first_seen": "2026-02-07T10:02:16.651871",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2026,
+      "month": 2,
+      "change": 10000,
+      "mspr": 100
+    }
   }
 }
