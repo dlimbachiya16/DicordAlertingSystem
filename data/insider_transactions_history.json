@@ -9654,5 +9654,1484 @@
       "transactionDate": "2026-02-03",
       "transactionPrice": 0
     }
+  },
+  "ABT_STARKS DANIEL J_2026-02-04_6738817_P": {
+    "first_seen": "2026-02-07T05:02:14.142887",
+    "transaction": {
+      "change": 5033,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000902132-26-000003",
+      "isDerivative": false,
+      "name": "STARKS DANIEL J",
+      "share": 6738817,
+      "source": "sec",
+      "symbol": "ABT",
+      "transactionCode": "P",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 108.3328
+    }
+  },
+  "ABT_STARKS DANIEL J_2026-02-04_6733784_P": {
+    "first_seen": "2026-02-07T05:02:14.142909",
+    "transaction": {
+      "change": 4967,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000902132-26-000003",
+      "isDerivative": false,
+      "name": "STARKS DANIEL J",
+      "share": 6733784,
+      "source": "sec",
+      "symbol": "ABT",
+      "transactionCode": "P",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 109.1388
+    }
+  },
+  "CRWV_Goldberg Chen_2026-02-05_375000_M": {
+    "first_seen": "2026-02-07T05:02:24.321528",
+    "transaction": {
+      "change": -37500,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000058",
+      "isDerivative": true,
+      "name": "Goldberg Chen",
+      "share": 375000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Goldberg Chen_2026-02-05_42859_S": {
+    "first_seen": "2026-02-07T05:02:24.321554",
+    "transaction": {
+      "change": -17985,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000058",
+      "isDerivative": false,
+      "name": "Goldberg Chen",
+      "share": 42859,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 79.6937
+    }
+  },
+  "CRWV_Goldberg Chen_2026-02-05_60844_M": {
+    "first_seen": "2026-02-07T05:02:24.321562",
+    "transaction": {
+      "change": 37500,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000058",
+      "isDerivative": false,
+      "name": "Goldberg Chen",
+      "share": 60844,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_11434292_C": {
+    "first_seen": "2026-02-07T05:02:24.321569",
+    "transaction": {
+      "change": -281250,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": true,
+      "name": "Venturo Brian M",
+      "share": 11434292,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_0_S": {
+    "first_seen": "2026-02-07T05:02:24.321575",
+    "transaction": {
+      "change": -3900,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 91.6679
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_3900_S": {
+    "first_seen": "2026-02-07T05:02:24.321586",
+    "transaction": {
+      "change": -14096,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 3900,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 90.4669
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_17996_S": {
+    "first_seen": "2026-02-07T05:02:24.321596",
+    "transaction": {
+      "change": -17897,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 17996,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 89.4747
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_35893_S": {
+    "first_seen": "2026-02-07T05:02:24.321601",
+    "transaction": {
+      "change": -22823,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 35893,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 88.549
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_58716_S": {
+    "first_seen": "2026-02-07T05:02:24.321606",
+    "transaction": {
+      "change": -24831,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 58716,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 87.6358
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_83547_S": {
+    "first_seen": "2026-02-07T05:02:24.321611",
+    "transaction": {
+      "change": -12498,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 83547,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 86.5888
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_96045_S": {
+    "first_seen": "2026-02-07T05:02:24.321616",
+    "transaction": {
+      "change": -22215,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 96045,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 85.5034
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_118260_S": {
+    "first_seen": "2026-02-07T05:02:24.321713",
+    "transaction": {
+      "change": -17501,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 118260,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 84.4793
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_135761_S": {
+    "first_seen": "2026-02-07T05:02:24.321718",
+    "transaction": {
+      "change": -23290,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 135761,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 83.5892
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_159051_S": {
+    "first_seen": "2026-02-07T05:02:24.321723",
+    "transaction": {
+      "change": -100343,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 159051,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 82.5182
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_259394_S": {
+    "first_seen": "2026-02-07T05:02:24.321728",
+    "transaction": {
+      "change": -21856,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 259394,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 81.7747
+    }
+  },
+  "CRWV_Venturo Brian M_2026-02-04_281250_C": {
+    "first_seen": "2026-02-07T05:02:24.321733",
+    "transaction": {
+      "change": 281250,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001769628-26-000059",
+      "isDerivative": false,
+      "name": "Venturo Brian M",
+      "share": 281250,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 0
+    }
+  },
+  "CVX_Knowles Alana K_2026-02-04_7963_I": {
+    "first_seen": "2026-02-07T05:02:26.251149",
+    "transaction": {
+      "change": -5000,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000093410-26-000049",
+      "isDerivative": false,
+      "name": "Knowles Alana K",
+      "share": 7963,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "I",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 181.68
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-06_2851024_F": {
+    "first_seen": "2026-02-07T05:02:29.571294",
+    "transaction": {
+      "change": -676955,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2851024,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 333.34
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-06_3527979_A": {
+    "first_seen": "2026-02-07T05:02:29.571312",
+    "transaction": {
+      "change": 1348607,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 3527979,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2179372_S": {
+    "first_seen": "2026-02-07T05:02:29.571316",
+    "transaction": {
+      "change": -200,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2179372,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 343.74
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2179572_S": {
+    "first_seen": "2026-02-07T05:02:29.571323",
+    "transaction": {
+      "change": -1400,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2179572,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 342.81
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2180972_S": {
+    "first_seen": "2026-02-07T05:02:29.571328",
+    "transaction": {
+      "change": -2300,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2180972,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 341.98
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2183272_S": {
+    "first_seen": "2026-02-07T05:02:29.571334",
+    "transaction": {
+      "change": -500,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2183272,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 340.46
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2183772_S": {
+    "first_seen": "2026-02-07T05:02:29.571339",
+    "transaction": {
+      "change": -400,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2183772,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 339.29
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2184172_S": {
+    "first_seen": "2026-02-07T05:02:29.571344",
+    "transaction": {
+      "change": -1200,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2184172,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 338.02
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2185372_S": {
+    "first_seen": "2026-02-07T05:02:29.571349",
+    "transaction": {
+      "change": -2174,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2185372,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 337.27
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2187546_S": {
+    "first_seen": "2026-02-07T05:02:29.571354",
+    "transaction": {
+      "change": -1226,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2187546,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 336.35
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2188772_S": {
+    "first_seen": "2026-02-07T05:02:29.571841",
+    "transaction": {
+      "change": -2000,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2188772,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 335.18
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2190772_S": {
+    "first_seen": "2026-02-07T05:02:29.571851",
+    "transaction": {
+      "change": -8798,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2190772,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 334.09
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2199570_S": {
+    "first_seen": "2026-02-07T05:02:29.571855",
+    "transaction": {
+      "change": -6802,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2199570,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 333.34
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2206372_S": {
+    "first_seen": "2026-02-07T05:02:29.571859",
+    "transaction": {
+      "change": -3500,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2206372,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 332.04
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2209872_S": {
+    "first_seen": "2026-02-07T05:02:29.571863",
+    "transaction": {
+      "change": -1400,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2209872,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 331.13
+    }
+  },
+  "GOOGL_Pichai Sundar_2026-02-04_2211272_S": {
+    "first_seen": "2026-02-07T05:02:29.571867",
+    "transaction": {
+      "change": -600,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001193125-26-041594",
+      "isDerivative": false,
+      "name": "Pichai Sundar",
+      "share": 2211272,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 330.13
+    }
+  },
+  "JNJ_Forminard Elizabeth_2026-02-05_0_M": {
+    "first_seen": "2026-02-07T05:02:33.411259",
+    "transaction": {
+      "change": -8921,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001950802-26-000002",
+      "isDerivative": true,
+      "name": "Forminard Elizabeth",
+      "share": 0,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 129.51
+    }
+  },
+  "JNJ_Forminard Elizabeth_2026-02-05_15548_F": {
+    "first_seen": "2026-02-07T05:02:33.411277",
+    "transaction": {
+      "change": -6226,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001950802-26-000002",
+      "isDerivative": false,
+      "name": "Forminard Elizabeth",
+      "share": 15548,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 237.9
+    }
+  },
+  "JNJ_Forminard Elizabeth_2026-02-05_21774_M": {
+    "first_seen": "2026-02-07T05:02:33.411284",
+    "transaction": {
+      "change": 8921,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001950802-26-000002",
+      "isDerivative": false,
+      "name": "Forminard Elizabeth",
+      "share": 21774,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 129.51
+    }
+  },
+  "MARA_Thiel Frederick G_2026-02-05_3409366_F": {
+    "first_seen": "2026-02-07T05:02:37.289863",
+    "transaction": {
+      "change": -67704,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001493152-26-005663",
+      "isDerivative": false,
+      "name": "Thiel Frederick G",
+      "share": 3409366,
+      "source": "sec",
+      "symbol": "MARA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 9.12
+    }
+  },
+  "MARA_Khan Salman Hassan_2026-02-05_1104359_F": {
+    "first_seen": "2026-02-07T05:02:37.289881",
+    "transaction": {
+      "change": -31007,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001493152-26-005662",
+      "isDerivative": false,
+      "name": "Khan Salman Hassan",
+      "share": 1104359,
+      "source": "sec",
+      "symbol": "MARA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 9.12
+    }
+  },
+  "MARA_Nowaid Zabi_2026-02-05_690985_F": {
+    "first_seen": "2026-02-07T05:02:37.289888",
+    "transaction": {
+      "change": -14249,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001493152-26-005661",
+      "isDerivative": false,
+      "name": "Nowaid Zabi",
+      "share": 690985,
+      "source": "sec",
+      "symbol": "MARA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 9.12
+    }
+  },
+  "NFLX_HASTINGS REED_2026-02-05_21159576_G": {
+    "first_seen": "2026-02-07T05:02:40.121005",
+    "transaction": {
+      "change": -241944,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001065280-26-000079",
+      "isDerivative": false,
+      "name": "HASTINGS REED",
+      "share": 21159576,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "G",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_722934_S": {
+    "first_seen": "2026-02-07T05:02:42.013098",
+    "transaction": {
+      "change": -548,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 722934,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 179.1618
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_723482_S": {
+    "first_seen": "2026-02-07T05:02:42.013134",
+    "transaction": {
+      "change": -985,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 723482,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 178.57
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_724467_S": {
+    "first_seen": "2026-02-07T05:02:42.013143",
+    "transaction": {
+      "change": -1470,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 724467,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 177.4962
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_725937_S": {
+    "first_seen": "2026-02-07T05:02:42.013149",
+    "transaction": {
+      "change": -1005,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 725937,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 176.5318
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_726942_S": {
+    "first_seen": "2026-02-07T05:02:42.013155",
+    "transaction": {
+      "change": -2042,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 726942,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 175.3454
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_728984_S": {
+    "first_seen": "2026-02-07T05:02:42.013159",
+    "transaction": {
+      "change": -2121,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 728984,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 174.5323
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_731105_S": {
+    "first_seen": "2026-02-07T05:02:42.013165",
+    "transaction": {
+      "change": -1215,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 731105,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 173.4058
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_732320_S": {
+    "first_seen": "2026-02-07T05:02:42.013170",
+    "transaction": {
+      "change": -614,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 732320,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 172.3999
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_93060_S": {
+    "first_seen": "2026-02-07T05:02:42.013173",
+    "transaction": {
+      "change": -528,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 93060,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 179.1607
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_93588_S": {
+    "first_seen": "2026-02-07T05:02:42.013178",
+    "transaction": {
+      "change": -963,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 93588,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 178.5728
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_94551_S": {
+    "first_seen": "2026-02-07T05:02:42.013183",
+    "transaction": {
+      "change": -1424,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 94551,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 177.4955
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_95975_S": {
+    "first_seen": "2026-02-07T05:02:42.013187",
+    "transaction": {
+      "change": -976,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 95975,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 176.5347
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_96951_S": {
+    "first_seen": "2026-02-07T05:02:42.013192",
+    "transaction": {
+      "change": -2164,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 96951,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 175.3633
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_99115_S": {
+    "first_seen": "2026-02-07T05:02:42.013197",
+    "transaction": {
+      "change": -2180,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 99115,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 174.5311
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_101295_S": {
+    "first_seen": "2026-02-07T05:02:42.013202",
+    "transaction": {
+      "change": -1266,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 101295,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 173.4055
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_102561_S": {
+    "first_seen": "2026-02-07T05:02:42.013205",
+    "transaction": {
+      "change": -499,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 102561,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 172.4983
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_846772_S": {
+    "first_seen": "2026-02-07T05:02:42.013714",
+    "transaction": {
+      "change": -1452,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 846772,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 179.1604
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_848224_S": {
+    "first_seen": "2026-02-07T05:02:42.013723",
+    "transaction": {
+      "change": -2625,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 848224,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 178.5714
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_850849_S": {
+    "first_seen": "2026-02-07T05:02:42.013729",
+    "transaction": {
+      "change": -3897,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 850849,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 177.496
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_854746_S": {
+    "first_seen": "2026-02-07T05:02:42.013734",
+    "transaction": {
+      "change": -2659,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 854746,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 176.534
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_857405_S": {
+    "first_seen": "2026-02-07T05:02:42.013738",
+    "transaction": {
+      "change": -6120,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 857405,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 175.3713
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_863525_S": {
+    "first_seen": "2026-02-07T05:02:42.013743",
+    "transaction": {
+      "change": -6076,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 863525,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 174.5304
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_869601_S": {
+    "first_seen": "2026-02-07T05:02:42.013748",
+    "transaction": {
+      "change": -3524,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 869601,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 173.406
+    }
+  },
+  "NVDA_Kress Colette_2026-02-04_873125_S": {
+    "first_seen": "2026-02-07T05:02:42.013752",
+    "transaction": {
+      "change": -1287,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001588670-26-000004",
+      "isDerivative": false,
+      "name": "Kress Colette",
+      "share": 873125,
+      "source": "sec",
+      "symbol": "NVDA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 172.543
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_111670_M": {
+    "first_seen": "2026-02-07T05:02:42.958449",
+    "transaction": {
+      "change": -6448,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": true,
+      "name": "Lee Chan Henry",
+      "share": 111670,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 0
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_88413_M": {
+    "first_seen": "2026-02-07T05:02:42.958464",
+    "transaction": {
+      "change": -8606,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": true,
+      "name": "Lee Chan Henry",
+      "share": 88413,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 0
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_23920_M": {
+    "first_seen": "2026-02-07T05:02:42.958468",
+    "transaction": {
+      "change": -6526,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": true,
+      "name": "Lee Chan Henry",
+      "share": 23920,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 0
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_0_S": {
+    "first_seen": "2026-02-07T05:02:42.958488",
+    "transaction": {
+      "change": -996,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": false,
+      "name": "Lee Chan Henry",
+      "share": 0,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 350
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_996_S": {
+    "first_seen": "2026-02-07T05:02:42.958515",
+    "transaction": {
+      "change": -664,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": false,
+      "name": "Lee Chan Henry",
+      "share": 996,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 348.79
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_1660_M": {
+    "first_seen": "2026-02-07T05:02:42.958520",
+    "transaction": {
+      "change": 496,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": false,
+      "name": "Lee Chan Henry",
+      "share": 1660,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 159.03
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_1164_M": {
+    "first_seen": "2026-02-07T05:02:42.958526",
+    "transaction": {
+      "change": 662,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": false,
+      "name": "Lee Chan Henry",
+      "share": 1164,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 213.32
+    }
+  },
+  "ONC_Lee Chan Henry_2026-02-04_502_M": {
+    "first_seen": "2026-02-07T05:02:42.958528",
+    "transaction": {
+      "change": 502,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001980648-26-000004",
+      "isDerivative": false,
+      "name": "Lee Chan Henry",
+      "share": 502,
+      "source": "sec",
+      "symbol": "ONC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-04",
+      "transactionPrice": 194.47
+    }
+  },
+  "QCOM_Palkhiwala Akash J._2026-02-06_35599_S": {
+    "first_seen": "2026-02-07T05:02:48.205310",
+    "transaction": {
+      "change": -842,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000804328-26-000018",
+      "isDerivative": false,
+      "name": "Palkhiwala Akash J.",
+      "share": 35599,
+      "source": "sec",
+      "symbol": "QCOM",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 138.6153
+    }
+  },
+  "QCOM_Palkhiwala Akash J._2026-02-06_36441_S": {
+    "first_seen": "2026-02-07T05:02:48.205328",
+    "transaction": {
+      "change": -1259,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000804328-26-000018",
+      "isDerivative": false,
+      "name": "Palkhiwala Akash J.",
+      "share": 36441,
+      "source": "sec",
+      "symbol": "QCOM",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 137.9094
+    }
+  },
+  "QCOM_Palkhiwala Akash J._2026-02-06_37700_S": {
+    "first_seen": "2026-02-07T05:02:48.205335",
+    "transaction": {
+      "change": -814,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000804328-26-000018",
+      "isDerivative": false,
+      "name": "Palkhiwala Akash J.",
+      "share": 37700,
+      "source": "sec",
+      "symbol": "QCOM",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 137.1085
+    }
+  },
+  "QCOM_Palkhiwala Akash J._2026-02-06_38514_S": {
+    "first_seen": "2026-02-07T05:02:48.205340",
+    "transaction": {
+      "change": -418,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0000804328-26-000018",
+      "isDerivative": false,
+      "name": "Palkhiwala Akash J.",
+      "share": 38514,
+      "source": "sec",
+      "symbol": "QCOM",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 136.0058
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_1335289_S": {
+    "first_seen": "2026-02-07T05:02:51.605011",
+    "transaction": {
+      "change": -23688,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 1335289,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.04
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_1358977_S": {
+    "first_seen": "2026-02-07T05:02:51.605031",
+    "transaction": {
+      "change": -10317,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 1358977,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.645
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_31076_S": {
+    "first_seen": "2026-02-07T05:02:51.605038",
+    "transaction": {
+      "change": -585,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 31076,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.04
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_31661_S": {
+    "first_seen": "2026-02-07T05:02:51.605042",
+    "transaction": {
+      "change": -255,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 31661,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.645
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_479985_S": {
+    "first_seen": "2026-02-07T05:02:51.605055",
+    "transaction": {
+      "change": -9037,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 479985,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.04
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_489022_S": {
+    "first_seen": "2026-02-07T05:02:51.605061",
+    "transaction": {
+      "change": -3936,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 489022,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.645
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_23718_S": {
+    "first_seen": "2026-02-07T05:02:51.605065",
+    "transaction": {
+      "change": -282,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 23718,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.04
+    }
+  },
+  "SNOW_Speiser Michael L_2026-02-06_24000_S": {
+    "first_seen": "2026-02-07T05:02:51.605068",
+    "transaction": {
+      "change": -121,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001433644-26-000004",
+      "isDerivative": false,
+      "name": "Speiser Michael L",
+      "share": 24000,
+      "source": "sec",
+      "symbol": "SNOW",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 165.645
+    }
+  },
+  "SOFI_Lavet Robert S_2026-02-06_17172_P": {
+    "first_seen": "2026-02-07T05:02:52.084653",
+    "transaction": {
+      "change": 5000,
+      "currency": "",
+      "filingDate": "2026-02-06",
+      "id": "0001351119-26-000007",
+      "isDerivative": false,
+      "name": "Lavet Robert S",
+      "share": 17172,
+      "source": "sec",
+      "symbol": "SOFI",
+      "transactionCode": "P",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 21.044
+    }
   }
 }
