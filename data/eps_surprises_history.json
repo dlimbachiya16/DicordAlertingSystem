@@ -1603,5 +1603,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-10T11:33:21.959600"
+  },
+  "CVS_2025-12-31": {
+    "first_seen": "2026-02-10T12:08:39.958604",
+    "earnings": {
+      "actual": 1.09,
+      "estimate": 1.0018,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0882,
+      "surprisePercent": 8.8042,
+      "symbol": "CVS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T12:08:39.958618"
   }
 }
