@@ -92,12 +92,12 @@
   "ALGT_2025-12-31": {
     "first_seen": "2026-02-05T04:51:20.352867",
     "earnings": {
-      "actual": 2.86,
+      "actual": 2.8,
       "estimate": 1.9971,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.8629,
-      "surprisePercent": 43.2077,
+      "surprise": 0.8029,
+      "surprisePercent": 40.2033,
       "symbol": "ALGT",
       "year": 2025
     },
@@ -528,11 +528,11 @@
     "first_seen": "2026-02-05T04:51:34.325986",
     "earnings": {
       "actual": 2.82,
-      "estimate": 2.7061,
+      "estimate": 2.7063,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.1139,
-      "surprisePercent": 4.209,
+      "surprise": 0.1137,
+      "surprisePercent": 4.2013,
       "symbol": "GOOGL",
       "year": 2025
     },
@@ -813,11 +813,11 @@
     "first_seen": "2026-02-05T04:51:43.727235",
     "earnings": {
       "actual": 4.14,
-      "estimate": 4.0478,
+      "estimate": 4.0345,
       "period": "2025-12-31",
       "quarter": 2,
-      "surprise": 0.0922,
-      "surprisePercent": 2.2778,
+      "surprise": 0.1055,
+      "surprisePercent": 2.6149,
       "symbol": "MSFT",
       "year": 2026
     },
@@ -1113,11 +1113,11 @@
     "first_seen": "2026-02-05T04:51:53.493263",
     "earnings": {
       "actual": 3.5,
-      "estimate": 3.4686,
+      "estimate": 3.48,
       "period": "2025-12-31",
       "quarter": 1,
-      "surprise": 0.0314,
-      "surprisePercent": 0.9053,
+      "surprise": 0.02,
+      "surprisePercent": 0.5747,
       "symbol": "QCOM",
       "year": 2026
     },
@@ -1173,11 +1173,11 @@
     "first_seen": "2026-02-05T04:51:55.971248",
     "earnings": {
       "actual": 0.69,
-      "estimate": 0.4964,
+      "estimate": 0.4976,
       "period": "2025-12-31",
       "quarter": 2,
-      "surprise": 0.1936,
-      "surprisePercent": 39.0008,
+      "surprise": 0.1924,
+      "surprisePercent": 38.6656,
       "symbol": "SMCI",
       "year": 2026
     },
@@ -1352,12 +1352,12 @@
   "UBER_2025-12-31": {
     "first_seen": "2026-02-05T04:52:01.717882",
     "earnings": {
-      "actual": 0.71,
-      "estimate": 0.8113,
+      "actual": 0.14,
+      "estimate": 0.8146,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.1013,
-      "surprisePercent": -12.4861,
+      "surprise": -0.6746,
+      "surprisePercent": -82.8137,
       "symbol": "UBER",
       "year": 2025
     },
@@ -1503,11 +1503,11 @@
     "first_seen": "2026-02-05T23:01:20.689360",
     "earnings": {
       "actual": 1.95,
-      "estimate": 2.0087,
+      "estimate": 2.011,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.0587,
-      "surprisePercent": -2.9223,
+      "surprise": -0.061,
+      "surprisePercent": -3.0333,
       "symbol": "AMZN",
       "year": 2025
     },
@@ -1532,12 +1532,12 @@
   "IREN_2025-12-31": {
     "first_seen": "2026-02-05T23:01:38.513485",
     "earnings": {
-      "actual": -0.44,
+      "actual": -0.15,
       "estimate": -0.098,
       "period": "2025-12-31",
       "quarter": 2,
-      "surprise": -0.342,
-      "surprisePercent": -348.9796,
+      "surprise": -0.052,
+      "surprisePercent": -53.0612,
       "symbol": "IREN",
       "year": 2026
     },
@@ -1573,5 +1573,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-06T12:03:37.286489"
+  },
+  "ARM_2025-12-31": {
+    "first_seen": "2026-02-10T09:34:25.333667",
+    "earnings": {
+      "actual": 0.43,
+      "estimate": 0.4112,
+      "period": "2025-12-31",
+      "quarter": 3,
+      "surprise": 0.0188,
+      "surprisePercent": 4.572,
+      "symbol": "ARM",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T09:34:25.333677"
   }
 }
