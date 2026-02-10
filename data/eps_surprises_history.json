@@ -1588,5 +1588,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-10T09:34:25.333677"
+  },
+  "SPOT_2025-12-31": {
+    "first_seen": "2026-02-10T11:33:21.959589",
+    "earnings": {
+      "actual": 4.332852,
+      "estimate": 2.7927,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 1.540152,
+      "surprisePercent": 55.1492,
+      "symbol": "SPOT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T11:33:21.959600"
   }
 }
