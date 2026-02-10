@@ -11133,5 +11133,430 @@
       "transactionDate": "2026-02-06",
       "transactionPrice": 21.044
     }
+  },
+  "AEO_Henke Beth M_2026-02-05_14299_F": {
+    "first_seen": "2026-02-10T03:54:56.034902",
+    "transaction": {
+      "change": -4636,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001537",
+      "isDerivative": false,
+      "name": "Henke Beth M",
+      "share": 14299,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 23.09
+    }
+  },
+  "AEO_Henke Beth M_2026-02-05_18935_A": {
+    "first_seen": "2026-02-10T03:54:56.034926",
+    "transaction": {
+      "change": 14300,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001537",
+      "isDerivative": false,
+      "name": "Henke Beth M",
+      "share": 18935,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "AEO_Mathias Michael A._2026-02-05_124477_F": {
+    "first_seen": "2026-02-10T03:54:56.034942",
+    "transaction": {
+      "change": -27425,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001539",
+      "isDerivative": false,
+      "name": "Mathias Michael A.",
+      "share": 124477,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 23.09
+    }
+  },
+  "AEO_Mathias Michael A._2026-02-05_151902_A": {
+    "first_seen": "2026-02-10T03:54:56.034950",
+    "transaction": {
+      "change": 76265,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001539",
+      "isDerivative": false,
+      "name": "Mathias Michael A.",
+      "share": 151902,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "AEO_Baldwin Marisa_2026-02-05_45985_F": {
+    "first_seen": "2026-02-10T03:54:56.034956",
+    "transaction": {
+      "change": -13129,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001535",
+      "isDerivative": false,
+      "name": "Baldwin Marisa",
+      "share": 45985,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 23.09
+    }
+  },
+  "AEO_Baldwin Marisa_2026-02-05_59114_A": {
+    "first_seen": "2026-02-10T03:54:56.034963",
+    "transaction": {
+      "change": 35750,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001535",
+      "isDerivative": false,
+      "name": "Baldwin Marisa",
+      "share": 59114,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "AEO_Keefer James H JR_2026-02-05_21046_F": {
+    "first_seen": "2026-02-10T03:54:56.034969",
+    "transaction": {
+      "change": -4408,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001538",
+      "isDerivative": false,
+      "name": "Keefer James H JR",
+      "share": 21046,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 23.09
+    }
+  },
+  "AEO_Keefer James H JR_2026-02-05_25454_A": {
+    "first_seen": "2026-02-10T03:54:56.034975",
+    "transaction": {
+      "change": 14300,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001538",
+      "isDerivative": false,
+      "name": "Keefer James H JR",
+      "share": 25454,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "AEO_Foyle Jennifer M._2026-02-05_287727_F": {
+    "first_seen": "2026-02-10T03:54:56.034981",
+    "transaction": {
+      "change": -104218,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001536",
+      "isDerivative": false,
+      "name": "Foyle Jennifer M.",
+      "share": 287727,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 23.09
+    }
+  },
+  "AEO_Foyle Jennifer M._2026-02-05_391945_A": {
+    "first_seen": "2026-02-10T03:54:56.034986",
+    "transaction": {
+      "change": 200194,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001536",
+      "isDerivative": false,
+      "name": "Foyle Jennifer M.",
+      "share": 391945,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "AEO_SCHOTTENSTEIN JAY L_2026-02-05_2197682_F": {
+    "first_seen": "2026-02-10T03:54:56.034991",
+    "transaction": {
+      "change": -151081,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001540",
+      "isDerivative": false,
+      "name": "SCHOTTENSTEIN JAY L",
+      "share": 2197682,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 23.09
+    }
+  },
+  "AEO_SCHOTTENSTEIN JAY L_2026-02-05_2348763_A": {
+    "first_seen": "2026-02-10T03:54:56.034996",
+    "transaction": {
+      "change": 395623,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001225208-26-001540",
+      "isDerivative": false,
+      "name": "SCHOTTENSTEIN JAY L",
+      "share": 2348763,
+      "source": "sec",
+      "symbol": "AEO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-05",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Mulholland Kristen_2026-02-06_0_M": {
+    "first_seen": "2026-02-10T03:55:16.424592",
+    "transaction": {
+      "change": -5625,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000200406-26-000010",
+      "isDerivative": true,
+      "name": "Mulholland Kristen",
+      "share": 0,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 101.87
+    }
+  },
+  "JNJ_Mulholland Kristen_2026-02-06_16409_F": {
+    "first_seen": "2026-02-10T03:55:16.424611",
+    "transaction": {
+      "change": -3335,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000200406-26-000010",
+      "isDerivative": false,
+      "name": "Mulholland Kristen",
+      "share": 16409,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 239.99
+    }
+  },
+  "JNJ_Mulholland Kristen_2026-02-06_19744_M": {
+    "first_seen": "2026-02-10T03:55:16.424619",
+    "transaction": {
+      "change": 5625,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000200406-26-000010",
+      "isDerivative": false,
+      "name": "Mulholland Kristen",
+      "share": 19744,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 101.87
+    }
+  },
+  "JNJ_Wengel Kathryn E_2026-02-06_0_M": {
+    "first_seen": "2026-02-10T03:55:16.424625",
+    "transaction": {
+      "change": -38945,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000200406-26-000008",
+      "isDerivative": true,
+      "name": "Wengel Kathryn E",
+      "share": 0,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 101.87
+    }
+  },
+  "JNJ_Wengel Kathryn E_2026-02-06_105956_F": {
+    "first_seen": "2026-02-10T03:55:16.424631",
+    "transaction": {
+      "change": -27270,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000200406-26-000008",
+      "isDerivative": false,
+      "name": "Wengel Kathryn E",
+      "share": 105956,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 239.99
+    }
+  },
+  "JNJ_Wengel Kathryn E_2026-02-06_133226_M": {
+    "first_seen": "2026-02-10T03:55:16.424636",
+    "transaction": {
+      "change": 38945,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000200406-26-000008",
+      "isDerivative": false,
+      "name": "Wengel Kathryn E",
+      "share": 133226,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 101.87
+    }
+  },
+  "NFLX_Neumann Spencer Adam_2026-02-06_73787_S": {
+    "first_seen": "2026-02-10T03:55:23.737996",
+    "transaction": {
+      "change": -9248,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001065280-26-000081",
+      "isDerivative": false,
+      "name": "Neumann Spencer Adam",
+      "share": 73787,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 81.2714
+    }
+  },
+  "PYPL_Keller Frank_2026-02-06_51567_S": {
+    "first_seen": "2026-02-10T03:55:31.712480",
+    "transaction": {
+      "change": -3478,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001633917-26-000026",
+      "isDerivative": false,
+      "name": "Keller Frank",
+      "share": 51567,
+      "source": "sec",
+      "symbol": "PYPL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 40.2
+    }
+  },
+  "QCOM_ACE HEATHER S_2026-02-09_16393_S": {
+    "first_seen": "2026-02-10T03:55:32.747745",
+    "transaction": {
+      "change": -3200,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000804328-26-000019",
+      "isDerivative": false,
+      "name": "ACE HEATHER S",
+      "share": 16393,
+      "source": "sec",
+      "symbol": "QCOM",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 137
+    }
+  },
+  "SOFI_Freiberg Steven J_2026-02-06_63704_M": {
+    "first_seen": "2026-02-10T03:55:37.024809",
+    "transaction": {
+      "change": -250000,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001338913-26-000002",
+      "isDerivative": true,
+      "name": "Freiberg Steven J",
+      "share": 63704,
+      "source": "sec",
+      "symbol": "SOFI",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "SOFI_Freiberg Steven J_2026-02-06_588849_S": {
+    "first_seen": "2026-02-10T03:55:37.024832",
+    "transaction": {
+      "change": -94225,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001338913-26-000002",
+      "isDerivative": false,
+      "name": "Freiberg Steven J",
+      "share": 588849,
+      "source": "sec",
+      "symbol": "SOFI",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 20.31
+    }
+  },
+  "SOFI_Freiberg Steven J_2026-02-06_683074_M": {
+    "first_seen": "2026-02-10T03:55:37.024839",
+    "transaction": {
+      "change": 250000,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0001338913-26-000002",
+      "isDerivative": false,
+      "name": "Freiberg Steven J",
+      "share": 683074,
+      "source": "sec",
+      "symbol": "SOFI",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 7.33
+    }
+  },
+  "XOM_Talley Darrin L_2026-02-09_20354_S": {
+    "first_seen": "2026-02-10T03:55:44.471341",
+    "transaction": {
+      "change": -3230,
+      "currency": "",
+      "filingDate": "2026-02-09",
+      "id": "0000034088-26-000042",
+      "isDerivative": false,
+      "name": "Talley Darrin L",
+      "share": 20354,
+      "source": "sec",
+      "symbol": "XOM",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 149.175
+    }
   }
 }
