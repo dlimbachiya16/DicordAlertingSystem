@@ -1633,5 +1633,65 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-10T13:51:04.461369"
+  },
+  "ALAB_2025-12-31": {
+    "first_seen": "2026-02-10T23:23:55.684319",
+    "earnings": {
+      "actual": 0.58,
+      "estimate": 0.5245,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0555,
+      "surprisePercent": 10.5815,
+      "symbol": "ALAB",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T23:23:55.684332"
+  },
+  "HOOD_2025-12-31": {
+    "first_seen": "2026-02-10T23:24:11.614055",
+    "earnings": {
+      "actual": 0.66,
+      "estimate": 0.6398,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0202,
+      "surprisePercent": 3.1572,
+      "symbol": "HOOD",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T23:24:11.614068"
+  },
+  "LYFT_2025-12-31": {
+    "first_seen": "2026-02-10T23:24:17.832390",
+    "earnings": {
+      "actual": -0.2,
+      "estimate": 0.1175,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.3175,
+      "surprisePercent": -270.2128,
+      "symbol": "LYFT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T23:24:17.832403"
+  },
+  "Z_2025-12-31": {
+    "first_seen": "2026-02-10T23:24:40.895144",
+    "earnings": {
+      "actual": 0.39,
+      "estimate": 0.408,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.018,
+      "surprisePercent": -4.4118,
+      "symbol": "Z",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T23:24:40.895157"
   }
 }
