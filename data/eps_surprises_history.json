@@ -1618,5 +1618,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-10T12:08:39.958618"
+  },
+  "KO_2025-12-31": {
+    "first_seen": "2026-02-10T13:51:04.461358",
+    "earnings": {
+      "actual": 0.58,
+      "estimate": 0.5803,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0003,
+      "surprisePercent": -0.0517,
+      "symbol": "KO",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-10T13:51:04.461369"
   }
 }
