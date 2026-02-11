@@ -11558,5 +11558,1076 @@
       "transactionDate": "2026-02-09",
       "transactionPrice": 149.175
     }
+  },
+  "ALAB_Gajendra Sanjay_2026-02-06_1626272_A": {
+    "first_seen": "2026-02-11T04:34:00.663203",
+    "transaction": {
+      "change": 26522,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001998179-26-000002",
+      "isDerivative": false,
+      "name": "Gajendra Sanjay",
+      "share": 1626272,
+      "source": "sec",
+      "symbol": "ALAB",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALAB_Mazzara Philip_2026-02-06_142933_A": {
+    "first_seen": "2026-02-11T04:34:00.663220",
+    "transaction": {
+      "change": 5893,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001998163-26-000003",
+      "isDerivative": false,
+      "name": "Mazzara Philip",
+      "share": 142933,
+      "source": "sec",
+      "symbol": "ALAB",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALAB_Mohan Jitendra_2026-02-06_1547710_A": {
+    "first_seen": "2026-02-11T04:34:00.663227",
+    "transaction": {
+      "change": 26522,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001998053-26-000002",
+      "isDerivative": false,
+      "name": "Mohan Jitendra",
+      "share": 1547710,
+      "source": "sec",
+      "symbol": "ALAB",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALAB_Tate Michael Truett_2026-02-06_204084_A": {
+    "first_seen": "2026-02-11T04:34:00.663652",
+    "transaction": {
+      "change": 11787,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001399546-26-000002",
+      "isDerivative": false,
+      "name": "Tate Michael Truett",
+      "share": 204084,
+      "source": "sec",
+      "symbol": "ALAB",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-10_150000_S": {
+    "first_seen": "2026-02-11T04:34:01.649788",
+    "transaction": {
+      "change": -861,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 150000,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 114
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-10_1887348_S": {
+    "first_seen": "2026-02-11T04:34:01.649825",
+    "transaction": {
+      "change": -18757,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 1887348,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 113.519
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-09_150861_S": {
+    "first_seen": "2026-02-11T04:34:01.649833",
+    "transaction": {
+      "change": -24139,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 150861,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 114.7865
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-09_175000_S": {
+    "first_seen": "2026-02-11T04:34:01.649840",
+    "transaction": {
+      "change": -25000,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 175000,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 116.1862
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-09_1906105_S": {
+    "first_seen": "2026-02-11T04:34:01.649846",
+    "transaction": {
+      "change": -56243,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 1906105,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 114.8134
+    }
+  },
+  "ALGT_Hollingsworth Tyler Jay_2026-02-06_20509_A": {
+    "first_seen": "2026-02-11T04:34:01.649850",
+    "transaction": {
+      "change": 6812,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0002066736-26-000001",
+      "isDerivative": false,
+      "name": "Hollingsworth Tyler Jay",
+      "share": 20509,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALGT_Wells Drew Allen_2026-02-06_35383_A": {
+    "first_seen": "2026-02-11T04:34:01.649852",
+    "transaction": {
+      "change": 9760,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001975499-26-000001",
+      "isDerivative": false,
+      "name": "Wells Drew Allen",
+      "share": 35383,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALGT_Neal Robert James_2026-02-06_36437_A": {
+    "first_seen": "2026-02-11T04:34:01.649859",
+    "transaction": {
+      "change": 10437,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001964741-26-000001",
+      "isDerivative": false,
+      "name": "Neal Robert James",
+      "share": 36437,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALGT_Anderson Gregory Clark_2026-02-06_110488_A": {
+    "first_seen": "2026-02-11T04:34:01.649861",
+    "transaction": {
+      "change": 1948,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001632467-26-000001",
+      "isDerivative": false,
+      "name": "Anderson Gregory Clark",
+      "share": 110488,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-06_1962348_S": {
+    "first_seen": "2026-02-11T04:34:01.649867",
+    "transaction": {
+      "change": -75000,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 1962348,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 114.9852
+    }
+  },
+  "ALGT_GALLAGHER MAURICE J JR_2026-02-06_2037348_S": {
+    "first_seen": "2026-02-11T04:34:01.649873",
+    "transaction": {
+      "change": -100000,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0000938673-26-000001",
+      "isDerivative": false,
+      "name": "GALLAGHER MAURICE J JR",
+      "share": 2037348,
+      "source": "sec",
+      "symbol": "ALGT",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 113.67
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_0_M": {
+    "first_seen": "2026-02-11T04:34:08.081494",
+    "transaction": {
+      "change": -78433,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": true,
+      "name": "HAAS ALESIA J",
+      "share": 0,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_0_C": {
+    "first_seen": "2026-02-11T04:34:08.081504",
+    "transaction": {
+      "change": -617668,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": true,
+      "name": "HAAS ALESIA J",
+      "share": 0,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_617668_M": {
+    "first_seen": "2026-02-11T04:34:08.081509",
+    "transaction": {
+      "change": 617668,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": true,
+      "name": "HAAS ALESIA J",
+      "share": 617668,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_402165_S": {
+    "first_seen": "2026-02-11T04:34:08.081517",
+    "transaction": {
+      "change": -11214,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 402165,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 156.7201
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_413379_S": {
+    "first_seen": "2026-02-11T04:34:08.081522",
+    "transaction": {
+      "change": -116709,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 413379,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 156.0261
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_530088_S": {
+    "first_seen": "2026-02-11T04:34:08.081525",
+    "transaction": {
+      "change": -90676,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 530088,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 155.1526
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_620764_S": {
+    "first_seen": "2026-02-11T04:34:08.081545",
+    "transaction": {
+      "change": -128182,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 620764,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 154.0581
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_748946_S": {
+    "first_seen": "2026-02-11T04:34:08.081550",
+    "transaction": {
+      "change": -3757,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 748946,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 152.8565
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_752703_S": {
+    "first_seen": "2026-02-11T04:34:08.081554",
+    "transaction": {
+      "change": -14062,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 752703,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 152.0995
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_766765_M": {
+    "first_seen": "2026-02-11T04:34:08.081558",
+    "transaction": {
+      "change": 78433,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 766765,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 18.13
+    }
+  },
+  "COIN_HAAS ALESIA J_2026-02-06_688332_C": {
+    "first_seen": "2026-02-11T04:34:08.081562",
+    "transaction": {
+      "change": 617668,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001679788-26-000006",
+      "isDerivative": false,
+      "name": "HAAS ALESIA J",
+      "share": 688332,
+      "source": "sec",
+      "symbol": "COIN",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Schmid Timothy_2026-02-06_0_M": {
+    "first_seen": "2026-02-11T04:34:18.889171",
+    "transaction": {
+      "change": -15571,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001998491-26-000002",
+      "isDerivative": true,
+      "name": "Schmid Timothy",
+      "share": 0,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 101.87
+    }
+  },
+  "JNJ_Schmid Timothy_2026-02-06_22125_F": {
+    "first_seen": "2026-02-11T04:34:18.889190",
+    "transaction": {
+      "change": -10335,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001998491-26-000002",
+      "isDerivative": false,
+      "name": "Schmid Timothy",
+      "share": 22125,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 239.99
+    }
+  },
+  "JNJ_Schmid Timothy_2026-02-06_32460_M": {
+    "first_seen": "2026-02-11T04:34:18.889196",
+    "transaction": {
+      "change": 15571,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001998491-26-000002",
+      "isDerivative": false,
+      "name": "Schmid Timothy",
+      "share": 32460,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 101.87
+    }
+  },
+  "NEE_KETCHUM JOHN W_2026-02-09_0_M": {
+    "first_seen": "2026-02-11T04:34:25.929035",
+    "transaction": {
+      "change": -24535,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001667990-26-000002",
+      "isDerivative": true,
+      "name": "KETCHUM JOHN W",
+      "share": 0,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "NEE_KETCHUM JOHN W_2026-02-09_305933_S": {
+    "first_seen": "2026-02-11T04:34:25.929049",
+    "transaction": {
+      "change": -24535,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001667990-26-000002",
+      "isDerivative": false,
+      "name": "KETCHUM JOHN W",
+      "share": 305933,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.34
+    }
+  },
+  "NEE_KETCHUM JOHN W_2026-02-09_330468_M": {
+    "first_seen": "2026-02-11T04:34:25.929054",
+    "transaction": {
+      "change": 24535,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001667990-26-000002",
+      "isDerivative": false,
+      "name": "KETCHUM JOHN W",
+      "share": 330468,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 31.715
+    }
+  },
+  "NEE_KETCHUM JOHN W_2026-02-09_381001_M": {
+    "first_seen": "2026-02-11T04:34:25.929058",
+    "transaction": {
+      "change": 75068,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001667990-26-000002",
+      "isDerivative": false,
+      "name": "KETCHUM JOHN W",
+      "share": 381001,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 27.918
+    }
+  },
+  "NRG_Kapoor Sanjay_2026-02-09_1453_A": {
+    "first_seen": "2026-02-11T04:34:27.456668",
+    "transaction": {
+      "change": 1453,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001225208-26-001642",
+      "isDerivative": false,
+      "name": "Kapoor Sanjay",
+      "share": 1453,
+      "source": "sec",
+      "symbol": "NRG",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "RGTI_Clifton Michael S._2026-02-09_206250_S": {
+    "first_seen": "2026-02-11T04:34:35.144993",
+    "transaction": {
+      "change": -50000,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001123292-26-000132",
+      "isDerivative": true,
+      "name": "Clifton Michael S.",
+      "share": 206250,
+      "source": "sec",
+      "symbol": "RGTI",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 6.9447
+    }
+  },
+  "SMCI_Xiao Jin_2026-02-07_8000_A": {
+    "first_seen": "2026-02-11T04:34:37.072493",
+    "transaction": {
+      "change": 8000,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0002104631-26-000005",
+      "isDerivative": true,
+      "name": "Xiao Jin",
+      "share": 8000,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_WEIGAND DAVID E_2026-02-07_13000_A": {
+    "first_seen": "2026-02-11T04:34:37.072510",
+    "transaction": {
+      "change": 13000,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001777404-26-000002",
+      "isDerivative": true,
+      "name": "WEIGAND DAVID E",
+      "share": 13000,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_CLEGG DON W_2026-02-07_3500_A": {
+    "first_seen": "2026-02-11T04:34:37.072514",
+    "transaction": {
+      "change": 3500,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001777241-26-000002",
+      "isDerivative": true,
+      "name": "CLEGG DON W",
+      "share": 3500,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_Cheung Kenneth_2026-02-07_4500_A": {
+    "first_seen": "2026-02-11T04:34:37.072517",
+    "transaction": {
+      "change": 4500,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001492126-26-000002",
+      "isDerivative": true,
+      "name": "Cheung Kenneth",
+      "share": 4500,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_Liang Charles_2026-02-07_7300_A": {
+    "first_seen": "2026-02-11T04:34:37.072519",
+    "transaction": {
+      "change": 7300,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001392942-26-000002",
+      "isDerivative": true,
+      "name": "Liang Charles",
+      "share": 7300,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_Liu Liang Chiu-Chu Sara_2026-02-07_7300_A": {
+    "first_seen": "2026-02-11T04:34:37.072521",
+    "transaction": {
+      "change": 7300,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001392941-26-000002",
+      "isDerivative": true,
+      "name": "Liu Liang Chiu-Chu Sara",
+      "share": 7300,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_Liaw Yih-Shyan Wally_2026-02-07_6800_A": {
+    "first_seen": "2026-02-11T04:34:37.072523",
+    "transaction": {
+      "change": 6800,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001392937-26-000002",
+      "isDerivative": true,
+      "name": "Liaw Yih-Shyan Wally",
+      "share": 6800,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-07",
+      "transactionPrice": 0
+    }
+  },
+  "SMCI_Angel Scott_2026-02-06_1711_A": {
+    "first_seen": "2026-02-11T04:34:37.072525",
+    "transaction": {
+      "change": 1711,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0002063388-26-000002",
+      "isDerivative": true,
+      "name": "Angel Scott",
+      "share": 1711,
+      "source": "sec",
+      "symbol": "SMCI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Shesky Craig_2026-02-10_40578_M": {
+    "first_seen": "2026-02-11T04:34:40.975511",
+    "transaction": {
+      "change": 6895,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012846",
+      "isDerivative": true,
+      "name": "Shesky Craig",
+      "share": 40578,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Shesky Craig_2026-02-10_32462_M": {
+    "first_seen": "2026-02-11T04:34:40.975522",
+    "transaction": {
+      "change": 5516,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012846",
+      "isDerivative": true,
+      "name": "Shesky Craig",
+      "share": 32462,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Shesky Craig_2026-02-10_16231_M": {
+    "first_seen": "2026-02-11T04:34:40.975527",
+    "transaction": {
+      "change": 2758,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012846",
+      "isDerivative": true,
+      "name": "Shesky Craig",
+      "share": 16231,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Shesky Craig_2026-02-10_8116_M": {
+    "first_seen": "2026-02-11T04:34:40.975530",
+    "transaction": {
+      "change": 1379,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012846",
+      "isDerivative": true,
+      "name": "Shesky Craig",
+      "share": 8116,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Shesky Craig_2026-02-10_189610_M": {
+    "first_seen": "2026-02-11T04:34:40.975544",
+    "transaction": {
+      "change": -63204,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012846",
+      "isDerivative": true,
+      "name": "Shesky Craig",
+      "share": 189610,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Shesky Craig_2026-02-10_1208921_M": {
+    "first_seen": "2026-02-11T04:34:40.975553",
+    "transaction": {
+      "change": 63204,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012846",
+      "isDerivative": false,
+      "name": "Shesky Craig",
+      "share": 1208921,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 0.65
+    }
+  },
+  "TMC_Karkar Andrei_2026-02-06_10394_M": {
+    "first_seen": "2026-02-11T04:34:40.975556",
+    "transaction": {
+      "change": 3447,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012845",
+      "isDerivative": true,
+      "name": "Karkar Andrei",
+      "share": 10394,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Karkar Andrei_2026-02-06_8315_M": {
+    "first_seen": "2026-02-11T04:34:40.975559",
+    "transaction": {
+      "change": 2758,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012845",
+      "isDerivative": true,
+      "name": "Karkar Andrei",
+      "share": 8315,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Karkar Andrei_2026-02-06_4157_M": {
+    "first_seen": "2026-02-11T04:34:40.975562",
+    "transaction": {
+      "change": 1379,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012845",
+      "isDerivative": true,
+      "name": "Karkar Andrei",
+      "share": 4157,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Karkar Andrei_2026-02-06_2078_M": {
+    "first_seen": "2026-02-11T04:34:40.975566",
+    "transaction": {
+      "change": 689,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012845",
+      "isDerivative": true,
+      "name": "Karkar Andrei",
+      "share": 2078,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Karkar Andrei_2026-02-06_94805_M": {
+    "first_seen": "2026-02-11T04:34:40.975570",
+    "transaction": {
+      "change": -31602,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012845",
+      "isDerivative": true,
+      "name": "Karkar Andrei",
+      "share": 94805,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Karkar Andrei_2026-02-06_425611_M": {
+    "first_seen": "2026-02-11T04:34:40.975575",
+    "transaction": {
+      "change": 31602,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012845",
+      "isDerivative": false,
+      "name": "Karkar Andrei",
+      "share": 425611,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0.65
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_4710_M": {
+    "first_seen": "2026-02-11T04:34:40.975578",
+    "transaction": {
+      "change": 4710,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": true,
+      "name": "Madsbjerg Christian",
+      "share": 4710,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_3768_M": {
+    "first_seen": "2026-02-11T04:34:40.975580",
+    "transaction": {
+      "change": 3768,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": true,
+      "name": "Madsbjerg Christian",
+      "share": 3768,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_1884_M": {
+    "first_seen": "2026-02-11T04:34:40.975585",
+    "transaction": {
+      "change": 1884,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": true,
+      "name": "Madsbjerg Christian",
+      "share": 1884,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_941_M": {
+    "first_seen": "2026-02-11T04:34:40.975589",
+    "transaction": {
+      "change": 941,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": true,
+      "name": "Madsbjerg Christian",
+      "share": 941,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_94805_M": {
+    "first_seen": "2026-02-11T04:34:40.975594",
+    "transaction": {
+      "change": -31602,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": true,
+      "name": "Madsbjerg Christian",
+      "share": 94805,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_0_M": {
+    "first_seen": "2026-02-11T04:34:40.975598",
+    "transaction": {
+      "change": -11578,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": true,
+      "name": "Madsbjerg Christian",
+      "share": 0,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_374800_M": {
+    "first_seen": "2026-02-11T04:34:40.975602",
+    "transaction": {
+      "change": 31602,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": false,
+      "name": "Madsbjerg Christian",
+      "share": 374800,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0.65
+    }
+  },
+  "TMC_Madsbjerg Christian_2026-02-06_343198_M": {
+    "first_seen": "2026-02-11T04:34:40.975606",
+    "transaction": {
+      "change": 11578,
+      "currency": "",
+      "filingDate": "2026-02-10",
+      "id": "0001104659-26-012844",
+      "isDerivative": false,
+      "name": "Madsbjerg Christian",
+      "share": 343198,
+      "source": "sec",
+      "symbol": "TMC",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-06",
+      "transactionPrice": 0.52
+    }
   }
 }
