@@ -1708,5 +1708,50 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-11T12:50:22.368838"
+  },
+  "APP_2025-12-31": {
+    "first_seen": "2026-02-11T22:54:42.077335",
+    "earnings": {
+      "actual": 3.24,
+      "estimate": 2.9668,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.2732,
+      "surprisePercent": 9.2086,
+      "symbol": "APP",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-11T22:54:42.077347"
+  },
+  "CFLT_2025-12-31": {
+    "first_seen": "2026-02-11T22:54:46.762857",
+    "earnings": {
+      "actual": 0.12,
+      "estimate": 0.1009,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0191,
+      "surprisePercent": 18.9296,
+      "symbol": "CFLT",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-11T22:54:46.762868"
+  },
+  "CSCO_2026-03-31": {
+    "first_seen": "2026-02-11T22:54:51.153064",
+    "earnings": {
+      "actual": 1.04,
+      "estimate": 1.0422,
+      "period": "2026-03-31",
+      "quarter": 2,
+      "surprise": -0.0022,
+      "surprisePercent": -0.2111,
+      "symbol": "CSCO",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-11T22:54:51.153076"
   }
 }
