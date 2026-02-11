@@ -588,5 +588,15 @@
       "change": 10000,
       "mspr": 100
     }
+  },
+  "AEO_2026_2": {
+    "first_seen": "2026-02-11T10:11:19.760964",
+    "sentiment": {
+      "symbol": "AEO",
+      "year": 2026,
+      "month": 2,
+      "change": 431535,
+      "mspr": 41.440792
+    }
   }
 }
