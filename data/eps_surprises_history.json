@@ -1753,5 +1753,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-11T22:54:51.153076"
+  },
+  "ZBRA_2025-12-31": {
+    "first_seen": "2026-02-12T11:58:50.186495",
+    "earnings": {
+      "actual": 4.33,
+      "estimate": 4.4171,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0871,
+      "surprisePercent": -1.9719,
+      "symbol": "ZBRA",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-12T11:58:50.186506"
   }
 }
