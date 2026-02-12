@@ -1768,5 +1768,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-12T11:58:50.186506"
+  },
+  "COIN_2025-12-31": {
+    "first_seen": "2026-02-12T23:04:36.320448",
+    "earnings": {
+      "actual": 0.66,
+      "estimate": 0.65,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.01,
+      "surprisePercent": 1.5385,
+      "symbol": "COIN",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-12T23:04:36.320463"
   }
 }
