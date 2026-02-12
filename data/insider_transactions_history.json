@@ -12629,5 +12629,2130 @@
       "transactionDate": "2026-02-06",
       "transactionPrice": 0.52
     }
+  },
+  "CRWV_McBee Brannin_2026-02-09_908315_C": {
+    "first_seen": "2026-02-12T05:07:40.428238",
+    "transaction": {
+      "change": -8335,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 908315,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_5725000_C": {
+    "first_seen": "2026-02-12T05:07:40.428281",
+    "transaction": {
+      "change": -25000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 5725000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_0_S": {
+    "first_seen": "2026-02-12T05:07:40.428288",
+    "transaction": {
+      "change": -118,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 97.6997
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_118_S": {
+    "first_seen": "2026-02-12T05:07:40.428309",
+    "transaction": {
+      "change": -2714,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 118,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 97.0127
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_2832_S": {
+    "first_seen": "2026-02-12T05:07:40.428315",
+    "transaction": {
+      "change": -2764,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2832,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 96.0818
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_5596_S": {
+    "first_seen": "2026-02-12T05:07:40.428319",
+    "transaction": {
+      "change": -2042,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 5596,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 95.2189
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_7638_S": {
+    "first_seen": "2026-02-12T05:07:40.428323",
+    "transaction": {
+      "change": -396,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 7638,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 94.1443
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8034_S": {
+    "first_seen": "2026-02-12T05:07:40.428327",
+    "transaction": {
+      "change": -98,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8034,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.9311
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8132_S": {
+    "first_seen": "2026-02-12T05:07:40.428330",
+    "transaction": {
+      "change": -115,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8132,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.1683
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8247_S": {
+    "first_seen": "2026-02-12T05:07:40.428332",
+    "transaction": {
+      "change": -20,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8247,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 90.675
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8267_S": {
+    "first_seen": "2026-02-12T05:07:40.428335",
+    "transaction": {
+      "change": -68,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8267,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.4582
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8335_C": {
+    "first_seen": "2026-02-12T05:07:40.428338",
+    "transaction": {
+      "change": 8335,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8335,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_354_S": {
+    "first_seen": "2026-02-12T05:07:40.428344",
+    "transaction": {
+      "change": -8140,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 354,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 97.0128
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8494_S": {
+    "first_seen": "2026-02-12T05:07:40.428348",
+    "transaction": {
+      "change": -8291,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 8494,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 96.0819
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_16785_S": {
+    "first_seen": "2026-02-12T05:07:40.428352",
+    "transaction": {
+      "change": -6125,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 16785,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 95.2189
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_22910_S": {
+    "first_seen": "2026-02-12T05:07:40.428357",
+    "transaction": {
+      "change": -1186,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 22910,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 94.1454
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_24096_S": {
+    "first_seen": "2026-02-12T05:07:40.428359",
+    "transaction": {
+      "change": -295,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 24096,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.9395
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_24391_S": {
+    "first_seen": "2026-02-12T05:07:40.428361",
+    "transaction": {
+      "change": -345,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 24391,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.1714
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_24736_S": {
+    "first_seen": "2026-02-12T05:07:40.428364",
+    "transaction": {
+      "change": -62,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 24736,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 90.6718
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_24798_S": {
+    "first_seen": "2026-02-12T05:07:40.428366",
+    "transaction": {
+      "change": -202,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 24798,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.4537
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_25000_C": {
+    "first_seen": "2026-02-12T05:07:40.428371",
+    "transaction": {
+      "change": 25000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000066",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 25000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_123000_C": {
+    "first_seen": "2026-02-12T05:07:40.428374",
+    "transaction": {
+      "change": -1000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 123000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_109600_C": {
+    "first_seen": "2026-02-12T05:07:40.428376",
+    "transaction": {
+      "change": -1000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 109600,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_327000_C": {
+    "first_seen": "2026-02-12T05:07:40.428378",
+    "transaction": {
+      "change": -3000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 327000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_109_S": {
+    "first_seen": "2026-02-12T05:07:40.428381",
+    "transaction": {
+      "change": -364,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 109,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 96.6637
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_473_S": {
+    "first_seen": "2026-02-12T05:07:40.428383",
+    "transaction": {
+      "change": -363,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 473,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 95.5639
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_836_S": {
+    "first_seen": "2026-02-12T05:07:40.428385",
+    "transaction": {
+      "change": -109,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 836,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 94.574
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_945_S": {
+    "first_seen": "2026-02-12T05:07:40.428388",
+    "transaction": {
+      "change": -19,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 945,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.72
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_964_S": {
+    "first_seen": "2026-02-12T05:07:40.428390",
+    "transaction": {
+      "change": -18,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 964,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 91.22
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_982_S": {
+    "first_seen": "2026-02-12T05:07:40.428392",
+    "transaction": {
+      "change": -18,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 982,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.76
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_1000_C": {
+    "first_seen": "2026-02-12T05:07:40.428394",
+    "transaction": {
+      "change": 1000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_963_S": {
+    "first_seen": "2026-02-12T05:07:40.428399",
+    "transaction": {
+      "change": -19,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 963,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 91.22
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_328_S": {
+    "first_seen": "2026-02-12T05:07:40.428405",
+    "transaction": {
+      "change": -1090,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 328,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 96.664
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_1418_S": {
+    "first_seen": "2026-02-12T05:07:40.428409",
+    "transaction": {
+      "change": -1092,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 1418,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 95.5642
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_2510_S": {
+    "first_seen": "2026-02-12T05:07:40.428411",
+    "transaction": {
+      "change": -327,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2510,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 94.5694
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_2837_S": {
+    "first_seen": "2026-02-12T05:07:40.428413",
+    "transaction": {
+      "change": -54,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2837,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.72
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_2891_S": {
+    "first_seen": "2026-02-12T05:07:40.428415",
+    "transaction": {
+      "change": -54,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2891,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 91.22
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_2945_S": {
+    "first_seen": "2026-02-12T05:07:40.428417",
+    "transaction": {
+      "change": -55,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 2945,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.76
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_3000_C": {
+    "first_seen": "2026-02-12T05:07:40.428419",
+    "transaction": {
+      "change": 3000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000065",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 3000,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_3991020_C": {
+    "first_seen": "2026-02-12T05:07:40.428423",
+    "transaction": {
+      "change": -25000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 3991020,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_8294490_C": {
+    "first_seen": "2026-02-12T05:07:40.428429",
+    "transaction": {
+      "change": -102830,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": true,
+      "name": "McBee Brannin",
+      "share": 8294490,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54500_S": {
+    "first_seen": "2026-02-12T05:07:40.428431",
+    "transaction": {
+      "change": -54,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54500,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 97.3467
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54554_S": {
+    "first_seen": "2026-02-12T05:07:40.428433",
+    "transaction": {
+      "change": -182,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54554,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 96.6661
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54736_S": {
+    "first_seen": "2026-02-12T05:07:40.428436",
+    "transaction": {
+      "change": -182,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54736,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 95.5642
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54918_S": {
+    "first_seen": "2026-02-12T05:07:40.428438",
+    "transaction": {
+      "change": -55,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54918,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 94.5605
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54973_S": {
+    "first_seen": "2026-02-12T05:07:40.428440",
+    "transaction": {
+      "change": -9,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54973,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.72
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54982_S": {
+    "first_seen": "2026-02-12T05:07:40.428442",
+    "transaction": {
+      "change": -9,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54982,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 91.22
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_54991_S": {
+    "first_seen": "2026-02-12T05:07:40.428443",
+    "transaction": {
+      "change": -9,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 54991,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.76
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_24097_S": {
+    "first_seen": "2026-02-12T05:07:40.428448",
+    "transaction": {
+      "change": -294,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 24097,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.938
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_248664_S": {
+    "first_seen": "2026-02-12T05:07:40.428480",
+    "transaction": {
+      "change": -1459,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 248664,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 97.7005
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_250123_S": {
+    "first_seen": "2026-02-12T05:07:40.428484",
+    "transaction": {
+      "change": -33481,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 250123,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 97.0128
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_283604_S": {
+    "first_seen": "2026-02-12T05:07:40.428488",
+    "transaction": {
+      "change": -34103,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 283604,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 96.0819
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_317707_S": {
+    "first_seen": "2026-02-12T05:07:40.428492",
+    "transaction": {
+      "change": -25192,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 317707,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 95.2189
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_342899_S": {
+    "first_seen": "2026-02-12T05:07:40.428497",
+    "transaction": {
+      "change": -4881,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 342899,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 94.1453
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_347780_S": {
+    "first_seen": "2026-02-12T05:07:40.428501",
+    "transaction": {
+      "change": -1213,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 347780,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.9378
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_348993_S": {
+    "first_seen": "2026-02-12T05:07:40.428504",
+    "transaction": {
+      "change": -1417,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 348993,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 92.171
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_350410_S": {
+    "first_seen": "2026-02-12T05:07:40.428507",
+    "transaction": {
+      "change": -256,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 350410,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 90.675
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_350666_S": {
+    "first_seen": "2026-02-12T05:07:40.428509",
+    "transaction": {
+      "change": -828,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 350666,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 89.4545
+    }
+  },
+  "CRWV_McBee Brannin_2026-02-09_351494_C": {
+    "first_seen": "2026-02-12T05:07:40.428512",
+    "transaction": {
+      "change": 102830,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001769628-26-000064",
+      "isDerivative": false,
+      "name": "McBee Brannin",
+      "share": 351494,
+      "source": "sec",
+      "symbol": "CRWV",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "CSCO_Patterson Mark_2026-02-10_204933_F": {
+    "first_seen": "2026-02-12T05:07:40.902494",
+    "transaction": {
+      "change": -1840,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000858877-26-000014",
+      "isDerivative": false,
+      "name": "Patterson Mark",
+      "share": 204933,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CSCO_Tuszik Oliver_2026-02-10_191745_F": {
+    "first_seen": "2026-02-12T05:07:40.902511",
+    "transaction": {
+      "change": -3695,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000858877-26-000017",
+      "isDerivative": false,
+      "name": "Tuszik Oliver",
+      "share": 191745,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CSCO_Subaiya Thimaya K._2026-02-10_170386_F": {
+    "first_seen": "2026-02-12T05:07:40.902518",
+    "transaction": {
+      "change": -6736,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0002015287-26-000002",
+      "isDerivative": false,
+      "name": "Subaiya Thimaya K.",
+      "share": 170386,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CSCO_Wong Maria Victoria_2026-02-10_31037_F": {
+    "first_seen": "2026-02-12T05:07:40.902524",
+    "transaction": {
+      "change": -1191,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000858877-26-000018",
+      "isDerivative": false,
+      "name": "Wong Maria Victoria",
+      "share": 31037,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CSCO_Stahlkopf Deborah L_2026-02-10_195078_F": {
+    "first_seen": "2026-02-12T05:07:40.902530",
+    "transaction": {
+      "change": -2624,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000858877-26-000016",
+      "isDerivative": false,
+      "name": "Stahlkopf Deborah L",
+      "share": 195078,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CSCO_Patel Jeetendra I_2026-02-10_274024_F": {
+    "first_seen": "2026-02-12T05:07:40.902536",
+    "transaction": {
+      "change": -7712,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000858877-26-000013",
+      "isDerivative": false,
+      "name": "Patel Jeetendra I",
+      "share": 274024,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CSCO_Robbins Charles_2026-02-10_690640_F": {
+    "first_seen": "2026-02-12T05:07:40.902541",
+    "transaction": {
+      "change": -11381,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000858877-26-000015",
+      "isDerivative": false,
+      "name": "Robbins Charles",
+      "share": 690640,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 86.78
+    }
+  },
+  "CVNA_Taira Thomas_2026-02-09_66625_S": {
+    "first_seen": "2026-02-12T05:07:41.395839",
+    "transaction": {
+      "change": -1047,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001607889-26-000008",
+      "isDerivative": false,
+      "name": "Taira Thomas",
+      "share": 66625,
+      "source": "sec",
+      "symbol": "CVNA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 398.54
+    }
+  },
+  "HOOD_Warnick Jason_2026-02-09_402370_S": {
+    "first_seen": "2026-02-12T05:07:46.846893",
+    "transaction": {
+      "change": -125000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001783879-26-000014",
+      "isDerivative": false,
+      "name": "Warnick Jason",
+      "share": 402370,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 85.0882
+    }
+  },
+  "JNJ_Mulholland Kristen_2026-02-09_3602_A": {
+    "first_seen": "2026-02-12T05:07:49.787533",
+    "transaction": {
+      "change": 3602,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000024",
+      "isDerivative": true,
+      "name": "Mulholland Kristen",
+      "share": 3602,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Schmid Timothy_2026-02-09_4378_A": {
+    "first_seen": "2026-02-12T05:07:49.787549",
+    "transaction": {
+      "change": 4378,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000026",
+      "isDerivative": true,
+      "name": "Schmid Timothy",
+      "share": 4378,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Forminard Elizabeth_2026-02-09_13706_A": {
+    "first_seen": "2026-02-12T05:07:49.788016",
+    "transaction": {
+      "change": 13706,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000022",
+      "isDerivative": true,
+      "name": "Forminard Elizabeth",
+      "share": 13706,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Broadhurst Vanessa_2026-02-09_8594_A": {
+    "first_seen": "2026-02-12T05:07:49.788023",
+    "transaction": {
+      "change": 8594,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000018",
+      "isDerivative": true,
+      "name": "Broadhurst Vanessa",
+      "share": 8594,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Swanson James D._2026-02-09_9412_A": {
+    "first_seen": "2026-02-12T05:07:49.788026",
+    "transaction": {
+      "change": 9412,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000028",
+      "isDerivative": true,
+      "name": "Swanson James D.",
+      "share": 9412,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Decker Robert J_2026-02-09_2741_A": {
+    "first_seen": "2026-02-12T05:07:49.788029",
+    "transaction": {
+      "change": 2741,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001798703-26-000002",
+      "isDerivative": true,
+      "name": "Decker Robert J",
+      "share": 2741,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Wengel Kathryn E_2026-02-09_13706_A": {
+    "first_seen": "2026-02-12T05:07:49.788036",
+    "transaction": {
+      "change": 13706,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000020",
+      "isDerivative": true,
+      "name": "Wengel Kathryn E",
+      "share": 13706,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Taubert Jennifer L_2026-02-09_27412_A": {
+    "first_seen": "2026-02-12T05:07:49.788041",
+    "transaction": {
+      "change": 27412,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000030",
+      "isDerivative": true,
+      "name": "Taubert Jennifer L",
+      "share": 27412,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Wolk Joseph J_2026-02-09_37463_A": {
+    "first_seen": "2026-02-12T05:07:49.788045",
+    "transaction": {
+      "change": 37463,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000200406-26-000032",
+      "isDerivative": true,
+      "name": "Wolk Joseph J",
+      "share": 37463,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Duato Joaquin_2026-02-09_73054_A": {
+    "first_seen": "2026-02-12T05:07:49.788050",
+    "transaction": {
+      "change": 73054,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001673401-26-000002",
+      "isDerivative": true,
+      "name": "Duato Joaquin",
+      "share": 73054,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_DeHoff Kate_2026-02-11_149369_S": {
+    "first_seen": "2026-02-12T05:07:50.264773",
+    "transaction": {
+      "change": -16235,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000120",
+      "isDerivative": false,
+      "name": "DeHoff Kate",
+      "share": 149369,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-11",
+      "transactionPrice": 9.91
+    }
+  },
+  "JOBY_Papadopoulos Didier_2026-02-11_116725_S": {
+    "first_seen": "2026-02-12T05:07:50.264787",
+    "transaction": {
+      "change": -816,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000114",
+      "isDerivative": false,
+      "name": "Papadopoulos Didier",
+      "share": 116725,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-11",
+      "transactionPrice": 10.14
+    }
+  },
+  "JOBY_DeHoff Kate_2026-02-10_165604_S": {
+    "first_seen": "2026-02-12T05:07:50.264792",
+    "transaction": {
+      "change": -1076,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000120",
+      "isDerivative": false,
+      "name": "DeHoff Kate",
+      "share": 165604,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_Bowles Gregory_2026-02-10_164464_S": {
+    "first_seen": "2026-02-12T05:07:50.264798",
+    "transaction": {
+      "change": -816,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000119",
+      "isDerivative": false,
+      "name": "Bowles Gregory",
+      "share": 164464,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_Allison Eric_2026-02-10_704036_S": {
+    "first_seen": "2026-02-12T05:07:50.264801",
+    "transaction": {
+      "change": -1526,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000118",
+      "isDerivative": false,
+      "name": "Allison Eric",
+      "share": 704036,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_Brumana Rodrigo_2026-02-10_1407_S": {
+    "first_seen": "2026-02-12T05:07:50.264804",
+    "transaction": {
+      "change": -510,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000117",
+      "isDerivative": false,
+      "name": "Brumana Rodrigo",
+      "share": 1407,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-10_294336_S": {
+    "first_seen": "2026-02-12T05:07:50.264807",
+    "transaction": {
+      "change": -1590,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000116",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 294336,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_Papadopoulos Didier_2026-02-10_117541_S": {
+    "first_seen": "2026-02-12T05:07:50.264810",
+    "transaction": {
+      "change": -1333,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000114",
+      "isDerivative": false,
+      "name": "Papadopoulos Didier",
+      "share": 117541,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_Simi Bonny W_2026-02-10_129286_S": {
+    "first_seen": "2026-02-12T05:07:50.264812",
+    "transaction": {
+      "change": -1202,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000115",
+      "isDerivative": false,
+      "name": "Simi Bonny W",
+      "share": 129286,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 10.55
+    }
+  },
+  "JOBY_DeHoff Kate_2026-02-09_2958_M": {
+    "first_seen": "2026-02-12T05:07:50.264815",
+    "transaction": {
+      "change": -2958,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000120",
+      "isDerivative": true,
+      "name": "DeHoff Kate",
+      "share": 2958,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_DeHoff Kate_2026-02-09_166680_M": {
+    "first_seen": "2026-02-12T05:07:50.264817",
+    "transaction": {
+      "change": 2958,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000120",
+      "isDerivative": false,
+      "name": "DeHoff Kate",
+      "share": 166680,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Bowles Gregory_2026-02-09_2606_M": {
+    "first_seen": "2026-02-12T05:07:50.264819",
+    "transaction": {
+      "change": -2606,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000119",
+      "isDerivative": true,
+      "name": "Bowles Gregory",
+      "share": 2606,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Bowles Gregory_2026-02-09_165280_M": {
+    "first_seen": "2026-02-12T05:07:50.264822",
+    "transaction": {
+      "change": 2606,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000119",
+      "isDerivative": false,
+      "name": "Bowles Gregory",
+      "share": 165280,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Allison Eric_2026-02-09_2958_M": {
+    "first_seen": "2026-02-12T05:07:50.264824",
+    "transaction": {
+      "change": -2958,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000118",
+      "isDerivative": true,
+      "name": "Allison Eric",
+      "share": 2958,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Allison Eric_2026-02-09_705562_M": {
+    "first_seen": "2026-02-12T05:07:50.264826",
+    "transaction": {
+      "change": 2958,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000118",
+      "isDerivative": false,
+      "name": "Allison Eric",
+      "share": 705562,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Brumana Rodrigo_2026-02-09_1219_M": {
+    "first_seen": "2026-02-12T05:07:50.264828",
+    "transaction": {
+      "change": -1219,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000117",
+      "isDerivative": true,
+      "name": "Brumana Rodrigo",
+      "share": 1219,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Brumana Rodrigo_2026-02-09_1917_M": {
+    "first_seen": "2026-02-12T05:07:50.264830",
+    "transaction": {
+      "change": 1219,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000117",
+      "isDerivative": false,
+      "name": "Brumana Rodrigo",
+      "share": 1917,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-09_4369_M": {
+    "first_seen": "2026-02-12T05:07:50.264832",
+    "transaction": {
+      "change": -4371,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000116",
+      "isDerivative": true,
+      "name": "Bevirt JoeBen",
+      "share": 4369,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-09_295926_M": {
+    "first_seen": "2026-02-12T05:07:50.264834",
+    "transaction": {
+      "change": 4371,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000116",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 295926,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-09_60037596_S": {
+    "first_seen": "2026-02-12T05:07:50.264840",
+    "transaction": {
+      "change": -386182,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000116",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 60037596,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 10.62
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-09_31997802_S": {
+    "first_seen": "2026-02-12T05:07:50.264844",
+    "transaction": {
+      "change": -121000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000116",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 31997802,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 10.62
+    }
+  },
+  "JOBY_Papadopoulos Didier_2026-02-09_3662_M": {
+    "first_seen": "2026-02-12T05:07:50.264846",
+    "transaction": {
+      "change": -3663,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000114",
+      "isDerivative": true,
+      "name": "Papadopoulos Didier",
+      "share": 3662,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Papadopoulos Didier_2026-02-09_118874_M": {
+    "first_seen": "2026-02-12T05:07:50.264849",
+    "transaction": {
+      "change": 3663,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000114",
+      "isDerivative": false,
+      "name": "Papadopoulos Didier",
+      "share": 118874,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Simi Bonny W_2026-02-09_3303_M": {
+    "first_seen": "2026-02-12T05:07:50.264851",
+    "transaction": {
+      "change": -3303,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000115",
+      "isDerivative": true,
+      "name": "Simi Bonny W",
+      "share": 3303,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "JOBY_Simi Bonny W_2026-02-09_130488_M": {
+    "first_seen": "2026-02-12T05:07:50.264853",
+    "transaction": {
+      "change": 3303,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001819848-26-000115",
+      "isDerivative": false,
+      "name": "Simi Bonny W",
+      "share": 130488,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "LLY_Brown Adrienne S_2026-02-09_4921_A": {
+    "first_seen": "2026-02-12T05:07:51.703925",
+    "transaction": {
+      "change": 1196,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0002096888-26-000002",
+      "isDerivative": false,
+      "name": "Brown Adrienne S",
+      "share": 4921,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Custer Kenneth L._2026-02-09_10025_A": {
+    "first_seen": "2026-02-12T05:07:51.703949",
+    "transaction": {
+      "change": 659,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0002071542-26-000002",
+      "isDerivative": false,
+      "name": "Custer Kenneth L.",
+      "share": 10025,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Dozier Eric_2026-02-09_14936_A": {
+    "first_seen": "2026-02-12T05:07:51.703956",
+    "transaction": {
+      "change": 3512,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001955972-26-000004",
+      "isDerivative": false,
+      "name": "Dozier Eric",
+      "share": 14936,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Hernandez Edgardo_2026-02-09_46096_A": {
+    "first_seen": "2026-02-12T05:07:51.703961",
+    "transaction": {
+      "change": 4384,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001861052-26-000004",
+      "isDerivative": false,
+      "name": "Hernandez Edgardo",
+      "share": 46096,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Rau Diogo_2026-02-09_26230_A": {
+    "first_seen": "2026-02-12T05:07:51.703966",
+    "transaction": {
+      "change": 4432,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001860253-26-000004",
+      "isDerivative": false,
+      "name": "Rau Diogo",
+      "share": 26230,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Yuffa Ilya_2026-02-09_32304_A": {
+    "first_seen": "2026-02-12T05:07:51.703971",
+    "transaction": {
+      "change": 4163,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001826001-26-000004",
+      "isDerivative": false,
+      "name": "Yuffa Ilya",
+      "share": 32304,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Jonsson Patrik_2026-02-09_60647_A": {
+    "first_seen": "2026-02-12T05:07:51.703975",
+    "transaction": {
+      "change": 4818,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001786054-26-000004",
+      "isDerivative": false,
+      "name": "Jonsson Patrik",
+      "share": 60647,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Montarce Lucas_2026-02-09_16050_A": {
+    "first_seen": "2026-02-12T05:07:51.703980",
+    "transaction": {
+      "change": 1365,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001752447-26-000002",
+      "isDerivative": false,
+      "name": "Montarce Lucas",
+      "share": 16050,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Skovronsky Daniel_2026-02-09_160072_A": {
+    "first_seen": "2026-02-12T05:07:51.703984",
+    "transaction": {
+      "change": 15548,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001741474-26-000004",
+      "isDerivative": false,
+      "name": "Skovronsky Daniel",
+      "share": 160072,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Hakim Anat_2026-02-09_22987_A": {
+    "first_seen": "2026-02-12T05:07:51.703988",
+    "transaction": {
+      "change": 8278,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001685556-26-000004",
+      "isDerivative": false,
+      "name": "Hakim Anat",
+      "share": 22987,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Van Naarden Jacob_2026-02-09_26626_A": {
+    "first_seen": "2026-02-12T05:07:51.703993",
+    "transaction": {
+      "change": 4866,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001661254-26-000004",
+      "isDerivative": false,
+      "name": "Van Naarden Jacob",
+      "share": 26626,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Zakrowski Donald A_2026-02-09_199_A": {
+    "first_seen": "2026-02-12T05:07:51.703996",
+    "transaction": {
+      "change": 199,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001561539-26-000002",
+      "isDerivative": true,
+      "name": "Zakrowski Donald A",
+      "share": 199,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
+  },
+  "LLY_Zakrowski Donald A_2026-02-09_3423_A": {
+    "first_seen": "2026-02-12T05:07:51.704001",
+    "transaction": {
+      "change": 584,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001561539-26-000002",
+      "isDerivative": false,
+      "name": "Zakrowski Donald A",
+      "share": 3423,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "LLY_Ricks David A_2026-02-09_571715_A": {
+    "first_seen": "2026-02-12T05:07:51.704005",
+    "transaction": {
+      "change": 38914,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001538604-26-000004",
+      "isDerivative": false,
+      "name": "Ricks David A",
+      "share": 571715,
+      "source": "sec",
+      "symbol": "LLY",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 1044.67
+    }
+  },
+  "META_Olivan Javier_2026-02-09_9098_S": {
+    "first_seen": "2026-02-12T05:07:54.115001",
+    "transaction": {
+      "change": -517,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0000950103-26-001988",
+      "isDerivative": false,
+      "name": "Olivan Javier",
+      "share": 9098,
+      "source": "sec",
+      "symbol": "META",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 663.19
+    }
+  },
+  "NFLX_Peters Gregory K_2026-02-10_122140_S": {
+    "first_seen": "2026-02-12T05:07:56.533449",
+    "transaction": {
+      "change": -1310,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001065280-26-000086",
+      "isDerivative": false,
+      "name": "Peters Gregory K",
+      "share": 122140,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 84.3972
+    }
+  },
+  "NFLX_Peters Gregory K_2026-02-10_123450_S": {
+    "first_seen": "2026-02-12T05:07:56.533465",
+    "transaction": {
+      "change": -11283,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001065280-26-000086",
+      "isDerivative": false,
+      "name": "Peters Gregory K",
+      "share": 123450,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 83.7569
+    }
+  },
+  "NFLX_Peters Gregory K_2026-02-10_134733_S": {
+    "first_seen": "2026-02-12T05:07:56.533470",
+    "transaction": {
+      "change": -14719,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001065280-26-000086",
+      "isDerivative": false,
+      "name": "Peters Gregory K",
+      "share": 134733,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 82.741
+    }
+  },
+  "NFLX_Willems Cletus R_2026-02-10_0_S": {
+    "first_seen": "2026-02-12T05:07:56.533475",
+    "transaction": {
+      "change": -3136,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001065280-26-000085",
+      "isDerivative": false,
+      "name": "Willems Cletus R",
+      "share": 0,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-10",
+      "transactionPrice": 82.67
+    }
+  },
+  "NFLX_HYMAN DAVID A_2026-02-09_316100_S": {
+    "first_seen": "2026-02-12T05:07:56.533481",
+    "transaction": {
+      "change": -5727,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001065280-26-000087",
+      "isDerivative": false,
+      "name": "HYMAN DAVID A",
+      "share": 316100,
+      "source": "sec",
+      "symbol": "NFLX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 81.0601
+    }
+  },
+  "ORCL_Magouyrk Clayton M._2026-02-09_134030_S": {
+    "first_seen": "2026-02-12T05:08:00.472645",
+    "transaction": {
+      "change": -10000,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001341439-26-000010",
+      "isDerivative": false,
+      "name": "Magouyrk Clayton M.",
+      "share": 134030,
+      "source": "sec",
+      "symbol": "ORCL",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 155.2318
+    }
+  },
+  "SOFI_Lavet Robert S_2026-02-09_144229_A": {
+    "first_seen": "2026-02-12T05:08:08.804057",
+    "transaction": {
+      "change": 144229,
+      "currency": "",
+      "filingDate": "2026-02-11",
+      "id": "0001351119-26-000009",
+      "isDerivative": true,
+      "name": "Lavet Robert S",
+      "share": 144229,
+      "source": "sec",
+      "symbol": "SOFI",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-09",
+      "transactionPrice": 0
+    }
   }
 }
