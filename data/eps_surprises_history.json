@@ -1592,12 +1592,12 @@
   "SPOT_2025-12-31": {
     "first_seen": "2026-02-10T11:33:21.959589",
     "earnings": {
-      "actual": 4.332852,
+      "actual": 4.43,
       "estimate": 2.7927,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 1.540152,
-      "surprisePercent": 55.1492,
+      "surprise": 1.6373,
+      "surprisePercent": 58.6279,
       "symbol": "SPOT",
       "year": 2025
     },
@@ -1667,12 +1667,12 @@
   "LYFT_2025-12-31": {
     "first_seen": "2026-02-10T23:24:17.832390",
     "earnings": {
-      "actual": -0.2,
+      "actual": 0.16,
       "estimate": 0.1175,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.3175,
-      "surprisePercent": -270.2128,
+      "surprise": 0.0425,
+      "surprisePercent": 36.1702,
       "symbol": "LYFT",
       "year": 2025
     },
@@ -1697,12 +1697,12 @@
   "SHOP_2025-12-31": {
     "first_seen": "2026-02-11T12:50:22.368833",
     "earnings": {
-      "actual": 0.46,
-      "estimate": 0.5204,
+      "actual": 0.48,
+      "estimate": 0.5165,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.0604,
-      "surprisePercent": -11.6065,
+      "surprise": -0.0365,
+      "surprisePercent": -7.0668,
       "symbol": "SHOP",
       "year": 2025
     },
@@ -1713,11 +1713,11 @@
     "first_seen": "2026-02-11T22:54:42.077335",
     "earnings": {
       "actual": 3.24,
-      "estimate": 2.9668,
+      "estimate": 2.9597,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.2732,
-      "surprisePercent": 9.2086,
+      "surprise": 0.2803,
+      "surprisePercent": 9.4706,
       "symbol": "APP",
       "year": 2025
     },
@@ -1772,16 +1772,31 @@
   "COIN_2025-12-31": {
     "first_seen": "2026-02-12T23:04:36.320448",
     "earnings": {
-      "actual": 0.66,
-      "estimate": 0.65,
+      "actual": -2.49,
+      "estimate": 0.5931,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.01,
-      "surprisePercent": 1.5385,
+      "surprise": -3.0831,
+      "surprisePercent": -519.828,
       "symbol": "COIN",
       "year": 2025
     },
     "alerted": true,
     "alerted_at": "2026-02-12T23:04:36.320463"
+  },
+  "RR_2025-12-31": {
+    "first_seen": "2026-02-15T19:52:37.969135",
+    "earnings": {
+      "actual": 0,
+      "estimate": -0.0206,
+      "period": "2025-12-31",
+      "quarter": 1,
+      "surprise": 0.0206,
+      "surprisePercent": 100,
+      "symbol": "RR",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-15T19:52:37.969146"
   }
 }
