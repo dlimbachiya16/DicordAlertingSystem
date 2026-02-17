@@ -1813,5 +1813,35 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-17T12:02:21.555212"
+  },
+  "CDNS_2025-12-31": {
+    "first_seen": "2026-02-17T23:02:50.718384",
+    "earnings": {
+      "actual": 1.99,
+      "estimate": 1.9513,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0387,
+      "surprisePercent": 1.9833,
+      "symbol": "CDNS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-17T23:02:50.718396"
+  },
+  "PANW_2026-03-31": {
+    "first_seen": "2026-02-17T23:03:18.580770",
+    "earnings": {
+      "actual": 1.03,
+      "estimate": 0.9606,
+      "period": "2026-03-31",
+      "quarter": 2,
+      "surprise": 0.0694,
+      "surprisePercent": 7.2247,
+      "symbol": "PANW",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-17T23:03:18.580781"
   }
 }
