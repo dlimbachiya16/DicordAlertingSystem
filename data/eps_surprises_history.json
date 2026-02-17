@@ -1798,5 +1798,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-15T19:52:37.969146"
+  },
+  "FLR_2025-12-31": {
+    "first_seen": "2026-02-17T12:02:21.555201",
+    "earnings": {
+      "actual": 0.33,
+      "estimate": 0.3466,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0166,
+      "surprisePercent": -4.7894,
+      "symbol": "FLR",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-17T12:02:21.555212"
   }
 }
