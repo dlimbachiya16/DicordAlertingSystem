@@ -1873,5 +1873,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-18T22:50:44.986826"
+  },
+  "LMND_2025-12-31": {
+    "first_seen": "2026-02-19T11:27:43.985590",
+    "earnings": {
+      "actual": -0.29,
+      "estimate": -0.4067,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.1167,
+      "surprisePercent": 28.6944,
+      "symbol": "LMND",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-19T11:27:43.985602"
   }
 }
