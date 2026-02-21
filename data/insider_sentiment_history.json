@@ -598,5 +598,15 @@
       "change": 431535,
       "mspr": 41.440792
     }
+  },
+  "ABBV_2026_2": {
+    "first_seen": "2026-02-21T10:02:35.305829",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2026,
+      "month": 2,
+      "change": 541422,
+      "mspr": 100
+    }
   }
 }
