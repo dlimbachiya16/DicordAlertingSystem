@@ -27708,5 +27708,90 @@
       "transactionDate": "2026-02-19",
       "transactionPrice": 58.31
     }
+  },
+  "CSCO_Subaiya Thimaya K._2026-02-19_160153_S": {
+    "first_seen": "2026-02-21T05:13:28.037817",
+    "transaction": {
+      "change": -1800,
+      "currency": "",
+      "filingDate": "2026-02-20",
+      "id": "0002015287-26-000004",
+      "isDerivative": false,
+      "name": "Subaiya Thimaya K.",
+      "share": 160153,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 79.045
+    }
+  },
+  "CSCO_Subaiya Thimaya K._2026-02-19_161953_S": {
+    "first_seen": "2026-02-21T05:13:28.037833",
+    "transaction": {
+      "change": -8433,
+      "currency": "",
+      "filingDate": "2026-02-20",
+      "id": "0002015287-26-000004",
+      "isDerivative": false,
+      "name": "Subaiya Thimaya K.",
+      "share": 161953,
+      "source": "sec",
+      "symbol": "CSCO",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 78.4996
+    }
+  },
+  "CVX_Walz Andrew Benjamin_2026-02-18_0_S": {
+    "first_seen": "2026-02-21T05:13:29.454690",
+    "transaction": {
+      "change": -1463,
+      "currency": "",
+      "filingDate": "2026-02-20",
+      "id": "0000093410-26-000075",
+      "isDerivative": false,
+      "name": "Walz Andrew Benjamin",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-18",
+      "transactionPrice": 183.8345
+    }
+  },
+  "CVX_Knowles Alana K_2026-02-18_0_S": {
+    "first_seen": "2026-02-21T05:13:29.454709",
+    "transaction": {
+      "change": -2408,
+      "currency": "",
+      "filingDate": "2026-02-20",
+      "id": "0000093410-26-000073",
+      "isDerivative": false,
+      "name": "Knowles Alana K",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-18",
+      "transactionPrice": 183.2752
+    }
+  },
+  "RR_Casella Matthew G._2026-02-19_0_S": {
+    "first_seen": "2026-02-21T05:13:53.026770",
+    "transaction": {
+      "change": -12500,
+      "currency": "",
+      "filingDate": "2026-02-20",
+      "id": "0002000264-26-000004",
+      "isDerivative": false,
+      "name": "Casella Matthew G.",
+      "share": 0,
+      "source": "sec",
+      "symbol": "RR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 2.68
+    }
   }
 }
