@@ -27827,5 +27827,243 @@
       "transactionDate": "2026-02-15",
       "transactionPrice": 93.8
     }
+  },
+  "ASTS_Bernal Maya_2026-02-15_121653_F": {
+    "first_seen": "2026-02-22T18:28:40.806548",
+    "transaction": {
+      "change": -833,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001493152-26-007213",
+      "isDerivative": false,
+      "name": "Bernal Maya",
+      "share": 121653,
+      "source": "sec",
+      "symbol": "ASTS",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 82.51
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-17_31876802_S": {
+    "first_seen": "2026-02-22T18:28:56.147214",
+    "transaction": {
+      "change": -121000,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001819848-26-000143",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 31876802,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-17",
+      "transactionPrice": 9.91
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-17_59651414_S": {
+    "first_seen": "2026-02-22T18:28:56.147233",
+    "transaction": {
+      "change": -386182,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001819848-26-000143",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 59651414,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-17",
+      "transactionPrice": 9.91
+    }
+  },
+  "JOBY_Bevirt JoeBen_2026-02-17_246006_S": {
+    "first_seen": "2026-02-22T18:28:56.147241",
+    "transaction": {
+      "change": -63636,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001819848-26-000143",
+      "isDerivative": false,
+      "name": "Bevirt JoeBen",
+      "share": 246006,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-17",
+      "transactionPrice": 9.91
+    }
+  },
+  "JOBY_Papadopoulos Didier_2026-02-17_128548_S": {
+    "first_seen": "2026-02-22T18:28:56.147246",
+    "transaction": {
+      "change": -6366,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001819848-26-000141",
+      "isDerivative": false,
+      "name": "Papadopoulos Didier",
+      "share": 128548,
+      "source": "sec",
+      "symbol": "JOBY",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-17",
+      "transactionPrice": 9.74
+    }
+  },
+  "NEE_Reagan Ronald R_2026-02-15_16039_F": {
+    "first_seen": "2026-02-22T18:29:01.913990",
+    "transaction": {
+      "change": -568,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001798344-26-000006",
+      "isDerivative": false,
+      "name": "Reagan Ronald R",
+      "share": 16039,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "NEE_May James Michael_2026-02-15_33880_F": {
+    "first_seen": "2026-02-22T18:29:01.914006",
+    "transaction": {
+      "change": -1044,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001769378-26-000002",
+      "isDerivative": false,
+      "name": "May James Michael",
+      "share": 33880,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "NEE_Crews Terrell Kirk II_2026-02-15_73857_F": {
+    "first_seen": "2026-02-22T18:29:01.914031",
+    "transaction": {
+      "change": -1544,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001684719-26-000002",
+      "isDerivative": false,
+      "name": "Crews Terrell Kirk II",
+      "share": 73857,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "NEE_KETCHUM JOHN W_2026-02-15_400961_F": {
+    "first_seen": "2026-02-22T18:29:01.914038",
+    "transaction": {
+      "change": -1965,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001667990-26-000006",
+      "isDerivative": false,
+      "name": "KETCHUM JOHN W",
+      "share": 400961,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "PYPL_Kereere Suzan_2026-02-15_34011_M": {
+    "first_seen": "2026-02-22T18:29:09.662254",
+    "transaction": {
+      "change": -8503,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001633917-26-000028",
+      "isDerivative": true,
+      "name": "Kereere Suzan",
+      "share": 34011,
+      "source": "sec",
+      "symbol": "PYPL",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 0
+    }
+  },
+  "PYPL_Kereere Suzan_2026-02-15_0_M": {
+    "first_seen": "2026-02-22T18:29:09.662287",
+    "transaction": {
+      "change": -61222,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001633917-26-000028",
+      "isDerivative": true,
+      "name": "Kereere Suzan",
+      "share": 0,
+      "source": "sec",
+      "symbol": "PYPL",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 0
+    }
+  },
+  "PYPL_Kereere Suzan_2026-02-15_68596_F": {
+    "first_seen": "2026-02-22T18:29:09.662298",
+    "transaction": {
+      "change": -32112,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001633917-26-000028",
+      "isDerivative": false,
+      "name": "Kereere Suzan",
+      "share": 68596,
+      "source": "sec",
+      "symbol": "PYPL",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 40.29
+    }
+  },
+  "PYPL_Kereere Suzan_2026-02-15_100708_M": {
+    "first_seen": "2026-02-22T18:29:09.662302",
+    "transaction": {
+      "change": 8503,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001633917-26-000028",
+      "isDerivative": false,
+      "name": "Kereere Suzan",
+      "share": 100708,
+      "source": "sec",
+      "symbol": "PYPL",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 0
+    }
+  },
+  "PYPL_Kereere Suzan_2026-02-15_92205_M": {
+    "first_seen": "2026-02-22T18:29:09.662308",
+    "transaction": {
+      "change": 61222,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001633917-26-000028",
+      "isDerivative": false,
+      "name": "Kereere Suzan",
+      "share": 92205,
+      "source": "sec",
+      "symbol": "PYPL",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 0
+    }
   }
 }
