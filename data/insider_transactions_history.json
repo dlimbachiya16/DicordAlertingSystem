@@ -28065,5 +28065,73 @@
       "transactionDate": "2026-02-15",
       "transactionPrice": 0
     }
+  },
+  "NEE_Dunne Michael_2026-02-15_70951_F": {
+    "first_seen": "2026-02-22T19:01:00.235118",
+    "transaction": {
+      "change": -4388,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001960457-26-000004",
+      "isDerivative": false,
+      "name": "Dunne Michael",
+      "share": 70951,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "NEE_Lemasney Mark_2026-02-15_12840_F": {
+    "first_seen": "2026-02-22T19:01:00.235137",
+    "transaction": {
+      "change": -206,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001959910-26-000002",
+      "isDerivative": false,
+      "name": "Lemasney Mark",
+      "share": 12840,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "NEE_Coffey Robert_2026-02-15_38559_F": {
+    "first_seen": "2026-02-22T19:01:00.235145",
+    "transaction": {
+      "change": -1518,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001867736-26-000002",
+      "isDerivative": false,
+      "name": "Coffey Robert",
+      "share": 38559,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "RR_Casella Matthew G._2026-02-17_0_S": {
+    "first_seen": "2026-02-22T19:01:10.186757",
+    "transaction": {
+      "change": -20000,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0002000264-26-000002",
+      "isDerivative": false,
+      "name": "Casella Matthew G.",
+      "share": 0,
+      "source": "sec",
+      "symbol": "RR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-17",
+      "transactionPrice": 2.79
+    }
   }
 }
