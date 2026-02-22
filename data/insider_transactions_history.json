@@ -27793,5 +27793,39 @@
       "transactionDate": "2026-02-19",
       "transactionPrice": 2.68
     }
+  },
+  "NEE_Pimentel Armando Jr_2026-02-15_171984_F": {
+    "first_seen": "2026-02-22T16:49:57.337376",
+    "transaction": {
+      "change": -7373,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001427404-26-000002",
+      "isDerivative": false,
+      "name": "Pimentel Armando Jr",
+      "share": 171984,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
+  },
+  "NEE_Sieving Charles E_2026-02-15_190809_F": {
+    "first_seen": "2026-02-22T16:49:57.337395",
+    "transaction": {
+      "change": -2035,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0001390019-26-000004",
+      "isDerivative": false,
+      "name": "Sieving Charles E",
+      "share": 190809,
+      "source": "sec",
+      "symbol": "NEE",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-15",
+      "transactionPrice": 93.8
+    }
   }
 }
