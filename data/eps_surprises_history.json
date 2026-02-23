@@ -1533,11 +1533,11 @@
     "first_seen": "2026-02-05T23:01:38.513485",
     "earnings": {
       "actual": -0.15,
-      "estimate": -0.098,
+      "estimate": -0.1107,
       "period": "2025-12-31",
       "quarter": 2,
-      "surprise": -0.052,
-      "surprisePercent": -53.0612,
+      "surprise": -0.0393,
+      "surprisePercent": -35.5014,
       "symbol": "IREN",
       "year": 2026
     },
@@ -1833,11 +1833,11 @@
     "first_seen": "2026-02-17T23:03:18.580770",
     "earnings": {
       "actual": 1.03,
-      "estimate": 0.9606,
+      "estimate": 0.9605,
       "period": "2026-03-31",
       "quarter": 2,
-      "surprise": 0.0694,
-      "surprisePercent": 7.2247,
+      "surprise": 0.0695,
+      "surprisePercent": 7.2358,
       "symbol": "PANW",
       "year": 2026
     },
@@ -1847,12 +1847,12 @@
   "CVNA_2025-12-31": {
     "first_seen": "2026-02-18T22:50:30.873548",
     "earnings": {
-      "actual": 4.22,
-      "estimate": 1.127,
+      "actual": 1.06,
+      "estimate": 1.1211,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 3.093,
-      "surprisePercent": 274.4454,
+      "surprise": -0.0611,
+      "surprisePercent": -5.45,
       "symbol": "CVNA",
       "year": 2025
     },
@@ -1892,16 +1892,31 @@
   "OPEN_2025-12-31": {
     "first_seen": "2026-02-19T22:55:44.324344",
     "earnings": {
-      "actual": -0.07,
+      "actual": -1.26,
       "estimate": -0.0969,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.0269,
-      "surprisePercent": 27.7606,
+      "surprise": -1.1631,
+      "surprisePercent": -1200.3096,
       "symbol": "OPEN",
       "year": 2025
     },
     "alerted": true,
     "alerted_at": "2026-02-19T22:55:44.324356"
+  },
+  "IBRX_2025-12-31": {
+    "first_seen": "2026-02-23T20:09:18.658053",
+    "earnings": {
+      "actual": -0.06,
+      "estimate": -0.0959,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0359,
+      "surprisePercent": 37.4348,
+      "symbol": "IBRX",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-23T20:09:18.658065"
   }
 }
