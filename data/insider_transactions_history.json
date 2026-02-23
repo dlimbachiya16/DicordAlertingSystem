@@ -28133,5 +28133,22 @@
       "transactionDate": "2026-02-17",
       "transactionPrice": 2.79
     }
+  },
+  "MSFT_Coleman Amy_2026-02-17_49246_F": {
+    "first_seen": "2026-02-23T08:28:50.730318",
+    "transaction": {
+      "change": -85,
+      "currency": "",
+      "filingDate": "2026-02-17",
+      "id": "0000789019-26-000026",
+      "isDerivative": false,
+      "name": "Coleman Amy",
+      "share": 49246,
+      "source": "sec",
+      "symbol": "MSFT",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-17",
+      "transactionPrice": 401.32
+    }
   }
 }
