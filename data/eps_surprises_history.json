@@ -1918,5 +1918,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-23T20:09:18.658065"
+  },
+  "HIMS_2025-12-31": {
+    "first_seen": "2026-02-23T23:09:07.722194",
+    "earnings": {
+      "actual": 0.07,
+      "estimate": 0.0467,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0233,
+      "surprisePercent": 49.8929,
+      "symbol": "HIMS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-23T23:09:07.722201"
   }
 }
