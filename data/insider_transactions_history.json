@@ -28150,5 +28150,1620 @@
       "transactionDate": "2026-02-17",
       "transactionPrice": 401.32
     }
+  },
+  "BA_Amuluru Uma M_2026-02-19_20518_F": {
+    "first_seen": "2026-02-24T04:31:48.672462",
+    "transaction": {
+      "change": -1233,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002433",
+      "isDerivative": false,
+      "name": "Amuluru Uma M",
+      "share": 20518,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Cleary Michael J_2026-02-19_23505_F": {
+    "first_seen": "2026-02-24T04:31:48.672484",
+    "transaction": {
+      "change": -557,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002432",
+      "isDerivative": false,
+      "name": "Cleary Michael J",
+      "share": 23505,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Gerry Brett C._2026-02-19_37341_F": {
+    "first_seen": "2026-02-24T04:31:48.672517",
+    "transaction": {
+      "change": -1446,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002430",
+      "isDerivative": false,
+      "name": "Gerry Brett C.",
+      "share": 37341,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_McKenzie Howard E_2026-02-19_22209_F": {
+    "first_seen": "2026-02-24T04:31:48.672523",
+    "transaction": {
+      "change": -966,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002429",
+      "isDerivative": false,
+      "name": "McKenzie Howard E",
+      "share": 22209,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Ortberg Robert Kelly_2026-02-19_135928_F": {
+    "first_seen": "2026-02-24T04:31:48.672529",
+    "transaction": {
+      "change": -5017,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002428",
+      "isDerivative": false,
+      "name": "Ortberg Robert Kelly",
+      "share": 135928,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Parker Stephen Kenneth_2026-02-19_41230_F": {
+    "first_seen": "2026-02-24T04:31:48.672534",
+    "transaction": {
+      "change": -968,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002427",
+      "isDerivative": false,
+      "name": "Parker Stephen Kenneth",
+      "share": 41230,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Pope Stephanie F_2026-02-19_76539_F": {
+    "first_seen": "2026-02-24T04:31:48.672541",
+    "transaction": {
+      "change": -3167,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002426",
+      "isDerivative": false,
+      "name": "Pope Stephanie F",
+      "share": 76539,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Raymond David Christopher_2026-02-19_42357_F": {
+    "first_seen": "2026-02-24T04:31:48.672547",
+    "transaction": {
+      "change": -965,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002425",
+      "isDerivative": false,
+      "name": "Raymond David Christopher",
+      "share": 42357,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_Schmidt Ann M_2026-02-19_13477_F": {
+    "first_seen": "2026-02-24T04:31:48.672553",
+    "transaction": {
+      "change": -500,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002424",
+      "isDerivative": false,
+      "name": "Schmidt Ann M",
+      "share": 13477,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BA_DEASY DANA S_2026-02-19_31504_F": {
+    "first_seen": "2026-02-24T04:31:48.672558",
+    "transaction": {
+      "change": -815,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001225208-26-002431",
+      "isDerivative": false,
+      "name": "DEASY DANA S",
+      "share": 31504,
+      "source": "sec",
+      "symbol": "BA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 236.71
+    }
+  },
+  "BE_IMMELT JEFFREY R_2026-02-19_218417_G": {
+    "first_seen": "2026-02-24T04:31:49.710265",
+    "transaction": {
+      "change": -4000,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001193125-26-064646",
+      "isDerivative": false,
+      "name": "IMMELT JEFFREY R",
+      "share": 218417,
+      "source": "sec",
+      "symbol": "BE",
+      "transactionCode": "G",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "FIG_Mulligan Brendan_2026-02-19_845262_S": {
+    "first_seen": "2026-02-24T04:31:58.045644",
+    "transaction": {
+      "change": -5227,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002073801-26-000015",
+      "isDerivative": false,
+      "name": "Mulligan Brendan",
+      "share": 845262,
+      "source": "sec",
+      "symbol": "FIG",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 26
+    }
+  },
+  "FIG_Herb Tyler_2026-02-19_194434_S": {
+    "first_seen": "2026-02-24T04:31:58.045659",
+    "transaction": {
+      "change": -1492,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002073587-26-000006",
+      "isDerivative": false,
+      "name": "Herb Tyler",
+      "share": 194434,
+      "source": "sec",
+      "symbol": "FIG",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 26
+    }
+  },
+  "FLR_Hammonds Kevin B_2026-02-20_0_M": {
+    "first_seen": "2026-02-24T04:31:58.562417",
+    "transaction": {
+      "change": -2988,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002033458-26-000002",
+      "isDerivative": true,
+      "name": "Hammonds Kevin B",
+      "share": 0,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-20",
+      "transactionPrice": 0
+    }
+  },
+  "FLR_Hammonds Kevin B_2026-02-20_16273_S": {
+    "first_seen": "2026-02-24T04:31:58.562456",
+    "transaction": {
+      "change": -2988,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002033458-26-000002",
+      "isDerivative": false,
+      "name": "Hammonds Kevin B",
+      "share": 16273,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-20",
+      "transactionPrice": 52.6134
+    }
+  },
+  "FLR_Hammonds Kevin B_2026-02-20_19261_M": {
+    "first_seen": "2026-02-24T04:31:58.562463",
+    "transaction": {
+      "change": 2988,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002033458-26-000002",
+      "isDerivative": false,
+      "name": "Hammonds Kevin B",
+      "share": 19261,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-20",
+      "transactionPrice": 46.07
+    }
+  },
+  "FLR_Bechelany Pierre Edward_2026-02-19_0_M": {
+    "first_seen": "2026-02-24T04:31:58.562467",
+    "transaction": {
+      "change": -4581,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002096121-26-000002",
+      "isDerivative": true,
+      "name": "Bechelany Pierre Edward",
+      "share": 0,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "FLR_Bechelany Pierre Edward_2026-02-19_32748_S": {
+    "first_seen": "2026-02-24T04:31:58.562559",
+    "transaction": {
+      "change": -4581,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002096121-26-000002",
+      "isDerivative": false,
+      "name": "Bechelany Pierre Edward",
+      "share": 32748,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 53.1047
+    }
+  },
+  "FLR_Bechelany Pierre Edward_2026-02-19_37329_M": {
+    "first_seen": "2026-02-24T04:31:58.562564",
+    "transaction": {
+      "change": 4581,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002096121-26-000002",
+      "isDerivative": false,
+      "name": "Bechelany Pierre Edward",
+      "share": 37329,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 46.07
+    }
+  },
+  "FLR_Fields Mark E_2026-02-19_0_M": {
+    "first_seen": "2026-02-24T04:31:58.562567",
+    "transaction": {
+      "change": -5178,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001777231-26-000004",
+      "isDerivative": true,
+      "name": "Fields Mark E",
+      "share": 0,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "FLR_Fields Mark E_2026-02-19_194514_S": {
+    "first_seen": "2026-02-24T04:31:58.562571",
+    "transaction": {
+      "change": -801,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001777231-26-000004",
+      "isDerivative": false,
+      "name": "Fields Mark E",
+      "share": 194514,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 53.4276
+    }
+  },
+  "FLR_Fields Mark E_2026-02-19_195315_S": {
+    "first_seen": "2026-02-24T04:31:58.562576",
+    "transaction": {
+      "change": -2318,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001777231-26-000004",
+      "isDerivative": false,
+      "name": "Fields Mark E",
+      "share": 195315,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 52.6781
+    }
+  },
+  "FLR_Fields Mark E_2026-02-19_197633_S": {
+    "first_seen": "2026-02-24T04:31:58.562580",
+    "transaction": {
+      "change": -2059,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001777231-26-000004",
+      "isDerivative": false,
+      "name": "Fields Mark E",
+      "share": 197633,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 51.5833
+    }
+  },
+  "FLR_Fields Mark E_2026-02-19_199692_M": {
+    "first_seen": "2026-02-24T04:31:58.562585",
+    "transaction": {
+      "change": 5178,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001777231-26-000004",
+      "isDerivative": false,
+      "name": "Fields Mark E",
+      "share": 199692,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 46.07
+    }
+  },
+  "FLR_Cook Tracey H_2026-02-19_0_M": {
+    "first_seen": "2026-02-24T04:31:58.562588",
+    "transaction": {
+      "change": -2589,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001759710-26-000004",
+      "isDerivative": true,
+      "name": "Cook Tracey H",
+      "share": 0,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "FLR_Cook Tracey H_2026-02-19_10731_S": {
+    "first_seen": "2026-02-24T04:31:58.562593",
+    "transaction": {
+      "change": -2589,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001759710-26-000004",
+      "isDerivative": false,
+      "name": "Cook Tracey H",
+      "share": 10731,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 53.2189
+    }
+  },
+  "FLR_Cook Tracey H_2026-02-19_13320_M": {
+    "first_seen": "2026-02-24T04:31:58.562598",
+    "transaction": {
+      "change": 2589,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001759710-26-000004",
+      "isDerivative": false,
+      "name": "Cook Tracey H",
+      "share": 13320,
+      "source": "sec",
+      "symbol": "FLR",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 46.07
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_5333_M": {
+    "first_seen": "2026-02-24T04:32:01.689324",
+    "transaction": {
+      "change": -2667,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": true,
+      "name": "Thomas Robert David",
+      "share": 5333,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_3116_M": {
+    "first_seen": "2026-02-24T04:32:01.689341",
+    "transaction": {
+      "change": -3116,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": true,
+      "name": "Thomas Robert David",
+      "share": 3116,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_0_M": {
+    "first_seen": "2026-02-24T04:32:01.689345",
+    "transaction": {
+      "change": -2631,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": true,
+      "name": "Thomas Robert David",
+      "share": 0,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_72800_F": {
+    "first_seen": "2026-02-24T04:32:01.689368",
+    "transaction": {
+      "change": -1349,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": false,
+      "name": "Thomas Robert David",
+      "share": 72800,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_74149_M": {
+    "first_seen": "2026-02-24T04:32:01.689371",
+    "transaction": {
+      "change": 2667,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": false,
+      "name": "Thomas Robert David",
+      "share": 74149,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_71482_F": {
+    "first_seen": "2026-02-24T04:32:01.689378",
+    "transaction": {
+      "change": -1575,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": false,
+      "name": "Thomas Robert David",
+      "share": 71482,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_73057_M": {
+    "first_seen": "2026-02-24T04:32:01.689381",
+    "transaction": {
+      "change": 3116,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": false,
+      "name": "Thomas Robert David",
+      "share": 73057,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_69941_F": {
+    "first_seen": "2026-02-24T04:32:01.689386",
+    "transaction": {
+      "change": -1329,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": false,
+      "name": "Thomas Robert David",
+      "share": 69941,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_Thomas Robert David_2026-02-21_71270_M": {
+    "first_seen": "2026-02-24T04:32:01.689388",
+    "transaction": {
+      "change": 2631,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0002005007-26-000003",
+      "isDerivative": false,
+      "name": "Thomas Robert David",
+      "share": 71270,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_1264_M": {
+    "first_seen": "2026-02-24T04:32:01.689428",
+    "transaction": {
+      "change": -632,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": true,
+      "name": "Fehring Nicolas A.",
+      "share": 1264,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_541_M": {
+    "first_seen": "2026-02-24T04:32:01.689431",
+    "transaction": {
+      "change": -540,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": true,
+      "name": "Fehring Nicolas A.",
+      "share": 541,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_0_M": {
+    "first_seen": "2026-02-24T04:32:01.689434",
+    "transaction": {
+      "change": -396,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": true,
+      "name": "Fehring Nicolas A.",
+      "share": 0,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_16976_F": {
+    "first_seen": "2026-02-24T04:32:01.689437",
+    "transaction": {
+      "change": -320,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": false,
+      "name": "Fehring Nicolas A.",
+      "share": 16976,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_17296_M": {
+    "first_seen": "2026-02-24T04:32:01.689440",
+    "transaction": {
+      "change": 632,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": false,
+      "name": "Fehring Nicolas A.",
+      "share": 17296,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_16664_F": {
+    "first_seen": "2026-02-24T04:32:01.689443",
+    "transaction": {
+      "change": -274,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": false,
+      "name": "Fehring Nicolas A.",
+      "share": 16664,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_16938_M": {
+    "first_seen": "2026-02-24T04:32:01.689446",
+    "transaction": {
+      "change": 540,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": false,
+      "name": "Fehring Nicolas A.",
+      "share": 16938,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_16398_F": {
+    "first_seen": "2026-02-24T04:32:01.689449",
+    "transaction": {
+      "change": -201,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": false,
+      "name": "Fehring Nicolas A.",
+      "share": 16398,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_Fehring Nicolas A._2026-02-21_16599_M": {
+    "first_seen": "2026-02-24T04:32:01.689452",
+    "transaction": {
+      "change": 396,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001875415-26-000003",
+      "isDerivative": false,
+      "name": "Fehring Nicolas A.",
+      "share": 16599,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_3200_M": {
+    "first_seen": "2026-02-24T04:32:01.689455",
+    "transaction": {
+      "change": -1600,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": true,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 3200,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_1738_M": {
+    "first_seen": "2026-02-24T04:32:01.689457",
+    "transaction": {
+      "change": -1738,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": true,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 1738,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_0_M": {
+    "first_seen": "2026-02-24T04:32:01.689460",
+    "transaction": {
+      "change": -1053,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": true,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 0,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_56755_F": {
+    "first_seen": "2026-02-24T04:32:01.689465",
+    "transaction": {
+      "change": -817,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": false,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 56755,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_57572_M": {
+    "first_seen": "2026-02-24T04:32:01.689467",
+    "transaction": {
+      "change": 1600,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": false,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 57572,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_55972_F": {
+    "first_seen": "2026-02-24T04:32:01.689472",
+    "transaction": {
+      "change": -888,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": false,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 55972,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_56860_M": {
+    "first_seen": "2026-02-24T04:32:01.689474",
+    "transaction": {
+      "change": 1738,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": false,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 56860,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_55122_F": {
+    "first_seen": "2026-02-24T04:32:01.689904",
+    "transaction": {
+      "change": -538,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": false,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 55122,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_LAMOREAUX NICKLE JACLYN_2026-02-21_55660_M": {
+    "first_seen": "2026-02-24T04:32:01.689907",
+    "transaction": {
+      "change": 1053,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001837510-26-000003",
+      "isDerivative": false,
+      "name": "LAMOREAUX NICKLE JACLYN",
+      "share": 55660,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_11227_M": {
+    "first_seen": "2026-02-24T04:32:01.689910",
+    "transaction": {
+      "change": -5614,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": true,
+      "name": "KRISHNA ARVIND",
+      "share": 11227,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_6123_M": {
+    "first_seen": "2026-02-24T04:32:01.689913",
+    "transaction": {
+      "change": -6123,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": true,
+      "name": "KRISHNA ARVIND",
+      "share": 6123,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_0_M": {
+    "first_seen": "2026-02-24T04:32:01.689927",
+    "transaction": {
+      "change": -5166,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": true,
+      "name": "KRISHNA ARVIND",
+      "share": 0,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_371894_F": {
+    "first_seen": "2026-02-24T04:32:01.689934",
+    "transaction": {
+      "change": -2814,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": false,
+      "name": "KRISHNA ARVIND",
+      "share": 371894,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_374708_M": {
+    "first_seen": "2026-02-24T04:32:01.689937",
+    "transaction": {
+      "change": 5614,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": false,
+      "name": "KRISHNA ARVIND",
+      "share": 374708,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_369094_F": {
+    "first_seen": "2026-02-24T04:32:01.689942",
+    "transaction": {
+      "change": -3069,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": false,
+      "name": "KRISHNA ARVIND",
+      "share": 369094,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_372163_M": {
+    "first_seen": "2026-02-24T04:32:01.689944",
+    "transaction": {
+      "change": 6123,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": false,
+      "name": "KRISHNA ARVIND",
+      "share": 372163,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_366040_F": {
+    "first_seen": "2026-02-24T04:32:01.689950",
+    "transaction": {
+      "change": -2587,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": false,
+      "name": "KRISHNA ARVIND",
+      "share": 366040,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_KRISHNA ARVIND_2026-02-21_368627_M": {
+    "first_seen": "2026-02-24T04:32:01.689952",
+    "transaction": {
+      "change": 5166,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001629898-26-000003",
+      "isDerivative": false,
+      "name": "KRISHNA ARVIND",
+      "share": 368627,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_5754_M": {
+    "first_seen": "2026-02-24T04:32:01.689955",
+    "transaction": {
+      "change": -2877,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": true,
+      "name": "KAVANAUGH JAMES J",
+      "share": 5754,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_3575_M": {
+    "first_seen": "2026-02-24T04:32:01.689957",
+    "transaction": {
+      "change": -3575,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": true,
+      "name": "KAVANAUGH JAMES J",
+      "share": 3575,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_0_M": {
+    "first_seen": "2026-02-24T04:32:01.689960",
+    "transaction": {
+      "change": -3380,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": true,
+      "name": "KAVANAUGH JAMES J",
+      "share": 0,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_175392_F": {
+    "first_seen": "2026-02-24T04:32:01.689965",
+    "transaction": {
+      "change": -1442,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": false,
+      "name": "KAVANAUGH JAMES J",
+      "share": 175392,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_176834_M": {
+    "first_seen": "2026-02-24T04:32:01.689967",
+    "transaction": {
+      "change": 2877,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": false,
+      "name": "KAVANAUGH JAMES J",
+      "share": 176834,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_173957_F": {
+    "first_seen": "2026-02-24T04:32:01.689971",
+    "transaction": {
+      "change": -1792,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": false,
+      "name": "KAVANAUGH JAMES J",
+      "share": 173957,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_175749_M": {
+    "first_seen": "2026-02-24T04:32:01.689974",
+    "transaction": {
+      "change": 3575,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": false,
+      "name": "KAVANAUGH JAMES J",
+      "share": 175749,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_172174_F": {
+    "first_seen": "2026-02-24T04:32:01.689979",
+    "transaction": {
+      "change": -1694,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": false,
+      "name": "KAVANAUGH JAMES J",
+      "share": 172174,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_KAVANAUGH JAMES J_2026-02-21_173868_M": {
+    "first_seen": "2026-02-24T04:32:01.689981",
+    "transaction": {
+      "change": 3380,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001433640-26-000003",
+      "isDerivative": false,
+      "name": "KAVANAUGH JAMES J",
+      "share": 173868,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_4491_M": {
+    "first_seen": "2026-02-24T04:32:01.689983",
+    "transaction": {
+      "change": -2246,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": true,
+      "name": "COHN GARY D",
+      "share": 4491,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_2612_M": {
+    "first_seen": "2026-02-24T04:32:01.689986",
+    "transaction": {
+      "change": -2611,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": true,
+      "name": "COHN GARY D",
+      "share": 2612,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_0_M": {
+    "first_seen": "2026-02-24T04:32:01.689988",
+    "transaction": {
+      "change": -2725,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": true,
+      "name": "COHN GARY D",
+      "share": 0,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_110590_F": {
+    "first_seen": "2026-02-24T04:32:01.689992",
+    "transaction": {
+      "change": -1243,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": false,
+      "name": "COHN GARY D",
+      "share": 110590,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_111833_M": {
+    "first_seen": "2026-02-24T04:32:01.689994",
+    "transaction": {
+      "change": 2246,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": false,
+      "name": "COHN GARY D",
+      "share": 111833,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_109587_F": {
+    "first_seen": "2026-02-24T04:32:01.689999",
+    "transaction": {
+      "change": -1444,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": false,
+      "name": "COHN GARY D",
+      "share": 109587,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_111031_M": {
+    "first_seen": "2026-02-24T04:32:01.690001",
+    "transaction": {
+      "change": 2611,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": false,
+      "name": "COHN GARY D",
+      "share": 111031,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_108420_F": {
+    "first_seen": "2026-02-24T04:32:01.690005",
+    "transaction": {
+      "change": -1507,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": false,
+      "name": "COHN GARY D",
+      "share": 108420,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 256.42
+    }
+  },
+  "IBM_COHN GARY D_2026-02-21_109927_M": {
+    "first_seen": "2026-02-24T04:32:01.690007",
+    "transaction": {
+      "change": 2725,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001366945-26-000003",
+      "isDerivative": false,
+      "name": "COHN GARY D",
+      "share": 109927,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-21",
+      "transactionPrice": 0
+    }
+  },
+  "JNJ_Schmid Timothy_2026-02-20_25447_S": {
+    "first_seen": "2026-02-24T04:32:04.417490",
+    "transaction": {
+      "change": -1322,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000200406-26-000046",
+      "isDerivative": false,
+      "name": "Schmid Timothy",
+      "share": 25447,
+      "source": "sec",
+      "symbol": "JNJ",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-20",
+      "transactionPrice": 245.66
+    }
+  },
+  "KO_Ortega Luisa_2026-02-19_58446_A": {
+    "first_seen": "2026-02-24T04:32:05.519442",
+    "transaction": {
+      "change": 26870,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000026",
+      "isDerivative": false,
+      "name": "Ortega Luisa",
+      "share": 58446,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_May Erin L_2026-02-19_36388_A": {
+    "first_seen": "2026-02-24T04:32:05.519459",
+    "transaction": {
+      "change": 15855,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000032",
+      "isDerivative": false,
+      "name": "May Erin L",
+      "share": 36388,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_Pietracci Bruno_2026-02-19_49759_A": {
+    "first_seen": "2026-02-24T04:32:05.519466",
+    "transaction": {
+      "change": 49759,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000033",
+      "isDerivative": false,
+      "name": "Pietracci Bruno",
+      "share": 49759,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_Braun Henrique_2026-02-19_127938_A": {
+    "first_seen": "2026-02-24T04:32:05.519471",
+    "transaction": {
+      "change": 65317,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000007",
+      "isDerivative": false,
+      "name": "Braun Henrique",
+      "share": 127938,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_Douglas Monica Howard_2026-02-19_77532_A": {
+    "first_seen": "2026-02-24T04:32:05.519894",
+    "transaction": {
+      "change": 39807,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000012",
+      "isDerivative": false,
+      "name": "Douglas Monica Howard",
+      "share": 77532,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_CHANG LISA_2026-02-19_134483_A": {
+    "first_seen": "2026-02-24T04:32:05.519901",
+    "transaction": {
+      "change": 39807,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000031",
+      "isDerivative": false,
+      "name": "CHANG LISA",
+      "share": 134483,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_QUAN NANCY_2026-02-19_262521_A": {
+    "first_seen": "2026-02-24T04:32:05.519905",
+    "transaction": {
+      "change": 39191,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000022",
+      "isDerivative": false,
+      "name": "QUAN NANCY",
+      "share": 262521,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_ARROYO MANUEL_2026-02-19_132714_A": {
+    "first_seen": "2026-02-24T04:32:05.519910",
+    "transaction": {
+      "change": 74647,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000005",
+      "isDerivative": false,
+      "name": "ARROYO MANUEL",
+      "share": 132714,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_MANN JENNIFER K_2026-02-19_223918_A": {
+    "first_seen": "2026-02-24T04:32:05.519914",
+    "transaction": {
+      "change": 46654,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000014",
+      "isDerivative": false,
+      "name": "MANN JENNIFER K",
+      "share": 223918,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_MURPHY JOHN_2026-02-19_410550_A": {
+    "first_seen": "2026-02-24T04:32:05.519918",
+    "transaction": {
+      "change": 130633,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000017",
+      "isDerivative": false,
+      "name": "MURPHY JOHN",
+      "share": 410550,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_Quincey James_2026-02-19_678459_A": {
+    "first_seen": "2026-02-24T04:32:05.519923",
+    "transaction": {
+      "change": 335913,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000024",
+      "isDerivative": false,
+      "name": "Quincey James",
+      "share": 678459,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "KO_Perez Beatriz R_2026-02-19_173728_A": {
+    "first_seen": "2026-02-24T04:32:05.519928",
+    "transaction": {
+      "change": 29859,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0000021344-26-000019",
+      "isDerivative": false,
+      "name": "Perez Beatriz R",
+      "share": 173728,
+      "source": "sec",
+      "symbol": "KO",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "SYNA_Rizvi Ken_2026-02-23_117879_F": {
+    "first_seen": "2026-02-24T04:32:26.651823",
+    "transaction": {
+      "change": -2853,
+      "currency": "",
+      "filingDate": "2026-02-23",
+      "id": "0001846472-26-000004",
+      "isDerivative": false,
+      "name": "Rizvi Ken",
+      "share": 117879,
+      "source": "sec",
+      "symbol": "SYNA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 84.28
+    }
   }
 }
