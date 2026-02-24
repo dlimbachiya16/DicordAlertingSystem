@@ -1948,5 +1948,35 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-24T13:52:13.963910"
+  },
+  "LCID_2025-12-31": {
+    "first_seen": "2026-02-24T22:57:16.694770",
+    "earnings": {
+      "actual": -3.62,
+      "estimate": -2.6887,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.9313,
+      "surprisePercent": -34.6376,
+      "symbol": "LCID",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-24T22:57:16.694781"
+  },
+  "TEM_2025-12-31": {
+    "first_seen": "2026-02-24T22:57:35.461044",
+    "earnings": {
+      "actual": -0.04,
+      "estimate": -0.0422,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0022,
+      "surprisePercent": 5.2133,
+      "symbol": "TEM",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-24T22:57:35.461055"
   }
 }
