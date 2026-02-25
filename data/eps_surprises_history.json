@@ -1978,5 +1978,65 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-24T22:57:35.461055"
+  },
+  "IONQ_2025-12-31": {
+    "first_seen": "2026-02-25T22:56:36.136496",
+    "earnings": {
+      "actual": 1.93,
+      "estimate": -0.333,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 2.263,
+      "surprisePercent": 679.5796,
+      "symbol": "IONQ",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-25T22:56:36.136507"
+  },
+  "NVDA_2026-03-31": {
+    "first_seen": "2026-02-25T22:56:46.007542",
+    "earnings": {
+      "actual": 1.62,
+      "estimate": 1.5616,
+      "period": "2026-03-31",
+      "quarter": 4,
+      "surprise": 0.0584,
+      "surprisePercent": 3.7398,
+      "symbol": "NVDA",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-25T22:56:46.007554"
+  },
+  "SNOW_2026-03-31": {
+    "first_seen": "2026-02-25T22:56:55.723017",
+    "earnings": {
+      "actual": 0.32,
+      "estimate": 0.2768,
+      "period": "2026-03-31",
+      "quarter": 4,
+      "surprise": 0.0432,
+      "surprisePercent": 15.6069,
+      "symbol": "SNOW",
+      "year": 2026
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-25T22:56:55.723028"
+  },
+  "TTD_2025-12-31": {
+    "first_seen": "2026-02-25T22:57:00.091434",
+    "earnings": {
+      "actual": 0.59,
+      "estimate": 0.5882,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0018,
+      "surprisePercent": 0.306,
+      "symbol": "TTD",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-25T22:57:00.091445"
   }
 }
