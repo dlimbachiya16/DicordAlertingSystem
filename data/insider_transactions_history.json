@@ -34695,5 +34695,413 @@
       "transactionDate": "2026-02-23",
       "transactionPrice": 282.34
     }
+  },
+  "HIMS_Chi Michael_2026-02-23_670219_A": {
+    "first_seen": "2026-02-26T07:36:38.136767",
+    "transaction": {
+      "change": 365058,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001965903-26-000002",
+      "isDerivative": false,
+      "name": "Chi Michael",
+      "share": 670219,
+      "source": "sec",
+      "symbol": "HIMS",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "HIMS_Okupe Oluyemi_2026-02-23_502307_A": {
+    "first_seen": "2026-02-26T07:36:38.136792",
+    "transaction": {
+      "change": 410690,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001907056-26-000008",
+      "isDerivative": false,
+      "name": "Okupe Oluyemi",
+      "share": 502307,
+      "source": "sec",
+      "symbol": "HIMS",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "HIMS_Boughton Soleil_2026-02-23_445623_A": {
+    "first_seen": "2026-02-26T07:36:38.136799",
+    "transaction": {
+      "change": 273794,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001837817-26-000002",
+      "isDerivative": false,
+      "name": "Boughton Soleil",
+      "share": 445623,
+      "source": "sec",
+      "symbol": "HIMS",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "HIMS_Dudum Andrew_2026-02-23_1672734_A": {
+    "first_seen": "2026-02-26T07:36:38.136806",
+    "transaction": {
+      "change": 794002,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001837796-26-000002",
+      "isDerivative": false,
+      "name": "Dudum Andrew",
+      "share": 1672734,
+      "source": "sec",
+      "symbol": "HIMS",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "HOOD_Bhatt Baiju_2026-02-23_47198482_C": {
+    "first_seen": "2026-02-26T07:36:38.688827",
+    "transaction": {
+      "change": -65694,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001783879-26-000030",
+      "isDerivative": true,
+      "name": "Bhatt Baiju",
+      "share": 47198482,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "HOOD_Bhatt Baiju_2026-02-23_0_S": {
+    "first_seen": "2026-02-26T07:36:38.688845",
+    "transaction": {
+      "change": -100,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001783879-26-000030",
+      "isDerivative": false,
+      "name": "Bhatt Baiju",
+      "share": 0,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 74.82
+    }
+  },
+  "HOOD_Bhatt Baiju_2026-02-23_100_S": {
+    "first_seen": "2026-02-26T07:36:38.688856",
+    "transaction": {
+      "change": -2400,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001783879-26-000030",
+      "isDerivative": false,
+      "name": "Bhatt Baiju",
+      "share": 100,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 74.47
+    }
+  },
+  "HOOD_Bhatt Baiju_2026-02-23_2500_S": {
+    "first_seen": "2026-02-26T07:36:38.688865",
+    "transaction": {
+      "change": -20574,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001783879-26-000030",
+      "isDerivative": false,
+      "name": "Bhatt Baiju",
+      "share": 2500,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 72.8063
+    }
+  },
+  "HOOD_Bhatt Baiju_2026-02-23_23074_S": {
+    "first_seen": "2026-02-26T07:36:38.688871",
+    "transaction": {
+      "change": -42620,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001783879-26-000030",
+      "isDerivative": false,
+      "name": "Bhatt Baiju",
+      "share": 23074,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 71.9346
+    }
+  },
+  "HOOD_Bhatt Baiju_2026-02-23_65694_C": {
+    "first_seen": "2026-02-26T07:36:38.688879",
+    "transaction": {
+      "change": 65694,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001783879-26-000030",
+      "isDerivative": false,
+      "name": "Bhatt Baiju",
+      "share": 65694,
+      "source": "sec",
+      "symbol": "HOOD",
+      "transactionCode": "C",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Miebach Michael_2026-02-25_434_P": {
+    "first_seen": "2026-02-26T07:36:39.250776",
+    "transaction": {
+      "change": 434,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001771933-26-000002",
+      "isDerivative": false,
+      "name": "Miebach Michael",
+      "share": 434,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "P",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 233.3261
+    }
+  },
+  "IBM_HOWARD MICHELLE J_2026-02-25_194_P": {
+    "first_seen": "2026-02-26T07:36:39.250793",
+    "transaction": {
+      "change": 50,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001769389-26-000002",
+      "isDerivative": false,
+      "name": "HOWARD MICHELLE J",
+      "share": 194,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "P",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 237.8293
+    }
+  },
+  "UNH_Conway Patrick Hugh_2026-02-23_35517_A": {
+    "first_seen": "2026-02-26T07:37:10.447477",
+    "transaction": {
+      "change": 35517,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000050",
+      "isDerivative": true,
+      "name": "Conway Patrick Hugh",
+      "share": 35517,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_Conway Patrick Hugh_2026-02-23_18480_A": {
+    "first_seen": "2026-02-26T07:37:10.447492",
+    "transaction": {
+      "change": 8855,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000050",
+      "isDerivative": false,
+      "name": "Conway Patrick Hugh",
+      "share": 18480,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_Conway Patrick Hugh_2026-02-23_9625_F": {
+    "first_seen": "2026-02-26T07:37:10.447499",
+    "transaction": {
+      "change": -179,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000050",
+      "isDerivative": false,
+      "name": "Conway Patrick Hugh",
+      "share": 9625,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 282.34
+    }
+  },
+  "UNH_Noel Timothy John_2026-02-23_35517_A": {
+    "first_seen": "2026-02-26T07:37:10.447506",
+    "transaction": {
+      "change": 35517,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000054",
+      "isDerivative": true,
+      "name": "Noel Timothy John",
+      "share": 35517,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_Noel Timothy John_2026-02-23_17472_A": {
+    "first_seen": "2026-02-26T07:37:10.447510",
+    "transaction": {
+      "change": 8855,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000054",
+      "isDerivative": false,
+      "name": "Noel Timothy John",
+      "share": 17472,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_Noel Timothy John_2026-02-23_8617_F": {
+    "first_seen": "2026-02-26T07:37:10.447514",
+    "transaction": {
+      "change": -123,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000054",
+      "isDerivative": false,
+      "name": "Noel Timothy John",
+      "share": 8617,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 282.34
+    }
+  },
+  "UNH_McSweeney Erin_2026-02-23_19535_A": {
+    "first_seen": "2026-02-26T07:37:10.447519",
+    "transaction": {
+      "change": 19535,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000052",
+      "isDerivative": true,
+      "name": "McSweeney Erin",
+      "share": 19535,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_McSweeney Erin_2026-02-23_15488_A": {
+    "first_seen": "2026-02-26T07:37:10.447522",
+    "transaction": {
+      "change": 4871,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000052",
+      "isDerivative": false,
+      "name": "McSweeney Erin",
+      "share": 15488,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_McSweeney Erin_2026-02-23_10617_F": {
+    "first_seen": "2026-02-26T07:37:10.447526",
+    "transaction": {
+      "change": -131,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000052",
+      "isDerivative": false,
+      "name": "McSweeney Erin",
+      "share": 10617,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 282.34
+    }
+  },
+  "UNH_DeVeydt Wayne S_2026-02-23_35517_A": {
+    "first_seen": "2026-02-26T07:37:10.447530",
+    "transaction": {
+      "change": 35517,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000048",
+      "isDerivative": true,
+      "name": "DeVeydt Wayne S",
+      "share": 35517,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_DeVeydt Wayne S_2026-02-23_19517_A": {
+    "first_seen": "2026-02-26T07:37:10.447538",
+    "transaction": {
+      "change": 8855,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000048",
+      "isDerivative": false,
+      "name": "DeVeydt Wayne S",
+      "share": 19517,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 282.34
+    }
+  },
+  "ZBRA_Froese Tamara Dionne_2026-02-23_5068_F": {
+    "first_seen": "2026-02-26T07:37:13.846773",
+    "transaction": {
+      "change": -109,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001628280-26-011649",
+      "isDerivative": false,
+      "name": "Froese Tamara Dionne",
+      "share": 5068,
+      "source": "sec",
+      "symbol": "ZBRA",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 231.32
+    }
   }
 }
