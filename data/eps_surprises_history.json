@@ -2038,5 +2038,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-25T22:57:00.091445"
+  },
+  "JOBY_2025-12-31": {
+    "first_seen": "2026-02-26T02:50:58.246786",
+    "earnings": {
+      "actual": -0.2,
+      "estimate": -0.22,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.02,
+      "surprisePercent": 9.0909,
+      "symbol": "JOBY",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-26T02:50:58.246797"
   }
 }
