@@ -2068,5 +2068,35 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-26T12:05:11.977004"
+  },
+  "LNTH_2025-12-31": {
+    "first_seen": "2026-02-26T13:40:13.203770",
+    "earnings": {
+      "actual": 1.67,
+      "estimate": 1.1926,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.4774,
+      "surprisePercent": 40.0302,
+      "symbol": "LNTH",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-26T13:40:13.203781"
+  },
+  "QBTS_2025-12-31": {
+    "first_seen": "2026-02-26T13:40:25.874380",
+    "earnings": {
+      "actual": -0.12,
+      "estimate": -0.0676,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0524,
+      "surprisePercent": -77.5148,
+      "symbol": "QBTS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-26T13:40:25.874392"
   }
 }
