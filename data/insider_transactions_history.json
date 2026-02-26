@@ -34457,5 +34457,243 @@
       "transactionDate": "2026-02-20",
       "transactionPrice": 290
     }
+  },
+  "GOOGL_Sergey Brin_2026-02-19_359833112_G": {
+    "first_seen": "2026-02-26T04:30:55.900767",
+    "transaction": {
+      "change": -437500,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001193125-26-072513",
+      "isDerivative": false,
+      "name": "Sergey Brin",
+      "share": 359833112,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "G",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "GOOGL_Sergey Brin_2026-02-19_37469_G": {
+    "first_seen": "2026-02-26T04:30:55.900790",
+    "transaction": {
+      "change": -437500,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001193125-26-072513",
+      "isDerivative": false,
+      "name": "Sergey Brin",
+      "share": 37469,
+      "source": "sec",
+      "symbol": "GOOGL",
+      "transactionCode": "G",
+      "transactionDate": "2026-02-19",
+      "transactionPrice": 0
+    }
+  },
+  "IONQ_TOLEDANO GABRIELLE B_2026-02-24_9385_S": {
+    "first_seen": "2026-02-26T04:30:59.085541",
+    "transaction": {
+      "change": -616,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001193125-26-072884",
+      "isDerivative": false,
+      "name": "TOLEDANO GABRIELLE B",
+      "share": 9385,
+      "source": "sec",
+      "symbol": "IONQ",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-24",
+      "transactionPrice": 31
+    }
+  },
+  "META_Olivan Javier_2026-02-23_89677_S": {
+    "first_seen": "2026-02-26T04:31:05.060564",
+    "transaction": {
+      "change": -408,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000950103-26-002662",
+      "isDerivative": false,
+      "name": "Olivan Javier",
+      "share": 89677,
+      "source": "sec",
+      "symbol": "META",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 652.68
+    }
+  },
+  "META_Olivan Javier_2026-02-23_8458_S": {
+    "first_seen": "2026-02-26T04:31:05.060581",
+    "transaction": {
+      "change": -82,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000950103-26-002662",
+      "isDerivative": false,
+      "name": "Olivan Javier",
+      "share": 8458,
+      "source": "sec",
+      "symbol": "META",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 652.68
+    }
+  },
+  "META_Olivan Javier_2026-02-23_2885_S": {
+    "first_seen": "2026-02-26T04:31:05.060586",
+    "transaction": {
+      "change": -57,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000950103-26-002662",
+      "isDerivative": false,
+      "name": "Olivan Javier",
+      "share": 2885,
+      "source": "sec",
+      "symbol": "META",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 652.68
+    }
+  },
+  "META_Olivan Javier_2026-02-23_17039_S": {
+    "first_seen": "2026-02-26T04:31:05.060596",
+    "transaction": {
+      "change": -926,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000950103-26-002662",
+      "isDerivative": false,
+      "name": "Olivan Javier",
+      "share": 17039,
+      "source": "sec",
+      "symbol": "META",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 652.68
+    }
+  },
+  "SYNA_Gupta Vikram_2026-02-25_95996_S": {
+    "first_seen": "2026-02-26T04:31:22.604698",
+    "transaction": {
+      "change": -772,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0001984784-26-000005",
+      "isDerivative": false,
+      "name": "Gupta Vikram",
+      "share": 95996,
+      "source": "sec",
+      "symbol": "SYNA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 81.57
+    }
+  },
+  "UNH_Zaetta Christopher R_2026-02-23_28414_A": {
+    "first_seen": "2026-02-26T04:31:26.944115",
+    "transaction": {
+      "change": 28414,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000056",
+      "isDerivative": true,
+      "name": "Zaetta Christopher R",
+      "share": 28414,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_Zaetta Christopher R_2026-02-23_16627_A": {
+    "first_seen": "2026-02-26T04:31:26.944131",
+    "transaction": {
+      "change": 7084,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000056",
+      "isDerivative": false,
+      "name": "Zaetta Christopher R",
+      "share": 16627,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_Zaetta Christopher R_2026-02-23_9543_F": {
+    "first_seen": "2026-02-26T04:31:26.944139",
+    "transaction": {
+      "change": -129,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000056",
+      "isDerivative": false,
+      "name": "Zaetta Christopher R",
+      "share": 9543,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 282.34
+    }
+  },
+  "UNH_ROOS THOMAS E_2026-02-23_9768_A": {
+    "first_seen": "2026-02-26T04:31:26.944144",
+    "transaction": {
+      "change": 9768,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000058",
+      "isDerivative": true,
+      "name": "ROOS THOMAS E",
+      "share": 9768,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_ROOS THOMAS E_2026-02-23_31284_A": {
+    "first_seen": "2026-02-26T04:31:26.944147",
+    "transaction": {
+      "change": 2436,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000058",
+      "isDerivative": false,
+      "name": "ROOS THOMAS E",
+      "share": 31284,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 0
+    }
+  },
+  "UNH_ROOS THOMAS E_2026-02-23_28848_F": {
+    "first_seen": "2026-02-26T04:31:26.944151",
+    "transaction": {
+      "change": -152,
+      "currency": "",
+      "filingDate": "2026-02-25",
+      "id": "0000731766-26-000058",
+      "isDerivative": false,
+      "name": "ROOS THOMAS E",
+      "share": 28848,
+      "source": "sec",
+      "symbol": "UNH",
+      "transactionCode": "F",
+      "transactionDate": "2026-02-23",
+      "transactionPrice": 282.34
+    }
   }
 }
