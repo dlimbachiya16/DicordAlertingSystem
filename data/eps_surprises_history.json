@@ -2098,5 +2098,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-26T13:40:25.874392"
+  },
+  "NVAX_2025-12-31": {
+    "first_seen": "2026-02-26T14:35:45.867206",
+    "earnings": {
+      "actual": 0.11,
+      "estimate": -0.4995,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.6095,
+      "surprisePercent": 122.022,
+      "symbol": "NVAX",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-26T14:35:45.867216"
   }
 }
