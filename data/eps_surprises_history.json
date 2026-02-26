@@ -2053,5 +2053,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-26T02:50:58.246797"
+  },
+  "ONC_2025-12-31": {
+    "first_seen": "2026-02-26T12:05:11.976993",
+    "earnings": {
+      "actual": 3.9680699999999995,
+      "estimate": 0.6262,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 3.34187,
+      "surprisePercent": 533.6745,
+      "symbol": "688235.SS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-26T12:05:11.977004"
   }
 }
