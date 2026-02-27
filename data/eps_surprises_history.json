@@ -2203,5 +2203,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-02-27T02:05:09.504846"
+  },
+  "DUOL_2025-12-31": {
+    "first_seen": "2026-02-27T12:03:47.157765",
+    "earnings": {
+      "actual": 0.94,
+      "estimate": 0.844,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.096,
+      "surprisePercent": 11.3744,
+      "symbol": "DUOL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-02-27T12:03:47.157771"
   }
 }
