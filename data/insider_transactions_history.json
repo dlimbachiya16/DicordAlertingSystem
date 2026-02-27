@@ -35783,5 +35783,39 @@
       "transactionDate": "2026-02-24",
       "transactionPrice": 0
     }
+  },
+  "ABT_Boudreau Philip P_2026-02-24_115413_A": {
+    "first_seen": "2026-02-27T10:36:24.510601",
+    "transaction": {
+      "change": 115413,
+      "currency": "",
+      "filingDate": "2026-02-26",
+      "id": "0001805099-26-000002",
+      "isDerivative": true,
+      "name": "Boudreau Philip P",
+      "share": 115413,
+      "source": "sec",
+      "symbol": "ABT",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-24",
+      "transactionPrice": 0
+    }
+  },
+  "ABT_Boudreau Philip P_2026-02-24_78613_A": {
+    "first_seen": "2026-02-27T10:36:24.510622",
+    "transaction": {
+      "change": 27997,
+      "currency": "",
+      "filingDate": "2026-02-26",
+      "id": "0001805099-26-000002",
+      "isDerivative": false,
+      "name": "Boudreau Philip P",
+      "share": 78613,
+      "source": "sec",
+      "symbol": "ABT",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-24",
+      "transactionPrice": 0
+    }
   }
 }
