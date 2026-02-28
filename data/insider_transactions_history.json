@@ -37449,5 +37449,158 @@
       "transactionDate": "2026-02-25",
       "transactionPrice": 33.82
     }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_80948_M": {
+    "first_seen": "2026-02-28T05:10:17.441109",
+    "transaction": {
+      "change": -40000,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": true,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 80948,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 0
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_19669_S": {
+    "first_seen": "2026-02-28T05:10:17.441133",
+    "transaction": {
+      "change": -440,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 19669,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 418.888
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_20109_S": {
+    "first_seen": "2026-02-28T05:10:17.441140",
+    "transaction": {
+      "change": -2960,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 20109,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 417.516
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_23069_S": {
+    "first_seen": "2026-02-28T05:10:17.441145",
+    "transaction": {
+      "change": -3148,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 23069,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 416.824
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_26217_S": {
+    "first_seen": "2026-02-28T05:10:17.441150",
+    "transaction": {
+      "change": -6825,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 26217,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 415.862
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_33042_S": {
+    "first_seen": "2026-02-28T05:10:17.441155",
+    "transaction": {
+      "change": -7501,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 33042,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 414.85
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_40543_S": {
+    "first_seen": "2026-02-28T05:10:17.441160",
+    "transaction": {
+      "change": -4777,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 40543,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 413.952
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_45320_S": {
+    "first_seen": "2026-02-28T05:10:17.441165",
+    "transaction": {
+      "change": -80,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 45320,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "S",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 412.46
+    }
+  },
+  "TSLA_Wilson-Thompson Kathleen_2026-02-25_45400_M": {
+    "first_seen": "2026-02-28T05:10:17.441171",
+    "transaction": {
+      "change": 40000,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0001104659-26-021746",
+      "isDerivative": false,
+      "name": "Wilson-Thompson Kathleen",
+      "share": 45400,
+      "source": "sec",
+      "symbol": "TSLA",
+      "transactionCode": "M",
+      "transactionDate": "2026-02-25",
+      "transactionPrice": 14.99
+    }
   }
 }
