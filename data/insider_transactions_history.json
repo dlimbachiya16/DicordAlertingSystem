@@ -37602,5 +37602,39 @@
       "transactionDate": "2026-02-25",
       "transactionPrice": 14.99
     }
+  },
+  "IBM_Robinson Anne_2026-02-26_25363_A": {
+    "first_seen": "2026-03-01T11:41:42.189712",
+    "transaction": {
+      "change": 25363,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0002026599-26-000003",
+      "isDerivative": true,
+      "name": "Robinson Anne",
+      "share": 25363,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-26",
+      "transactionPrice": 0
+    }
+  },
+  "IBM_Robinson Anne_2026-02-26_6341_A": {
+    "first_seen": "2026-03-01T11:41:42.189731",
+    "transaction": {
+      "change": 6341,
+      "currency": "",
+      "filingDate": "2026-02-27",
+      "id": "0002026599-26-000003",
+      "isDerivative": true,
+      "name": "Robinson Anne",
+      "share": 6341,
+      "source": "sec",
+      "symbol": "IBM",
+      "transactionCode": "A",
+      "transactionDate": "2026-02-26",
+      "transactionPrice": 0
+    }
   }
 }
