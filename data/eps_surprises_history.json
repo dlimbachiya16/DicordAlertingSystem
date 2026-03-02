@@ -1922,12 +1922,12 @@
   "HIMS_2025-12-31": {
     "first_seen": "2026-02-23T23:09:07.722194",
     "earnings": {
-      "actual": 0.07,
+      "actual": 0.08,
       "estimate": 0.0467,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.0233,
-      "surprisePercent": 49.8929,
+      "surprise": 0.0333,
+      "surprisePercent": 71.3062,
       "symbol": "HIMS",
       "year": 2025
     },
@@ -1938,11 +1938,11 @@
     "first_seen": "2026-02-24T13:52:13.963898",
     "earnings": {
       "actual": 1.03,
-      "estimate": 1.0037,
+      "estimate": 0.9667,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.0263,
-      "surprisePercent": 2.6203,
+      "surprise": 0.0633,
+      "surprisePercent": 6.5481,
       "symbol": "NRG",
       "year": 2025
     },
@@ -1953,11 +1953,11 @@
     "first_seen": "2026-02-24T22:57:16.694770",
     "earnings": {
       "actual": -3.62,
-      "estimate": -2.6887,
+      "estimate": -2.6607,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.9313,
-      "surprisePercent": -34.6376,
+      "surprise": -0.9593,
+      "surprisePercent": -36.0544,
       "symbol": "LCID",
       "year": 2025
     },
@@ -1998,11 +1998,11 @@
     "first_seen": "2026-02-25T22:56:46.007542",
     "earnings": {
       "actual": 1.62,
-      "estimate": 1.5616,
+      "estimate": 1.5634,
       "period": "2026-03-31",
       "quarter": 4,
-      "surprise": 0.0584,
-      "surprisePercent": 3.7398,
+      "surprise": 0.0566,
+      "surprisePercent": 3.6203,
       "symbol": "NVDA",
       "year": 2026
     },
@@ -2042,12 +2042,12 @@
   "JOBY_2025-12-31": {
     "first_seen": "2026-02-26T02:50:58.246786",
     "earnings": {
-      "actual": -0.2,
+      "actual": -0.14,
       "estimate": -0.22,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.02,
-      "surprisePercent": 9.0909,
+      "surprise": 0.08,
+      "surprisePercent": 36.3636,
       "symbol": "JOBY",
       "year": 2025
     },
@@ -2073,11 +2073,11 @@
     "first_seen": "2026-02-26T13:40:13.203770",
     "earnings": {
       "actual": 1.67,
-      "estimate": 1.1926,
+      "estimate": 1.191,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.4774,
-      "surprisePercent": 40.0302,
+      "surprise": 0.479,
+      "surprisePercent": 40.2183,
       "symbol": "LNTH",
       "year": 2025
     },
@@ -2087,12 +2087,12 @@
   "QBTS_2025-12-31": {
     "first_seen": "2026-02-26T13:40:25.874380",
     "earnings": {
-      "actual": -0.12,
+      "actual": -0.09,
       "estimate": -0.0676,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.0524,
-      "surprisePercent": -77.5148,
+      "surprise": -0.0224,
+      "surprisePercent": -33.1361,
       "symbol": "QBTS",
       "year": 2025
     },
@@ -2103,11 +2103,11 @@
     "first_seen": "2026-02-26T14:35:45.867206",
     "earnings": {
       "actual": 0.11,
-      "estimate": -0.4995,
+      "estimate": -0.4967,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.6095,
-      "surprisePercent": 122.022,
+      "surprise": 0.6067,
+      "surprisePercent": 122.1462,
       "symbol": "NVAX",
       "year": 2025
     },
@@ -2132,12 +2132,12 @@
   "CRWV_2025-12-31": {
     "first_seen": "2026-02-26T23:06:18.599251",
     "earnings": {
-      "actual": -0.55,
+      "actual": -0.56,
       "estimate": -0.5036,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.0464,
-      "surprisePercent": -9.2137,
+      "surprise": -0.0564,
+      "surprisePercent": -11.1994,
       "symbol": "CRWV",
       "year": 2025
     },
@@ -2147,12 +2147,12 @@
   "RKLB_2025-12-31": {
     "first_seen": "2026-02-26T23:06:45.535419",
     "earnings": {
-      "actual": -0.07,
+      "actual": -0.09,
       "estimate": -0.0942,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.0242,
-      "surprisePercent": 25.69,
+      "surprise": 0.0042,
+      "surprisePercent": 4.4586,
       "symbol": "RKLB",
       "year": 2025
     },
@@ -2162,12 +2162,12 @@
   "SMR_2025-12-31": {
     "first_seen": "2026-02-26T23:06:47.591873",
     "earnings": {
-      "actual": -0.8,
-      "estimate": -0.1325,
+      "actual": -0.31,
+      "estimate": -0.1249,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.6675,
-      "surprisePercent": -503.7736,
+      "surprise": -0.1851,
+      "surprisePercent": -148.1986,
       "symbol": "SMR",
       "year": 2025
     },
@@ -2192,12 +2192,12 @@
   "MARA_2025-12-31": {
     "first_seen": "2026-02-27T02:05:09.504834",
     "earnings": {
-      "actual": -0.46,
+      "actual": -4.52,
       "estimate": -0.1282,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": -0.3318,
-      "surprisePercent": -258.8144,
+      "surprise": -4.3918,
+      "surprisePercent": -3425.741,
       "symbol": "MARA",
       "year": 2025
     },
@@ -2207,16 +2207,31 @@
   "DUOL_2025-12-31": {
     "first_seen": "2026-02-27T12:03:47.157765",
     "earnings": {
-      "actual": 0.94,
-      "estimate": 0.844,
+      "actual": 0.89,
+      "estimate": 0.8413,
       "period": "2025-12-31",
       "quarter": 4,
-      "surprise": 0.096,
-      "surprisePercent": 11.3744,
+      "surprise": 0.0487,
+      "surprisePercent": 5.7887,
       "symbol": "DUOL",
       "year": 2025
     },
     "alerted": true,
     "alerted_at": "2026-02-27T12:03:47.157771"
+  },
+  "UUUU_2025-12-31": {
+    "first_seen": "2026-03-02T08:35:28.791215",
+    "earnings": {
+      "actual": -0.08,
+      "estimate": -0.0918,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0118,
+      "surprisePercent": 12.854,
+      "symbol": "UUUU",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-03-02T08:35:28.791226"
   }
 }
