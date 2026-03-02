@@ -2233,5 +2233,20 @@
     },
     "alerted": true,
     "alerted_at": "2026-03-02T08:35:28.791226"
+  },
+  "ASTS_2025-12-31": {
+    "first_seen": "2026-03-02T22:50:28.210975",
+    "earnings": {
+      "actual": -0.26,
+      "estimate": -0.1632,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0968,
+      "surprisePercent": -59.3137,
+      "symbol": "ASTS",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-03-02T22:50:28.210986"
   }
 }
