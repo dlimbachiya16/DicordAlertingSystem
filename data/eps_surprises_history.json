@@ -2248,5 +2248,35 @@
     },
     "alerted": true,
     "alerted_at": "2026-03-02T22:50:28.210986"
+  },
+  "BULL_2025-12-31": {
+    "first_seen": "2026-03-04T22:52:47.598867",
+    "earnings": {
+      "actual": 0.03,
+      "estimate": 0.0408,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": -0.0108,
+      "surprisePercent": -26.4706,
+      "symbol": "BULL",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-03-04T22:52:47.598879"
+  },
+  "RGTI_2025-12-31": {
+    "first_seen": "2026-03-04T22:53:16.253223",
+    "earnings": {
+      "actual": -0.03,
+      "estimate": -0.0332,
+      "period": "2025-12-31",
+      "quarter": 4,
+      "surprise": 0.0032,
+      "surprisePercent": 9.6386,
+      "symbol": "RGTI",
+      "year": 2025
+    },
+    "alerted": true,
+    "alerted_at": "2026-03-04T22:53:16.253233"
   }
 }
