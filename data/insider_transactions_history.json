@@ -48227,5 +48227,243 @@
       "transactionDate": "2026-03-02",
       "transactionPrice": 23.1183
     }
+  },
+  "CVX_Walz Andrew Benjamin_2026-03-02_4100_M": {
+    "first_seen": "2026-03-05T05:29:12.211053",
+    "transaction": {
+      "change": -5000,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0000093410-26-000094",
+      "isDerivative": true,
+      "name": "Walz Andrew Benjamin",
+      "share": 4100,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "M",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "CVX_Walz Andrew Benjamin_2026-03-02_0_M": {
+    "first_seen": "2026-03-05T05:29:12.211071",
+    "transaction": {
+      "change": -6600,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0000093410-26-000094",
+      "isDerivative": true,
+      "name": "Walz Andrew Benjamin",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "M",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "CVX_Walz Andrew Benjamin_2026-03-02_0_S": {
+    "first_seen": "2026-03-05T05:29:12.211104",
+    "transaction": {
+      "change": -5000,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0000093410-26-000094",
+      "isDerivative": false,
+      "name": "Walz Andrew Benjamin",
+      "share": 0,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "S",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 188.61
+    }
+  },
+  "CVX_Walz Andrew Benjamin_2026-03-02_5000_S": {
+    "first_seen": "2026-03-05T05:29:12.211111",
+    "transaction": {
+      "change": -6600,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0000093410-26-000094",
+      "isDerivative": false,
+      "name": "Walz Andrew Benjamin",
+      "share": 5000,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "S",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 188.5556
+    }
+  },
+  "CVX_Walz Andrew Benjamin_2026-03-02_11600_M": {
+    "first_seen": "2026-03-05T05:29:12.211118",
+    "transaction": {
+      "change": 5000,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0000093410-26-000094",
+      "isDerivative": false,
+      "name": "Walz Andrew Benjamin",
+      "share": 11600,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "M",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 88.2
+    }
+  },
+  "CVX_Walz Andrew Benjamin_2026-03-02_6600_M": {
+    "first_seen": "2026-03-05T05:29:12.211125",
+    "transaction": {
+      "change": 6600,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0000093410-26-000094",
+      "isDerivative": false,
+      "name": "Walz Andrew Benjamin",
+      "share": 6600,
+      "source": "sec",
+      "symbol": "CVX",
+      "transactionCode": "M",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 110.37
+    }
+  },
+  "GE_Ali Mohamed_2026-03-02_10710_A": {
+    "first_seen": "2026-03-05T05:29:14.965433",
+    "transaction": {
+      "change": 10710,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002052951-26-000004",
+      "isDerivative": true,
+      "name": "Ali Mohamed",
+      "share": 10710,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Ali Mohamed_2026-03-02_3067_A": {
+    "first_seen": "2026-03-05T05:29:14.965449",
+    "transaction": {
+      "change": 3067,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002052951-26-000004",
+      "isDerivative": true,
+      "name": "Ali Mohamed",
+      "share": 3067,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Procacci Riccardo_2026-03-02_4284_A": {
+    "first_seen": "2026-03-05T05:29:14.965453",
+    "transaction": {
+      "change": 4284,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002015929-26-000005",
+      "isDerivative": true,
+      "name": "Procacci Riccardo",
+      "share": 4284,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Procacci Riccardo_2026-03-02_1227_A": {
+    "first_seen": "2026-03-05T05:29:14.965456",
+    "transaction": {
+      "change": 1227,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002015929-26-000005",
+      "isDerivative": true,
+      "name": "Procacci Riccardo",
+      "share": 1227,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Phillips John R, III_2026-03-02_8139_A": {
+    "first_seen": "2026-03-05T05:29:14.965459",
+    "transaction": {
+      "change": 8139,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002015720-26-000002",
+      "isDerivative": true,
+      "name": "Phillips John R, III",
+      "share": 8139,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Phillips John R, III_2026-03-02_2331_A": {
+    "first_seen": "2026-03-05T05:29:14.965462",
+    "transaction": {
+      "change": 2331,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002015720-26-000002",
+      "isDerivative": true,
+      "name": "Phillips John R, III",
+      "share": 2331,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Meisner Christian_2026-03-02_7497_A": {
+    "first_seen": "2026-03-05T05:29:14.965464",
+    "transaction": {
+      "change": 7497,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002015707-26-000002",
+      "isDerivative": true,
+      "name": "Meisner Christian",
+      "share": 7497,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
+  },
+  "GE_Meisner Christian_2026-03-02_2147_A": {
+    "first_seen": "2026-03-05T05:29:14.965467",
+    "transaction": {
+      "change": 2147,
+      "currency": "",
+      "filingDate": "2026-03-04",
+      "id": "0002015707-26-000002",
+      "isDerivative": true,
+      "name": "Meisner Christian",
+      "share": 2147,
+      "source": "sec",
+      "symbol": "GE",
+      "transactionCode": "A",
+      "transactionDate": "2026-03-02",
+      "transactionPrice": 0
+    }
   }
 }
