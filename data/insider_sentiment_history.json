@@ -608,5 +608,35 @@
       "change": 541422,
       "mspr": 100
     }
+  },
+  "ABBV_2026_3": {
+    "first_seen": "2026-03-05T10:37:21.282287",
+    "sentiment": {
+      "symbol": "ABBV",
+      "year": 2026,
+      "month": 3,
+      "change": -18668,
+      "mspr": -100
+    }
+  },
+  "ABT_2026_3": {
+    "first_seen": "2026-03-05T10:37:21.824347",
+    "sentiment": {
+      "symbol": "ABT",
+      "year": 2026,
+      "month": 3,
+      "change": -4199,
+      "mspr": -100
+    }
+  },
+  "ALAB_2026_3": {
+    "first_seen": "2026-03-05T10:37:23.472095",
+    "sentiment": {
+      "symbol": "ALAB",
+      "year": 2026,
+      "month": 3,
+      "change": -10000,
+      "mspr": -100
+    }
   }
 }
